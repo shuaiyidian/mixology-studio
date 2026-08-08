@@ -1,0 +1,195 @@
+[
+  { "id": "rt-001", "recipeId": "rec-negroni", "techniqueId": "tech-stir" },
+  { "id": "rt-002", "recipeId": "rec-negroni", "techniqueId": "tech-express-peel" },
+
+  { "id": "rt-003", "recipeId": "rec-old-fashioned", "techniqueId": "tech-build" },
+  { "id": "rt-004", "recipeId": "rec-old-fashioned", "techniqueId": "tech-muddle" },
+  { "id": "rt-005", "recipeId": "rec-old-fashioned", "techniqueId": "tech-express-peel" },
+
+  { "id": "rt-006", "recipeId": "rec-margarita", "techniqueId": "tech-shake" },
+  { "id": "rt-007", "recipeId": "rec-margarita", "techniqueId": "tech-sugar-rim" },
+  { "id": "rt-008", "recipeId": "rec-margarita", "techniqueId": "tech-double-strain" },
+
+  { "id": "rt-009", "recipeId": "rec-daiquiri", "techniqueId": "tech-shake" },
+  { "id": "rt-010", "recipeId": "rec-daiquiri", "techniqueId": "tech-double-strain" },
+  { "id": "rt-011", "recipeId": "rec-daiquiri", "techniqueId": "tech-express-peel" },
+
+  { "id": "rt-012", "recipeId": "rec-manhattan", "techniqueId": "tech-stir" },
+  { "id": "rt-013", "recipeId": "rec-manhattan", "techniqueId": "tech-express-peel" },
+
+  { "id": "rt-014", "recipeId": "rec-dry-martini", "techniqueId": "tech-stir" },
+  { "id": "rt-015", "recipeId": "rec-dry-martini", "techniqueId": "tech-express-peel" },
+
+  { "id": "rt-016", "recipeId": "rec-whiskey-sour", "techniqueId": "tech-dry-shake" },
+  { "id": "rt-017", "recipeId": "rec-whiskey-sour", "techniqueId": "tech-double-strain" },
+
+  { "id": "rt-018", "recipeId": "rec-mojito", "techniqueId": "tech-muddle" },
+  { "id": "rt-019", "recipeId": "rec-mojito", "techniqueId": "tech-shake" },
+  { "id": "rt-020", "recipeId": "rec-mojito", "techniqueId": "tech-build" },
+  { "id": "rt-021", "recipeId": "rec-mojito", "techniqueId": "tech-double-strain" },
+
+  { "id": "rt-022", "recipeId": "rec-cosmopolitan", "techniqueId": "tech-shake" },
+  { "id": "rt-023", "recipeId": "rec-cosmopolitan", "techniqueId": "tech-double-strain" },
+  { "id": "rt-024", "recipeId": "rec-cosmopolitan", "techniqueId": "tech-express-peel" },
+
+  { "id": "rt-025", "recipeId": "rec-moscow-mule", "techniqueId": "tech-build" },
+
+  { "id": "rt-026", "recipeId": "rec-aperol-spritz", "techniqueId": "tech-build" },
+
+  { "id": "rt-027", "recipeId": "rec-boulevardier", "techniqueId": "tech-stir" },
+  { "id": "rt-028", "recipeId": "rec-boulevardier", "techniqueId": "tech-express-peel" },
+
+  { "id": "rt-029", "recipeId": "rec-penicillin", "techniqueId": "tech-shake" },
+  { "id": "rt-030", "recipeId": "rec-penicillin", "techniqueId": "tech-double-strain" },
+
+  { "id": "rt-031", "recipeId": "rec-last-word", "techniqueId": "tech-shake" },
+  { "id": "rt-032", "recipeId": "rec-last-word", "techniqueId": "tech-double-strain" },
+
+  { "id": "rt-033", "recipeId": "rec-paper-plane", "techniqueId": "tech-shake" },
+  { "id": "rt-034", "recipeId": "rec-paper-plane", "techniqueId": "tech-double-strain" },
+
+  { "id": "rt-035", "recipeId": "rec-vieux-carre", "techniqueId": "tech-stir" },
+  { "id": "rt-036", "recipeId": "rec-vieux-carre", "techniqueId": "tech-express-peel" },
+
+  { "id": "rt-037", "recipeId": "rec-mint-julep", "techniqueId": "tech-muddle" },
+  { "id": "rt-038", "recipeId": "rec-mint-julep", "techniqueId": "tech-build" },
+
+  { "id": "rt-039", "recipeId": "rec-singapore-sling", "techniqueId": "tech-shake" },
+  { "id": "rt-040", "recipeId": "rec-singapore-sling", "techniqueId": "tech-build" },
+  { "id": "rt-041", "recipeId": "rec-singapore-sling", "techniqueId": "tech-double-strain" },
+
+  { "id": "rt-042", "recipeId": "rec-mai-tai", "techniqueId": "tech-shake" },
+  { "id": "rt-043", "recipeId": "rec-mai-tai", "techniqueId": "tech-double-strain" },
+
+  { "id": "rt-044", "recipeId": "rec-pisco-sour", "techniqueId": "tech-dry-shake" },
+  { "id": "rt-045", "recipeId": "rec-pisco-sour", "techniqueId": "tech-double-strain" },
+
+  { "id": "rt-046", "recipeId": "rec-bloody-mary", "techniqueId": "tech-roll" },
+  { "id": "rt-047", "recipeId": "rec-bloody-mary", "techniqueId": "tech-build" },
+
+  { "id": "rt-048", "recipeId": "rec-french-75", "techniqueId": "tech-shake" },
+  { "id": "rt-049", "recipeId": "rec-french-75", "techniqueId": "tech-build" },
+  { "id": "rt-050", "recipeId": "rec-french-75", "techniqueId": "tech-double-strain" },
+
+  { "id": "rt-051", "recipeId": "rec-tom-collins", "techniqueId": "tech-shake" },
+  { "id": "rt-052", "recipeId": "rec-tom-collins", "techniqueId": "tech-build" },
+  { "id": "rt-053", "recipeId": "rec-tom-collins", "techniqueId": "tech-double-strain" },
+
+  { "id": "rt-054", "recipeId": "rec-gin-tonic", "techniqueId": "tech-build" },
+
+  { "id": "rt-055", "recipeId": "rec-bramble", "techniqueId": "tech-shake" },
+  { "id": "rt-056", "recipeId": "rec-bramble", "techniqueId": "tech-build" },
+  { "id": "rt-057", "recipeId": "rec-bramble", "techniqueId": "tech-double-strain" },
+
+  { "id": "rt-058", "recipeId": "rec-dark-n-stormy", "techniqueId": "tech-build" },
+
+  { "id": "rt-059", "recipeId": "rec-espresso-martini", "techniqueId": "tech-shake" },
+  { "id": "rt-060", "recipeId": "rec-espresso-martini", "techniqueId": "tech-double-strain" },
+
+  { "id": "rt-061", "recipeId": "rec-paloma", "techniqueId": "tech-build" },
+
+  { "id": "rt-062", "recipeId": "rec-amaretto-sour", "techniqueId": "tech-dry-shake" },
+  { "id": "rt-063", "recipeId": "rec-amaretto-sour", "techniqueId": "tech-double-strain" },
+
+  { "id": "rt-064", "recipeId": "rec-rusty-nail", "techniqueId": "tech-stir" },
+  { "id": "rt-065", "recipeId": "rec-rusty-nail", "techniqueId": "tech-express-peel" },
+
+  { "id": "rt-066", "recipeId": "rec-aviation", "techniqueId": "tech-shake" },
+  { "id": "rt-067", "recipeId": "rec-aviation", "techniqueId": "tech-double-strain" },
+
+  { "id": "rt-068", "recipeId": "rec-corpsereviver2", "techniqueId": "tech-shake" },
+  { "id": "rt-069", "recipeId": "rec-corpsereviver2", "techniqueId": "tech-double-strain" },
+  { "id": "rt-070", "recipeId": "rec-corpsereviver2", "techniqueId": "tech-express-peel" },
+
+  { "id": "rt-071", "recipeId": "rec-hemingway-daiquiri", "techniqueId": "tech-shake" },
+  { "id": "rt-072", "recipeId": "rec-hemingway-daiquiri", "techniqueId": "tech-double-strain" },
+
+  { "id": "rt-073", "recipeId": "rec-jack-rose", "techniqueId": "tech-shake" },
+  { "id": "rt-074", "recipeId": "rec-jack-rose", "techniqueId": "tech-double-strain" },
+
+  { "id": "rt-075", "recipeId": "rec-bees-knees", "techniqueId": "tech-shake" },
+  { "id": "rt-076", "recipeId": "rec-bees-knees", "techniqueId": "tech-double-strain" },
+
+  { "id": "rt-077", "recipeId": "rec-pimms-cup", "techniqueId": "tech-muddle" },
+  { "id": "rt-078", "recipeId": "rec-pimms-cup", "techniqueId": "tech-build" },
+
+  { "id": "rt-079", "recipeId": "rec-southside", "techniqueId": "tech-muddle" },
+  { "id": "rt-080", "recipeId": "rec-southside", "techniqueId": "tech-shake" },
+  { "id": "rt-081", "recipeId": "rec-southside", "techniqueId": "tech-double-strain" },
+
+  { "id": "rt-082", "recipeId": "rec-zombie", "techniqueId": "tech-shake" },
+  { "id": "rt-083", "recipeId": "rec-zombie", "techniqueId": "tech-double-strain" },
+
+  { "id": "rt-084", "recipeId": "rec-hurricane", "techniqueId": "tech-shake" },
+  { "id": "rt-085", "recipeId": "rec-hurricane", "techniqueId": "tech-double-strain" },
+
+  { "id": "rt-086", "recipeId": "rec-vieux-mot", "techniqueId": "tech-shake" },
+  { "id": "rt-087", "recipeId": "rec-vieux-mot", "techniqueId": "tech-double-strain" },
+
+  { "id": "rt-088", "recipeId": "rec-tuxedo", "techniqueId": "tech-stir" },
+  { "id": "rt-089", "recipeId": "rec-tuxedo", "techniqueId": "tech-express-peel" },
+
+  { "id": "rt-090", "recipeId": "rec-improved-whiskey", "techniqueId": "tech-stir" },
+  { "id": "rt-091", "recipeId": "rec-improved-whiskey", "techniqueId": "tech-express-peel" },
+
+  { "id": "rt-092", "recipeId": "rec-hanky-panky", "techniqueId": "tech-stir" },
+  { "id": "rt-093", "recipeId": "rec-hanky-panky", "techniqueId": "tech-express-peel" },
+
+  { "id": "rt-094", "recipeId": "rec-brooklyn", "techniqueId": "tech-stir" },
+  { "id": "rt-095", "recipeId": "rec-brooklyn", "techniqueId": "tech-express-peel" },
+
+  { "id": "rt-096", "recipeId": "rec-martinez", "techniqueId": "tech-stir" },
+  { "id": "rt-097", "recipeId": "rec-martinez", "techniqueId": "tech-express-peel" },
+
+  { "id": "rt-098", "recipeId": "rec-champagne-cocktail", "techniqueId": "tech-build" },
+
+  { "id": "rt-099", "recipeId": "rec-between-sheets", "techniqueId": "tech-shake" },
+  { "id": "rt-100", "recipeId": "rec-between-sheets", "techniqueId": "tech-double-strain" },
+
+  { "id": "rt-101", "recipeId": "rec-sazerac", "techniqueId": "tech-muddle" },
+  { "id": "rt-102", "recipeId": "rec-sazerac", "techniqueId": "tech-stir" },
+  { "id": "rt-103", "recipeId": "rec-sazerac", "techniqueId": "tech-express-peel" },
+
+  { "id": "rt-104", "recipeId": "rec-sidecar", "techniqueId": "tech-sugar-rim" },
+  { "id": "rt-105", "recipeId": "rec-sidecar", "techniqueId": "tech-shake" },
+  { "id": "rt-106", "recipeId": "rec-sidecar", "techniqueId": "tech-double-strain" },
+
+  { "id": "rt-107", "recipeId": "rec-white-lady", "techniqueId": "tech-dry-shake" },
+  { "id": "rt-108", "recipeId": "rec-white-lady", "techniqueId": "tech-double-strain" },
+
+  { "id": "rt-109", "recipeId": "rec-jungle-bird", "techniqueId": "tech-shake" },
+  { "id": "rt-110", "recipeId": "rec-jungle-bird", "techniqueId": "tech-double-strain" },
+
+  { "id": "rt-111", "recipeId": "rec-naked-famous", "techniqueId": "tech-shake" },
+  { "id": "rt-112", "recipeId": "rec-naked-famous", "techniqueId": "tech-double-strain" },
+
+  { "id": "rt-113", "recipeId": "rec-division-bell", "techniqueId": "tech-shake" },
+  { "id": "rt-114", "recipeId": "rec-division-bell", "techniqueId": "tech-double-strain" },
+
+  { "id": "rt-115", "recipeId": "rec-corn-n-oil", "techniqueId": "tech-shake" },
+  { "id": "rt-116", "recipeId": "rec-corn-n-oil", "techniqueId": "tech-double-strain" },
+
+  { "id": "rt-117", "recipeId": "rec-suffering-bastard", "techniqueId": "tech-build" },
+
+  { "id": "rt-118", "recipeId": "rec-charlie-chaplin", "techniqueId": "tech-shake" },
+  { "id": "rt-119", "recipeId": "rec-charlie-chaplin", "techniqueId": "tech-double-strain" },
+
+  { "id": "rt-120", "recipeId": "rec-el-presidente", "techniqueId": "tech-stir" },
+  { "id": "rt-121", "recipeId": "rec-el-presidente", "techniqueId": "tech-express-peel" },
+
+  { "id": "rt-122", "recipeId": "rec-ramos-gin-fizz", "techniqueId": "tech-dry-shake" },
+  { "id": "rt-123", "recipeId": "rec-ramos-gin-fizz", "techniqueId": "tech-double-strain" },
+  { "id": "rt-124", "recipeId": "rec-ramos-gin-fizz", "techniqueId": "tech-build" },
+
+  { "id": "rt-125", "recipeId": "rec-blood-and-sand", "techniqueId": "tech-shake" },
+  { "id": "rt-126", "recipeId": "rec-blood-and-sand", "techniqueId": "tech-double-strain" },
+
+  { "id": "rt-127", "recipeId": "rec-rum-coke", "techniqueId": "tech-build" },
+
+  { "id": "rt-128", "recipeId": "rec-gimlet", "techniqueId": "tech-shake" },
+  { "id": "rt-129", "recipeId": "rec-gimlet", "techniqueId": "tech-double-strain" },
+
+  { "id": "rt-130", "recipeId": "rec-rum-old-fashioned", "techniqueId": "tech-muddle" },
+  { "id": "rt-131", "recipeId": "rec-rum-old-fashioned", "techniqueId": "tech-build" },
+  { "id": "rt-132", "recipeId": "rec-rum-old-fashioned", "techniqueId": "tech-express-peel" }
+]

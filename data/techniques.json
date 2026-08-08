@@ -1,0 +1,477 @@
+[
+  {
+    "id": "tech-shake",
+    "slug": "shake",
+    "nameZh": "摇和法",
+    "nameEn": "Shake",
+    "category": "SHAKE",
+    "descriptionZh": "使用摇酒壶进行短促而有力的摇晃，是含有果汁、乳制品或糖浆的酸型鸡尾酒的标准混合方式。",
+    "descriptionEn": "A short, vigorous shake in a cocktail shaker, the standard mixing method for sours, fizzes, daiquiris and any drink with citrus, dairy or syrup.",
+    "stepsZh": [
+      "将所有液体原料加入摇酒壶的下半部（也称「壶身」）。",
+      "加入冰块至摇酒壶 2/3 处，使用方冰或大冰块均可。",
+      "盖上摇酒壶的滤盖与上盖，确保密封。",
+      "双手握紧壶身与上盖，以肩部为支点、肘部向上发力，水平摇晃 10-12 秒。",
+      "打开摇酒壶，使用 Hawthorne 滤网或细滤网将酒液滤入预冷过的酒杯。"
+    ],
+    "stepsEn": [
+      "Add all liquid ingredients to the larger half of the shaker (the tin).",
+      "Fill the shaker two-thirds with cubed ice.",
+      "Seal with the strainer lid and the small tin.",
+      "Hold the tins firmly and shake horizontally for 10-12 seconds, driving motion from the shoulders.",
+      "Strain through a Hawthorne strainer (and fine strainer if double-straining) into a chilled glass."
+    ],
+    "tipsZh": [
+      "摇酒时壶身贴近耳朵，听到冰块碎裂的清脆声即可停止——这是「冰听」的判断方式。",
+      "摇酒壶用前先在冷冻室冰 10 分钟，降温可让鸡尾酒更持久地保持冰凉。"
+    ],
+    "tipsEn": [
+      "Listen for the ice to crack — when you stop hearing sharp cracks, the drink is properly diluted and aerated.",
+      "Pre-chill the shaker in the freezer for 10 minutes for better thermal retention."
+    ],
+    "warningsZh": [
+      "使用大冰块时摇晃时间可适当延长 2-3 秒，避免稀释不足。",
+      "若壶身密封不严会导致液体喷溅。"
+    ],
+    "warningsEn": [
+      "With large ice cubes, extend the shake by 2-3 seconds to compensate for the slower dilution.",
+      "A loose seal will cause the shaker to spit when you shake."
+    ]
+  },
+  {
+    "id": "tech-dry-shake",
+    "slug": "dry-shake",
+    "nameZh": "干摇法",
+    "nameEn": "Dry Shake",
+    "category": "SHAKE",
+    "descriptionZh": "先不加冰进行第一次摇和，让蛋清充分乳化，再加冰进行第二次摇和，是使用蛋清的鸡尾酒形成绵密泡沫的关键。",
+    "descriptionEn": "A two-stage shake: first without ice to emulsify egg white, then with ice to chill and dilute. Essential for a proper foam cap on sours and fizzes.",
+    "stepsZh": [
+      "将除冰外的所有原料（含蛋清）加入摇酒壶壶身。",
+      "盖紧摇酒壶，不加冰进行第一次干摇 10-15 秒，让蛋清充分打发起泡。",
+      "打开摇酒壶，加入冰块至 2/3 处。",
+      "再次盖紧，进行第二次湿摇 10-12 秒，降温并适度稀释。",
+      "使用细滤网双重过滤入杯，泡沫会自然浮在酒面。"
+    ],
+    "stepsEn": [
+      "Add all ingredients including egg white to the shaker tin, no ice yet.",
+      "Seal and shake hard for 10-15 seconds — this is the dry shake, emulsifying the egg white.",
+      "Open, add cubed ice to two-thirds full.",
+      "Re-seal and perform a second wet shake for 10-12 seconds.",
+      "Double-strain into the glass; the foam will cap the drink naturally."
+    ],
+    "tipsZh": [
+      "干摇时间要够长，蛋清未充分打发会导致泡沫不绵密、消散过快。",
+      "可加入少量简单糖浆（1 tsp）帮助泡沫稳定，但更关键是干摇时间足够。"
+    ],
+    "tipsEn": [
+      "Under-shaking the dry phase leaves a thin foam that dissipates quickly — be patient and shake hard.",
+      "A small amount of simple syrup helps stabilise the foam, but timing matters more."
+    ],
+    "warningsZh": [
+      "蛋清未打发会出现泡沫不绵密、液面浑浊的问题。",
+      "若两次摇和顺序颠倒，无法形成稳定的绵密泡沫。"
+    ],
+    "warningsEn": [
+      "Under-emulsified egg white yields a thin, short-lived foam and a slightly cloudy body.",
+      "Reversing the order — wet first, dry after — defeats the purpose of aeration."
+    ]
+  },
+  {
+    "id": "tech-stir",
+    "slug": "stir",
+    "nameZh": "搅和法",
+    "nameEn": "Stir",
+    "category": "STIR",
+    "descriptionZh": "使用吧匙与搅拌杯进行温和的搅拌，是高酒精度、纯烈酒型鸡尾酒（Manhattan、Martini、Negroni）的标准方式。",
+    "descriptionEn": "Gentle stirring with a bar spoon and mixing glass, the standard for spirit-forward drinks like Manhattan, Martini and Negroni.",
+    "stepsZh": [
+      "将所有液体原料加入预冷过的搅拌杯。",
+      "加入大量方冰与冰球（搅拌杯 2/3 满），保证降温与稀释。",
+      "插入吧匙，沿杯壁顺时针方向平稳搅动 30 圈左右（约 30 秒）。",
+      "使用 Hawthorne 滤网将酒液滤入预冷过的鸡尾酒杯。",
+      "用橙皮或柠檬皮在酒面轻拧喷香，作为装饰。"
+    ],
+    "stepsEn": [
+      "Add all liquid ingredients to a chilled mixing glass.",
+      "Fill the mixing glass two-thirds with cubed ice and a large mixing cube if available.",
+      "Insert a bar spoon and stir smoothly for about 30 rotations (~30 seconds).",
+      "Strain through a Hawthorne strainer into a chilled cocktail glass.",
+      "Express citrus oils over the surface and place the peel as garnish."
+    ],
+    "tipsZh": [
+      "搅和速度要稳，避免剧烈搅动引入过多气泡——搅拌型鸡尾酒追求澄澈。",
+      "吧匙沿杯壁转可以减少摩擦音和过度搅动。"
+    ],
+    "tipsEn": [
+      "Keep the motion smooth — vigorous stirring whips air into the drink and clouds the texture.",
+      "Run the spoon along the glass wall to reduce friction noise."
+    ],
+    "warningsZh": [
+      "搅拌不足会让鸡尾酒温度偏高、稀释不足，口感刺喉。"
+    ],
+    "warningsEn": [
+      "Under-stirring leaves the drink too warm and harsh; the surface should be visibly cold and slightly viscous."
+    ]
+  },
+  {
+    "id": "tech-roll",
+    "slug": "roll",
+    "nameZh": "滚和法",
+    "nameEn": "Roll",
+    "category": "ROLL",
+    "descriptionZh": "在摇酒壶中以轻柔翻滚的方式混合，是不希望产生泡沫的蛋清酒（如 Hemingway Daiquiri）或浓稠酒体的混合方式。",
+    "descriptionEn": "A gentle pour between tins without the agitation of a shake, used when you want dilution and chill without aeration.",
+    "stepsZh": [
+      "将所有液体原料加入摇酒壶壶身。",
+      "加入冰块至摇酒壶 2/3 处。",
+      "盖紧摇酒壶，从一手传递到另一手，让酒液在两半壶之间轻柔滚动 5-6 次。",
+      "打开摇酒壶，使用滤网将酒液滤入预冷过的酒杯。"
+    ],
+    "stepsEn": [
+      "Add all liquid ingredients to the shaker tin.",
+      "Fill the shaker two-thirds with cubed ice.",
+      "Seal and gently roll the liquid back and forth between the two tins 5-6 times.",
+      "Strain into a chilled glass."
+    ],
+    "tipsZh": [
+      "滚和不会产生泡沫，适合不希望形成蛋清泡沫的酸型鸡尾酒。",
+      "若想要更明显的稀释效果，可多滚 1-2 次。"
+    ],
+    "tipsEn": [
+      "Rolling keeps the drink clear of foam — perfect for an egg-white drink where you want a flat body, or for clearing texture.",
+      "Add a couple of extra rolls if you want slightly more dilution."
+    ],
+    "warningsZh": [],
+    "warningsEn": []
+  },
+  {
+    "id": "tech-build",
+    "slug": "build",
+    "nameZh": "直调法",
+    "nameEn": "Build",
+    "category": "BUILD",
+    "descriptionZh": "直接在酒杯中按顺序加入原料，是高球杯鸡尾酒（G&T、Mule、Spritz）的最简方式。",
+    "descriptionEn": "Layering ingredients directly into the serving glass — the simplest method for highballs, mules and spritzes.",
+    "stepsZh": [
+      "根据配方在酒杯中预先加入冰块（方冰或冰球）。",
+      "先加入烈酒与利口酒等酒精原料。",
+      "再加入果汁、糖浆等调制原料。",
+      "最后加入汤力水、苏打水等碳酸饮料，倾斜杯身轻倒以保留气泡。",
+      "用吧匙从下往上轻搅 2-3 次即可饮用。"
+    ],
+    "stepsEn": [
+      "Pre-fill the serving glass with the appropriate ice.",
+      "Pour all spirit and liqueur ingredients over the ice.",
+      "Add juices and syrups next.",
+      "Top with tonic, soda or ginger beer, pouring down a bar spoon to preserve carbonation.",
+      "Give the drink one or two gentle stirs from the bottom up."
+    ],
+    "tipsZh": [
+      "碳酸饮料最后加且沿吧匙或杯壁倒入，可最大程度保留气泡。",
+      "杯身预冷可以延缓冰块融化。"
+    ],
+    "tipsEn": [
+      "Always add carbonated mixers last, pouring down a bar spoon to preserve fizz.",
+      "Chill the serving glass in advance to slow dilution."
+    ],
+    "warningsZh": [
+      "剧烈搅拌会导致碳酸饮料快速跑气。"
+    ],
+    "warningsEn": [
+      "Vigorous stirring knocks the carbonation out of a highball."
+    ]
+  },
+  {
+    "id": "tech-muddle",
+    "slug": "muddle",
+    "nameZh": "捣压法",
+    "nameEn": "Muddle",
+    "category": "MUDDLE",
+    "descriptionZh": "使用木质或不锈钢捣棒在摇酒壶或搅拌杯中按压香草、果实等原料，萃取风味与精油。",
+    "descriptionEn": "Pressing herbs, fruit or sugar with a muddler to release essential oils and juice before shaking or stirring.",
+    "stepsZh": [
+      "将薄荷、罗勒等香草与糖或糖浆一起放入摇酒壶底部。",
+      "使用木质捣棒的钝端，垂直向下轻压 3-4 次，力度约为捣棒自重的轻压。",
+      "对青柠角等果实原料，以同样的方式压榨出汁。",
+      "加入其余液体原料与冰块，按配方进行摇和或搅拌。"
+    ],
+    "stepsEn": [
+      "Place herbs and sugar (or syrup) at the bottom of the shaker tin.",
+      "Press gently with the flat end of a wooden muddler 3-4 times, using just the weight of the muddler.",
+      "For lime wedges or fruit, muddle to express the juice without pulverising the peel.",
+      "Add remaining liquid and ice, then shake or stir per the recipe."
+    ],
+    "tipsZh": [
+      "薄荷只要轻压——过度捣压会释放叶绿素，让酒液发苦变黑。",
+      "糖作为磨料有助于香草精油的释放，因此 Mojito 等配方常把糖与薄荷一起捣压。"
+    ],
+    "tipsEn": [
+      "Be gentle with herbs — over-muddling mint releases chlorophyll and turns the drink bitter and black.",
+      "Sugar acts as an abrasive that helps release mint oils, so Mojito benefits from a sugar-and-mint muddle."
+    ],
+    "warningsZh": [
+      "薄荷捣压过狠会导致苦味与青草味过重。",
+      "苦精或香料过度捣压会释放单宁，让酒液发涩。"
+    ],
+    "warningsEn": [
+      "Heavy-handed muddling of mint gives an intensely bitter, grassy drink.",
+      "Over-muddling bitters or spices releases harsh tannins."
+    ]
+  },
+  {
+    "id": "tech-double-strain",
+    "slug": "double-strain",
+    "nameZh": "双重过滤",
+    "nameEn": "Double Strain",
+    "category": "STRAIN",
+    "descriptionZh": "使用 Hawthorne 滤网与细滤网（茶滤/中式漏勺）双重过滤，去除冰渣与固体颗粒，让鸡尾酒液面澄澈。",
+    "descriptionEn": "Using both a Hawthorne strainer and a fine mesh strainer to remove ice chips and pulp for a crystal-clear cocktail.",
+    "stepsZh": [
+      "将摇酒壶上的 Hawthorne 滤网对准鸡尾酒杯的杯口。",
+      "在滤网下方再加一只细滤网（茶滤/中式漏勺）。",
+      "缓慢倾倒酒液，让细滤网截留冰渣、果肉、薄荷叶碎等。",
+      "倾倒完毕后取下细滤网，完成双重过滤。"
+    ],
+    "stepsEn": [
+      "Hold the Hawthorne strainer on top of the shaker tin.",
+      "Hold a fine-mesh strainer over the serving glass.",
+      "Pour slowly so the fine strainer catches ice chips, pulp and herb fragments.",
+      "Discard the contents of the fine strainer and serve immediately."
+    ],
+    "tipsZh": [
+      "使用蛋清的鸡尾酒几乎一定要双重过滤，避免蛋清液面出现冰渣。",
+      "细滤网要保持干燥，否则会粘附酒液导致浪费。"
+    ],
+    "tipsEn": [
+      "Any drink with egg white, muddled fruit or fine herbs should be double-strained.",
+      "Keep the fine strainer dry — a wet mesh catches too much liquid and slows the pour."
+    ],
+    "warningsZh": [],
+    "warningsEn": []
+  },
+  {
+    "id": "tech-milk-wash",
+    "slug": "milk-wash",
+    "nameZh": "奶洗法",
+    "nameEn": "Milk Wash",
+    "category": "WASH",
+    "descriptionZh": "利用牛奶中的酪蛋白在酸性环境下凝固，吸附并去除酒液中的杂质与不良风味，是传统澄清鸡尾酒的方式。",
+    "descriptionEn": "Curdling milk proteins in an acidic cocktail to capture impurities, then filtering for a silky, clarified drink.",
+    "stepsZh": [
+      "将所有原料与全脂牛奶（按体积 1:1）一起放入大玻璃罐中混合均匀。",
+      "加入适量柠檬汁或醋（约 1-2 tsp），让牛奶中的酪蛋白凝固。",
+      "用保鲜膜封口，置于冰箱冷藏 12-24 小时。",
+      "凝固物沉底后，使用咖啡滤纸或细滤布将上层澄清酒液缓缓过滤。",
+      "所得澄清酒液即可用于装杯。"
+    ],
+    "stepsEn": [
+      "Combine the cocktail base with whole milk at roughly 1:1 by volume in a large jar.",
+      "Add a small amount of citrus juice or vinegar (1-2 tsp) to curdle the milk proteins.",
+      "Seal and refrigerate 12-24 hours.",
+      "Once the curds have settled, strain through a coffee filter or cheesecloth to collect the clear liquid.",
+      "The clarified cocktail is ready to serve."
+    ],
+    "tipsZh": [
+      "使用全脂牛奶效果最好，脱脂奶酪蛋白含量低、澄清效果差。",
+      "过滤时不要按压凝固物，否则会让浑浊颗粒重新进入酒液。"
+    ],
+    "tipsEn": [
+      "Whole milk works best — skim milk has too few proteins to form a strong curd.",
+      "Resist pressing the curds during filtration; gravity alone gives a clearer result."
+    ],
+    "warningsZh": [
+      "需使用新鲜牛奶并冷藏操作，否则有食品安全风险。",
+      "咖啡滤纸过滤速度慢，要预留充足时间。"
+    ],
+    "warningsEn": [
+      "Always use fresh, refrigerated milk and keep the wash cold to stay food-safe.",
+      "Coffee-filter straining is slow — budget at least 1-2 hours per batch."
+    ]
+  },
+  {
+    "id": "tech-oil-wash",
+    "slug": "oil-wash",
+    "nameZh": "油洗法",
+    "nameEn": "Oil Wash",
+    "category": "WASH",
+    "descriptionZh": "让基酒与少量风味油脂（如橄榄油、芝麻油、花生油）充分融合后冷冻，使油脂凝固并被滤除，留下独特的风味酒。",
+    "descriptionEn": "Infusing a spirit with a flavourful oil, freezing to solidify the oil, then filtering it out to leave a perfumed, fat-free base.",
+    "stepsZh": [
+      "将基酒与少量冷压风味油（约 1-2 oz 油/750ml 酒）放入密封玻璃罐。",
+      "室温静置 4-6 小时，让油脂风味充分融合到酒中。",
+      "将玻璃罐放入冷冻室冷冻 4-6 小时，让油脂完全凝固。",
+      "取出后立即使用咖啡滤纸或细滤布过滤，去除凝固油脂。",
+      "所得澄清酒液即可用于配方。"
+    ],
+    "stepsEn": [
+      "Combine the base spirit with a small amount of flavour oil (1-2 oz per 750ml) in a sealed jar.",
+      "Rest at room temperature 4-6 hours to infuse.",
+      "Transfer to the freezer for 4-6 hours until the oil fully solidifies.",
+      "Quickly filter through a coffee filter or cheesecloth to remove the solid oil.",
+      "The clarified, oil-infused spirit is ready to use in the recipe."
+    ],
+    "tipsZh": [
+      "油洗后的基酒可用于 Martini 等搅拌型鸡尾酒，赋予微妙油脂香。",
+      "选择风味强烈且稳定的油脂，如冷压橄榄油、烤芝麻油。"
+    ],
+    "tipsEn": [
+      "An oil-washed gin is a luxurious base for a dirty-style martini.",
+      "Choose a strongly flavoured, stable oil — extra-virgin olive, toasted sesame, or peanut."
+    ],
+    "warningsZh": [
+      "未完全冷冻的油脂会残留酒中导致液面油花。",
+      "油脂选择不当会让酒液产生不悦的油耗味。"
+    ],
+    "warningsEn": [
+      "If the oil is not fully frozen, residual fat will float on the final spirit.",
+      "Use a fresh, high-quality oil — rancid oils ruin the whole batch."
+    ]
+  },
+  {
+    "id": "tech-fat-wash",
+    "slug": "fat-wash",
+    "nameZh": "脂肪洗法",
+    "nameEn": "Fat Wash",
+    "category": "WASH",
+    "descriptionZh": "使用融化黄油、培根油脂等动物脂肪浸泡基酒，赋予酒液培根烟熏或黄油饼干风味，是现代鸡尾酒的常用技巧。",
+    "descriptionEn": "Infusing a spirit with melted butter, bacon fat or other animal fats to create a savoury, bacon- or butter-forward base.",
+    "stepsZh": [
+      "将选定的脂肪（如培根油脂或无盐黄油）低温融化至液态。",
+      "将液态脂肪与基酒按约 1:4 至 1:8 比例倒入密封玻璃罐。",
+      "室温或 50°C 水浴浸泡 2-4 小时，让脂肪风味进入酒液。",
+      "放入冷冻室冷冻 4-6 小时，让脂肪完全凝固上浮。",
+      "取出后立即用咖啡滤纸过滤，去除凝固脂肪层。"
+    ],
+    "stepsEn": [
+      "Melt the chosen fat (e.g. rendered bacon fat or unsalted butter) to a liquid.",
+      "Combine with the base spirit in a sealed jar at roughly 1:4 to 1:8 fat to spirit.",
+      "Infuse 2-4 hours at room temperature or in a 50°C water bath.",
+      "Freeze 4-6 hours until the fat has fully solidified.",
+      "Filter immediately through a coffee filter to remove the solid fat layer."
+    ],
+    "tipsZh": [
+      "培根油洗波本搭配 Maple 糖浆，是现代经典组合。",
+      "脂肪洗过的基酒应尽快使用，保存时间不宜超过 2 周。"
+    ],
+    "tipsEn": [
+      "Bacon-fat-washed bourbon with maple syrup is a modern classic pairing.",
+      "Use fat-washed spirits within two weeks for the cleanest flavour."
+    ],
+    "warningsZh": [
+      "未完全冻结会让脂肪残留酒中导致口感油腻。",
+      "动物脂肪若存放不当易氧化变味。"
+    ],
+    "warningsEn": [
+      "Incomplete freezing leaves residual fat that coats the palate unpleasantly.",
+      "Animal fats oxidise quickly — work in small batches and keep refrigerated."
+    ]
+  },
+  {
+    "id": "tech-smoke",
+    "slug": "smoke",
+    "nameZh": "烟熏法",
+    "nameEn": "Smoke",
+    "category": "PREP",
+    "descriptionZh": "使用烟熏枪将木屑烟雾注入酒杯或摇酒壶，给鸡尾酒赋予独特的烟熏风味与视觉冲击。",
+    "descriptionEn": "Using a smoking gun to fill a glass or shaker with wood-chip smoke, adding a fragrant smoky layer to the finished cocktail.",
+    "stepsZh": [
+      "准备好一支烟熏枪与少量木屑（苹果木、樱桃木或山核桃木）。",
+      "将装好鸡尾酒的酒杯或摇酒壶放在耐热表面上。",
+      "点燃烟熏枪的木屑，将烟雾通过软管注入酒杯。",
+      "立即用保鲜膜或杯盖封住杯口，让烟雾浸润 30-60 秒。",
+      "移除封盖，轻微搅动后即可饮用。"
+    ],
+    "stepsEn": [
+      "Prepare a smoking gun with a small amount of wood chips (apple, cherry or hickory).",
+      "Place the finished cocktail on a heat-safe surface.",
+      "Light the chips and pipe the smoke into the glass through the gun's hose.",
+      "Immediately cover the glass with cling film or a lid to trap the smoke for 30-60 seconds.",
+      "Uncover, give a brief stir, and serve."
+    ],
+    "tipsZh": [
+      "使用前将酒杯预冷，可让烟雾更持久地停留在液面。",
+      "木屑选择影响风味——苹果木甜润、山核桃木强烈。"
+    ],
+    "tipsEn": [
+      "Pre-chill the glass so the smoke lingers longer on the surface.",
+      "Chip choice shapes the flavour — applewood is sweet, hickory is bold."
+    ],
+    "warningsZh": [
+      "烟雾要在通风良好的环境下使用，避免室内积累。",
+      "过量烟熏会让酒液充满苦味。"
+    ],
+    "warningsEn": [
+      "Always smoke in a ventilated space; do not inhale concentrated smoke.",
+      "Over-smoking leaves an acrid, bitter note."
+    ]
+  },
+  {
+    "id": "tech-sugar-rim",
+    "slug": "sugar-rim",
+    "nameZh": "糖盐边",
+    "nameEn": "Sugar / Salt Rim",
+    "category": "PREP",
+    "descriptionZh": "在酒杯边缘蘸上糖或盐的薄边，是 Margarita、Margarita-style 鸡尾酒的标志性装饰。",
+    "descriptionEn": "Coating the rim of the glass with sugar or salt, the signature finish for Margaritas and many sours.",
+    "stepsZh": [
+      "将细海盐或粗糖倒在平底盘上，铺成薄薄一层。",
+      "取一片青柠或柠檬，沿杯口外侧轻擦一圈，让边缘湿润。",
+      "将湿润的杯口朝下，按入糖或盐盘中，轻轻旋转 30 度。",
+      "轻轻敲掉多余的糖/盐，杯内留出约 1-2 cm 的空边。"
+    ],
+    "stepsEn": [
+      "Spread a thin, even layer of fine salt or coarse sugar on a flat plate.",
+      "Run a lime or lemon wedge around the outer rim of the glass to moisten it.",
+      "Press the moistened rim into the salt or sugar and rotate 30 degrees.",
+      "Tap off any excess; leave a small clear band of rim on one side as a 'viewing window'."
+    ],
+    "tipsZh": [
+      "使用粗糖而非细砂糖，可获得更立体的视觉效果与口感。",
+      "先在杯口擦青柠/柠檬再蘸糖/盐，比直接用指头湿润更均匀。"
+    ],
+    "tipsEn": [
+      "Coarse sugar gives a more visible rim and a better crunch than fine sugar.",
+      "Wetting the rim with citrus rather than your fingers gives an even coat."
+    ],
+    "warningsZh": [
+      "糖边过厚会导致喝到最后咸甜失衡。",
+      "边缘湿润时不能有水滴落入杯内，否则会稀释酒液。"
+    ],
+    "warningsEn": [
+      "Too thick a rim overwhelms the drink by the last sip.",
+      "Don't let citrus drip into the glass — pre-moisten the rim only."
+    ]
+  },
+  {
+    "id": "tech-express-peel",
+    "slug": "express-peel",
+    "nameZh": "皮油喷香",
+    "nameEn": "Express Citrus Peel",
+    "category": "GARNISH",
+    "descriptionZh": "在搅拌型鸡尾酒表面挤压橙皮或柠檬皮，让精油喷洒在液面上并闻到香气，是 Martini、Manhattan 等的标准收尾。",
+    "descriptionEn": "Pinching a citrus peel over the drink's surface to release its essential oils, the classic finish for stirred classics.",
+    "stepsZh": [
+      "取一片新鲜橙皮或柠檬皮（白色海绵层尽量少）。",
+      "将果皮朝下，拇指与食指捏住两端，弯曲皮面朝酒面。",
+      "在酒面正上方用力捏一下，让精油喷洒在液面上。",
+      "将果皮放入杯中或擦在杯口边缘作为装饰。"
+    ],
+    "stepsEn": [
+      "Cut a fresh citrus peel with as little pith as possible.",
+      "Hold the peel skin-side down over the surface of the drink.",
+      "Pinch sharply to express the oils onto the surface; you should see a visible mist.",
+      "Rub the peel along the rim and drop it in, or discard as the recipe dictates."
+    ],
+    "tipsZh": [
+      "白色海绵层（pith）过多会让果皮发苦——尽量削得薄一些。",
+      "喷香后再闻香，能更明显地感受到柑橘精油的层次。"
+    ],
+    "tipsEn": [
+      "Trim the pith as much as possible — it adds bitterness.",
+      "Always smell the drink after expressing the peel; the aromatics lead the palate."
+    ],
+    "warningsZh": [],
+    "warningsEn": []
+  }
+]

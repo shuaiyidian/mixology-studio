@@ -1,0 +1,146 @@
+// Cocktail Mixology Studio — Data Schema
+// Owner: B2 agent (data layer). Read-only contract for B3 (UI) and B4 (matching).
+
+generator client {
+  provider = "prisma-client-js"
+}
+
+datasource db {
+  provider = "postgresql"
+  url      = env("DATABASE_URL")
+}
+
+// ─── Enums ──────────────────────────────────────────────────────────────────
+
+enum IngredientCategory {
+  BASE_SPIRIT    // 基酒：Gin / Whiskey / Vodka / Rum / Tequila / Brandy / Mezcal
+  LIQUEUR        // 利口酒：Triple Sec / Campari / Aperol / Cointreau / Kahlúa
+  WINE           // 葡萄酒：Vermouth / Sherry / Port
+  JUICE          // 鲜榨果汁：Lemon / Lime / Orange / Grapefruit / Pineapple
+  SYRUP          // 糖浆：Simple / Rich / Honey / Agave / Orgeat / Falernum
+  BITTERS        // 苦精：Angostura / Orange / Peychaud's
+  SODA           // 碳酸：Soda / Tonic / Ginger Beer / Club Soda
+  DAIRY          // 乳制品：Egg White / Cream / Milk
+  HERB_SPICE     // 香草香料：Mint / Basil / Rosemary / Cinnamon
+  GARNISH        // 装饰物：Cherry / Olive / Citrus Peel
+  OTHER          // 其他
+}
+
+enum RecipeType {
+  CLASSIC        // 经典 (IBA / 历史名方)
+  INNOVATIVE     // 创新 (现代/原创)
+}
+
+enum TechniqueCategory {
+  SHAKE          // 摇和
+  STIR           // 搅和
+  ROLL           // 滚和
+  BUILD          // 直调
+  MUDDLE         // 捣压
+  STRAIN         // 滤冰
+  WASH           // 清洗：奶洗 / 油洗 / 活性炭洗
+  GARNISH        // 装饰
+  PREP           // 预处理：糖边 / 烟熏
+}
+
+// ─── Core Models ────────────────────────────────────────────────────────────
+
+model Ingredient {
+  id           String              @id @default(cuid())
+  slug         String              @unique           // "gin", "lemon-juice"
+  nameZh       String                                   // "金酒"
+  nameEn       String                                   // "Gin"
+  category     IngredientCategory
+  abv          Float?                                  // 酒精度 0-100
+  flavorTags   String[]                                // ["floral","citrus","juniper"]
+  colorHex     String?                                  // "#F4E5C2"
+  descriptionZh String?           @db.Text
+  descriptionEn String?           @db.Text
+  isKeyFor     RecipeIngredient[]                      // 关键原料标记
+  usages       RecipeIngredient[]
+  createdAt    DateTime            @default(now())
+  updatedAt    DateTime            @updatedAt
+
+  @@index([category])
+}
+
+model Recipe {
+  id           String              @id @default(cuid())
+  slug         String              @unique
+  nameZh       String                                   // "威士忌酸"
+  nameEn       String                                   // "Whiskey Sour"
+  type         RecipeType
+  difficulty   Int                 // 1-5
+  glassType    String?                                  // "coupe" | "rocks" | "highball" | "flute" | "nick-nora"
+  iceType      String?                                  // "none" | "cubed" | "crushed" | "large" | "peeled"
+  descriptionZh String             @db.Text
+  descriptionEn String             @db.Text
+  storyNoteZh  String?             @db.Text
+  storyNoteEn  String?             @db.Text
+  balanceTags  String[]                                // ["sour","citrus","strong"]
+  techniques   Technique[]         @relation("RecipeTechniques")
+  ingredients  RecipeIngredient[]
+  steps        RecipeStep[]
+  createdAt    DateTime            @default(now())
+  updatedAt    DateTime            @updatedAt
+
+  @@index([type])
+  @@index([difficulty])
+}
+
+model RecipeIngredient {
+  id             String      @id @default(cuid())
+  recipe         Recipe      @relation(fields: [recipeId], references: [id], onDelete: Cascade)
+  recipeId       String
+  ingredient     Ingredient  @relation(fields: [ingredientId], references: [id])
+  ingredientId   String
+  amount         String                                   // "30ml" | "1 bar spoon" | "1 egg white" | "2 dashes"
+  isKey          Boolean     @default(false)              // 关键原料：匹配权重高，缺失则大幅降分
+  optional       Boolean     @default(false)
+  notesZh        String?
+  notesEn        String?
+  order          Int                                       // 显示顺序
+  asKeyFor       Ingredient[] @relation("KeyIngredients")  // 反向：哪些原料把这个视为关键
+
+  @@unique([recipeId, ingredientId])
+  @@index([recipeId])
+  @@index([ingredientId])
+}
+
+model RecipeStep {
+  id             String      @id @default(cuid())
+  recipe         Recipe      @relation(fields: [recipeId], references: [id], onDelete: Cascade)
+  recipeId       String
+  order          Int
+  instructionZh  String      @db.Text
+  instructionEn  String      @db.Text
+  duration       String?                                    // "15s" | "30s stir" | "5s dry shake"
+  technique      Technique?  @relation(fields: [techniqueId], references: [id])
+  techniqueId    String?
+  tipZh          String?     @db.Text
+  tipEn          String?     @db.Text
+
+  @@unique([recipeId, order])
+  @@index([recipeId])
+}
+
+model Technique {
+  id              String              @id @default(cuid())
+  slug            String              @unique              // "shake", "milk-wash"
+  nameZh          String                                   // "摇和法"
+  nameEn          String                                   // "Shake"
+  category        TechniqueCategory
+  descriptionZh   String              @db.Text
+  descriptionEn   String              @db.Text
+  stepsZh         String[]                                // 步骤列表
+  stepsEn         String[]
+  tipsZh          String[]                                // 贴士
+  tipsEn          String[]
+  warningsZh      String[]                                // 注意事项
+  warningsEn      String[]
+  recipes         Recipe[]            @relation("RecipeTechniques")
+  stepsRef        RecipeStep[]
+  createdAt       DateTime            @default(now())
+
+  @@index([category])
+}
