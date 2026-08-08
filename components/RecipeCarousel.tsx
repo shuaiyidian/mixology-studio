@@ -18,7 +18,6 @@ export function RecipeCarousel({ matches, selectedIds, hasSelection }: Props) {
 
   const list = matches ?? [];
 
-  // Reset to 0 when the match list shrinks below our current index
   useEffect(() => {
     if (index >= list.length && list.length > 0) setIndex(0);
     if (list.length === 0) setIndex(0);
@@ -64,15 +63,14 @@ export function RecipeCarousel({ matches, selectedIds, hasSelection }: Props) {
     touchStartX.current = null;
   };
 
-  // Loading / empty states
   if (hasSelection && (matches === null || matches.length === 0)) {
     if (matches === null) {
       return (
-        <div className="grid grid-cols-1 gap-6 md:grid-cols-2 xl:grid-cols-3">
+        <div className="grid grid-cols-1 gap-3 sm:gap-6 md:grid-cols-2 xl:grid-cols-3">
           {[0, 1, 2].map((i) => (
             <div
               key={i}
-              className="h-72 animate-pulse rounded-2xl border border-[var(--color-border)] bg-stone-50"
+              className="h-40 animate-pulse rounded-xl border border-[var(--color-border)] bg-stone-50 sm:h-72 sm:rounded-2xl"
             />
           ))}
         </div>
@@ -102,23 +100,39 @@ export function RecipeCarousel({ matches, selectedIds, hasSelection }: Props) {
   const current = list[index];
   const isMulti = list.length > 1;
 
+  const ArrowButton = ({
+    direction,
+    label,
+  }: { direction: "prev" | "next"; label: string }) => (
+    <button
+      type="button"
+      onClick={direction === "prev" ? goPrev : goNext}
+      aria-label={label}
+      className="flex h-8 w-8 shrink-0 items-center justify-center rounded-full border border-[var(--color-border)] bg-white text-sm text-[var(--color-text-secondary)] transition-colors hover:border-[var(--color-accent)] hover:text-[var(--color-accent)] sm:h-11 sm:w-11 sm:text-lg"
+    >
+      {direction === "prev" ? "‹" : "›"}
+    </button>
+  );
+
   return (
     <section
-      className="flex flex-col gap-5"
+      className="flex flex-col gap-3 sm:gap-5"
       aria-label="推荐配方 / Recommended recipes"
       onTouchStart={onTouchStart}
       onTouchEnd={onTouchEnd}
     >
-      <div className="relative px-1 sm:px-12">
+      {/* Desktop: side arrows around card. Mobile: full-width card. */}
+      <div className="relative sm:px-12">
+        {/* Side arrows only on sm+ */}
         {isMulti && (
-          <button
-            type="button"
-            onClick={goPrev}
-            aria-label="上一个 / Previous"
-            className="absolute left-0 top-1/2 z-10 -translate-y-1/2 flex h-11 w-11 items-center justify-center rounded-full border border-[var(--color-border)] bg-white text-lg text-[var(--color-text-secondary)] shadow-sm transition-colors hover:border-[var(--color-accent)] hover:text-[var(--color-accent)] sm:-left-2"
-          >
-            ‹
-          </button>
+          <>
+            <div className="absolute -left-2 top-1/2 z-10 hidden -translate-y-1/2 sm:block">
+              <ArrowButton direction="prev" label="上一个 / Previous" />
+            </div>
+            <div className="absolute -right-2 top-1/2 z-10 hidden -translate-y-1/2 sm:block">
+              <ArrowButton direction="next" label="下一个 / Next" />
+            </div>
+          </>
         )}
 
         <RecipeCard
@@ -127,22 +141,16 @@ export function RecipeCarousel({ matches, selectedIds, hasSelection }: Props) {
           match={current}
           selectedIds={selectedIds}
         />
-
-        {isMulti && (
-          <button
-            type="button"
-            onClick={goNext}
-            aria-label="下一个 / Next"
-            className="absolute right-0 top-1/2 z-10 -translate-y-1/2 flex h-11 w-11 items-center justify-center rounded-full border border-[var(--color-border)] bg-white text-lg text-[var(--color-text-secondary)] shadow-sm transition-colors hover:border-[var(--color-accent)] hover:text-[var(--color-accent)] sm:-right-2"
-          >
-            ›
-          </button>
-        )}
       </div>
 
       {isMulti && (
-        <div className="flex flex-col items-center gap-3">
-          <div className="flex items-center gap-2">
+        <div className="flex items-center justify-center gap-2 sm:gap-3">
+          {/* Mobile: arrows inline with dots */}
+          <div className="sm:hidden">
+            <ArrowButton direction="prev" label="上一个 / Previous" />
+          </div>
+
+          <div className="flex items-center gap-1.5 sm:gap-2">
             {list.map((_, i) => (
               <button
                 key={i}
@@ -152,19 +160,26 @@ export function RecipeCarousel({ matches, selectedIds, hasSelection }: Props) {
                 className={cn(
                   "h-1.5 rounded-full transition-all",
                   i === index
-                    ? "w-8 bg-[var(--color-accent)]"
+                    ? "w-6 bg-[var(--color-accent)] sm:w-8"
                     : "w-1.5 bg-[var(--color-border-strong)] hover:bg-[var(--color-text-muted)]",
                 )}
               />
             ))}
           </div>
-          <p className="text-xs tabular-nums text-[var(--color-text-muted)]">
-            <span className="font-semibold text-[var(--color-text-primary)]">{index + 1}</span>
-            <span className="mx-1">/</span>
-            <span>{list.length}</span>
-            <span className="ml-2 hidden sm:inline">·  ← → 键或滑动切换</span>
-          </p>
+
+          <div className="sm:hidden">
+            <ArrowButton direction="next" label="下一个 / Next" />
+          </div>
         </div>
+      )}
+
+      {isMulti && (
+        <p className="hidden text-center text-xs tabular-nums text-[var(--color-text-muted)] sm:block">
+          <span className="font-semibold text-[var(--color-text-primary)]">{index + 1}</span>
+          <span className="mx-1">/</span>
+          <span>{list.length}</span>
+          <span className="ml-2">·  ← → 键或滑动切换</span>
+        </p>
       )}
     </section>
   );

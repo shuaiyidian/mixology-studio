@@ -126,10 +126,10 @@ export function HomeWorkspace({ ingredients }: Props) {
 
   return (
     <DndContext sensors={sensors} onDragStart={handleDragStart} onDragEnd={handleDragEnd}>
-      <div className="mx-auto flex w-full max-w-7xl flex-col gap-16 px-4 py-12 sm:px-6 sm:py-16 lg:px-8">
+      <div className="mx-auto flex w-full max-w-7xl flex-col gap-6 px-4 py-6 sm:gap-12 sm:px-6 sm:py-12 lg:gap-16 lg:px-8">
         <Header />
 
-        <div className="flex flex-col gap-12">
+        <div className="flex flex-col gap-4 sm:gap-12">
           <DropZone
             selectedIngredients={selectedIngredients}
             onRemove={handleRemove}

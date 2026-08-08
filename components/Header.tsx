@@ -2,13 +2,13 @@ import { cn } from "@/lib/ui/cn";
 
 export function Header() {
   return (
-    <header className="flex items-baseline gap-3 border-b border-[var(--color-border)] pb-6">
-      <span className="text-xs font-medium uppercase tracking-[0.24em] text-[var(--color-accent)]">
+    <header className="flex items-baseline gap-2 border-b border-[var(--color-border)] pb-3 sm:gap-3 sm:pb-6">
+      <span className="hidden text-xs font-medium uppercase tracking-[0.24em] text-[var(--color-accent)] sm:inline">
         Mixology Studio
       </span>
       <h1
         className={cn(
-          "text-3xl font-semibold leading-none tracking-tight text-[var(--color-text-primary)]",
+          "text-xl font-semibold leading-none tracking-tight text-[var(--color-text-primary)]",
           "sm:text-4xl",
         )}
       >
