@@ -3,6 +3,9 @@
   "version": "0.1.0",
   "private": true,
   "description": "鸡尾酒配方推荐与教学 — drag ingredients to discover classic cocktail recipes and techniques.",
+  "engines": {
+    "node": ">=20.9.0"
+  },
   "scripts": {
     "dev": "next dev --webpack",
     "build": "next build",
