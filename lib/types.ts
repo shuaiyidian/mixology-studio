@@ -1,6 +1,7 @@
 // Shared TypeScript contracts — DO NOT modify without coordination across B2/B3/B4.
-// Mirrors prisma/schema.prisma. Re-exported as plain types so UI/matching code
-// does not need to import from @prisma/client at the leaf (smaller bundle).
+// Re-exported as plain types so UI/matching code does not need to import from
+// any ORM at the leaf (smaller bundle). v0.1 uses static JSON; v1.1 will add
+// a real DB and these shapes will be replaced by generated Prisma types.
 
 export type IngredientCategory =
   | "BASE_SPIRIT"
