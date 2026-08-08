@@ -4,13 +4,13 @@ import { useMemo } from "react";
 import type { Ingredient, IngredientCategory } from "@/lib/types";
 import { IngredientChip } from "./IngredientChip";
 import { CategoryFilter, type CategoryFilterValue } from "./CategoryFilter";
-import { cn } from "@/lib/ui/cn";
 
 interface IngredientPaletteProps {
   ingredients: Ingredient[];
   category: CategoryFilterValue;
   onCategoryChange: (value: CategoryFilterValue) => void;
   selectedIds: Set<string>;
+  onToggle: (id: string) => void;
 }
 
 const categoryOrder: IngredientCategory[] = [
@@ -45,6 +45,7 @@ export function IngredientPalette({
   category,
   onCategoryChange,
   selectedIds,
+  onToggle,
 }: IngredientPaletteProps) {
   const filtered = useMemo(() => {
     if (category === "ALL") return ingredients;
@@ -74,7 +75,10 @@ export function IngredientPalette({
           </span>
         </h2>
         <p className="text-sm text-[var(--color-text-secondary)]">
-          拖动你拥有的原料到上方落入区 / Drag the ingredients you have into the drop zone above.
+          <span className="block sm:inline">点击添加，再点移除 / Tap to toggle. </span>
+          <span className="block text-[var(--color-text-muted)] sm:inline">
+            或拖动到上方落入区（电脑端）/ Or drag to the drop zone above (desktop).
+          </span>
         </p>
       </div>
 
@@ -96,6 +100,8 @@ export function IngredientPalette({
                   <IngredientChip
                     key={ing.id}
                     ingredient={ing}
+                    selected={selectedIds.has(ing.id)}
+                    onToggle={onToggle}
                   />
                 ))}
               </div>
@@ -105,7 +111,12 @@ export function IngredientPalette({
       ) : (
         <div className="grid grid-cols-2 gap-3 sm:grid-cols-3 lg:grid-cols-4">
           {filtered.map((ing) => (
-            <IngredientChip key={ing.id} ingredient={ing} />
+            <IngredientChip
+              key={ing.id}
+              ingredient={ing}
+              selected={selectedIds.has(ing.id)}
+              onToggle={onToggle}
+            />
           ))}
         </div>
       )}

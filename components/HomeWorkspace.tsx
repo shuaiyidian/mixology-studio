@@ -110,6 +110,14 @@ export function HomeWorkspace({ ingredients }: Props) {
     setSelectedIds((prev) => prev.filter((x) => x !== id));
   };
 
+  // Tap-to-toggle handler: adds the ingredient if not selected, removes it if it is.
+  // Works on touch (tap = no movement = onClick fires) and on desktop (regular click).
+  // Drag still works because dnd-kit's PointerSensor with distance:4 only consumes the
+  // event when the pointer moves past 4px.
+  const handleToggle = (id: string) => {
+    setSelectedIds((prev) => (prev.includes(id) ? prev.filter((x) => x !== id) : [...prev, id]));
+  };
+
   const handleClearAll = () => setSelectedIds([]);
 
   // matches is the authoritative "computing" state. When loading, show skeleton
@@ -133,6 +141,7 @@ export function HomeWorkspace({ ingredients }: Props) {
             category={category}
             onCategoryChange={setCategory}
             selectedIds={selectedSet}
+            onToggle={handleToggle}
           />
 
           <RecipeResults
