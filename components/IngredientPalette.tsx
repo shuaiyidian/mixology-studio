@@ -89,7 +89,7 @@ export function IngredientPalette({
               <h3 className="text-xs font-medium uppercase tracking-[0.18em] text-[var(--color-text-muted)]">
                 {categoryLabel[group.category]}
               </h3>
-              <div className="grid grid-cols-2 gap-3 sm:grid-cols-3 lg:grid-cols-4">
+              <div className="grid grid-cols-3 gap-2 sm:grid-cols-4 sm:gap-3 lg:grid-cols-5">
                 {group.items.map((ing) => (
                   <IngredientChip
                     key={ing.id}
@@ -103,7 +103,7 @@ export function IngredientPalette({
           ))}
         </div>
       ) : (
-        <div className="grid grid-cols-2 gap-3 sm:grid-cols-3 lg:grid-cols-4">
+        <div className="grid grid-cols-3 gap-2 sm:grid-cols-4 sm:gap-3 lg:grid-cols-5">
           {filtered.map((ing) => (
             <IngredientChip
               key={ing.id}
