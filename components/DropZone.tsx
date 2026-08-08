@@ -21,30 +21,31 @@ export function DropZone({ selectedIngredients, onRemove, onClearAll }: DropZone
   const isEmpty = count === 0;
 
   return (
-    <section
-      aria-label="已选原料 / Selected ingredients"
-      className="flex flex-col gap-4"
-    >
+    <section aria-label="已选原料 / Selected" className="flex flex-col gap-3">
       <div className="flex items-baseline justify-between">
         <h2 className="text-xl font-semibold text-[var(--color-text-primary)]">
-          已选原料
-          <span className="ml-2 text-sm font-normal text-[var(--color-text-secondary)]">
-            / Selected ingredients
+          已选
+          <span className="ml-2 text-sm font-normal text-[var(--color-text-muted)]">
+            / Selected
           </span>
         </h2>
-        <span className="text-sm text-[var(--color-text-secondary)]">
-          {isEmpty
-            ? "请从下方拖入 / Drag from below"
-            : `已选 ${count} 种 / ${count} selected`}
-        </span>
+        {!isEmpty && (
+          <button
+            type="button"
+            onClick={onClearAll}
+            className="text-xs text-[var(--color-text-muted)] underline-offset-2 hover:text-[var(--color-danger)] hover:underline"
+          >
+            清空 / Clear
+          </button>
+        )}
       </div>
 
       <div
         ref={setNodeRef}
         data-testid="drop-zone"
         className={cn(
-          "relative min-h-[120px] rounded-2xl border-2 border-dashed bg-[var(--color-surface-elevated)] p-6",
-          "transition-all duration-200",
+          "min-h-[88px] rounded-2xl border-2 border-dashed bg-[var(--color-surface-elevated)] p-4",
+          "transition-colors duration-200",
           isEmpty
             ? "border-[var(--color-border)]"
             : "border-[var(--color-border-strong)]",
@@ -52,14 +53,9 @@ export function DropZone({ selectedIngredients, onRemove, onClearAll }: DropZone
         )}
       >
         {isEmpty ? (
-          <div className="flex h-full min-h-[88px] flex-col items-center justify-center gap-1 text-center">
-            <p className="text-base font-medium text-[var(--color-text-secondary)]">
-              把原料拖到这里
-            </p>
-            <p className="text-sm text-[var(--color-text-muted)]">
-              Drag ingredients here
-            </p>
-          </div>
+          <p className="py-4 text-center text-sm text-[var(--color-text-muted)]">
+            点击或拖入原料
+          </p>
         ) : (
           <div className="flex flex-wrap gap-2">
             {selectedIngredients.map((ing) => (
@@ -72,22 +68,6 @@ export function DropZone({ selectedIngredients, onRemove, onClearAll }: DropZone
           </div>
         )}
       </div>
-
-      {!isEmpty && (
-        <div className="flex justify-end">
-          <button
-            type="button"
-            onClick={onClearAll}
-            className={cn(
-              "rounded-full border border-[var(--color-border)] bg-[var(--color-surface-elevated)] px-4 py-1.5 text-sm",
-              "text-[var(--color-text-secondary)] transition-colors duration-200",
-              "hover:border-[var(--color-danger)] hover:text-[var(--color-danger)]",
-            )}
-          >
-            清空 / Clear all
-          </button>
-        </div>
-      )}
     </section>
   );
 }

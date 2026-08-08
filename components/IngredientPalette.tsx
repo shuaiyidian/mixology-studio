@@ -66,20 +66,14 @@ export function IngredientPalette({
   }, [filtered, category]);
 
   return (
-    <section className="flex flex-col gap-6" aria-label="原料调色板 / Ingredient palette">
-      <div className="flex flex-col gap-2">
+    <section className="flex flex-col gap-4" aria-label="原料调色板 / Ingredient palette">
+      <div className="flex flex-col gap-1">
         <h2 className="text-xl font-semibold text-[var(--color-text-primary)]">
-          原料调色板
-          <span className="ml-2 text-sm font-normal text-[var(--color-text-secondary)]">
-            / Ingredient palette
+          原料
+          <span className="ml-2 text-sm font-normal text-[var(--color-text-muted)]">
+            / Ingredients
           </span>
         </h2>
-        <p className="text-sm text-[var(--color-text-secondary)]">
-          <span className="block sm:inline">点击添加，再点移除 / Tap to toggle. </span>
-          <span className="block text-[var(--color-text-muted)] sm:inline">
-            或拖动到上方落入区（电脑端）/ Or drag to the drop zone above (desktop).
-          </span>
-        </p>
       </div>
 
       <CategoryFilter value={category} onChange={onCategoryChange} />
