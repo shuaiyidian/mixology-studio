@@ -34,6 +34,7 @@ const allIdSet = new Set([
 // ─── New ingredients (18) ──────────────────────────────────────────────────
 const newIngredients = [
   { id: "ing-calvados", slug: "calvados", nameZh: "卡尔瓦多斯", nameEn: "Calvados", category: "BASE_SPIRIT", abv: 40, flavorTags: ["apple", "brandy", "earthy", "french"], colorHex: "#C08840", descriptionZh: "法国诺曼底产区的苹果白兰地，是 Angel Face、Corpse Reviver #1 等 20 世纪鸡尾酒的法式基底。", descriptionEn: "French apple brandy from Normandy, the French base of Angel Face, Corpse Reviver #1 and other 20th-century classics." },
+  { id: "ing-aged-rum", slug: "aged-rum", nameZh: "陈年牙买加朗姆", nameEn: "Aged Jamaican Rum", category: "BASE_SPIRIT", abv: 40, flavorTags: ["cane", "tropical", "rich", "funk"], colorHex: "#A05020", descriptionZh: "陈年桶养牙买加朗姆，是 Mai Tai、Airmail、Three Dots and a Dash 等 tiki 与海明威经典的灵魂基酒。", descriptionEn: "Aged Jamaican pot-still rum, the soul of Mai Tai, Airmail, Three Dots and a Dash and other tiki classics." },
   { id: "ing-creme-de-menthe-white", slug: "creme-de-menthe-white", nameZh: "白薄荷利口酒", nameEn: "White Crème de Menthe", category: "LIQUEUR", abv: 25, flavorTags: ["mint", "sweet", "herbal"], colorHex: "#F0F8E8", descriptionZh: "无色薄荷利口酒，Stinger 与 Grasshopper 的传统配方。", descriptionEn: "Clear mint liqueur, the traditional base of the Stinger and Grasshopper." },
   { id: "ing-allspice-drambuie", slug: "allspice-drambuie", nameZh: "多香果利口酒", nameEn: "Allspice Dram (Pimento)", category: "LIQUEUR", abv: 30, flavorTags: ["spice", "warm", "pimento", "tropical"], colorHex: "#6B3A1A", descriptionZh: "牙买加多香果浸泡的利口酒，三点与破折号、Jet Pilot 的 tiki 香料灵魂。", descriptionEn: "Jamaican allspice-infused liqueur, the spice backbone of Three Dots and a Dash and Jet Pilot." },
   { id: "ing-blue-curacao", slug: "blue-curacao", nameZh: "蓝橙皮酒", nameEn: "Blue Curaçao", category: "LIQUEUR", abv: 25, flavorTags: ["citrus", "orange", "tropical", "sweet"], colorHex: "#3A7AB8", descriptionZh: "蓝色橙皮利口酒，Blue Hawaiian 的视觉灵魂。", descriptionEn: "Blue-tinted orange liqueur, the visual signature of the Blue Hawaiian." },
@@ -51,6 +52,11 @@ const newIngredients = [
   { id: "ing-lager", slug: "lager", nameZh: "拉格啤酒", nameEn: "Lager Beer", category: "SODA", abv: 4, flavorTags: ["beer", "light", "carbonated", "grain"], colorHex: "#F2D870", descriptionZh: "淡色拉格啤酒，Shandy 高球的啤酒侧。", descriptionEn: "Pale lager, the beer side of the Shandy highball." },
   { id: "ing-lemonade", slug: "lemonade", nameZh: "柠檬汽水", nameEn: "Lemonade (Soda)", category: "SODA", abv: 0, flavorTags: ["lemon", "sweet", "carbonated"], colorHex: "#F2E870", descriptionZh: "柠檬味汽水，Shandy 高球的汽水侧。", descriptionEn: "Lemon soda, the fizzy side of the Shandy highball." },
   { id: "ing-hard-cider", slug: "hard-cider", nameZh: "苹果西打", nameEn: "Dry Hard Cider", category: "SODA", abv: 5, flavorTags: ["apple", "dry", "sparkling", "fermented"], colorHex: "#E8C870", descriptionZh: "干型苹果西打，Stone Fence 的传统酒底。", descriptionEn: "Dry apple cider, the traditional top of the Stone Fence." },
+  { id: "ing-cinnamon-syrup", slug: "cinnamon-syrup", nameZh: "肉桂糖浆", nameEn: "Cinnamon Syrup", category: "SYRUP", abv: 0, flavorTags: ["spice", "warm", "sweet", "cinnamon"], colorHex: "#7A3A1A", descriptionZh: "肉桂糖浆，Don the Beachcomber Donn's Mix 2:1 配方（西柚汁+肉桂糖浆）的灵魂。", descriptionEn: "Cinnamon-infused simple syrup, the spice backbone of Donn Beach's Donn's Mix (2:1 grapefruit to cinnamon syrup).", },
+  { id: "ing-creme-de-cacao", slug: "creme-de-cacao", nameZh: "白可可利口酒", nameEn: "White Crème de Cacao", category: "LIQUEUR", abv: 25, flavorTags: ["chocolate", "sweet", "vanilla", "dessert"], colorHex: "#F0E8E0", descriptionZh: "无色可可利口酒，20th Century 与 Grasshopper 等 20 世纪甜型鸡尾酒的传统配料。", descriptionEn: "White cocoa liqueur, the chocolate base of 20th Century and other 20th-century dessert cocktails." },
+  { id: "ing-creme-de-cassis", slug: "creme-de-cassis", nameZh: "黑加仑利口酒", nameEn: "Crème de Cassis", category: "LIQUEUR", abv: 15, flavorTags: ["berry", "blackcurrant", "sweet", "fruity"], colorHex: "#3A0A1A", descriptionZh: "法国黑加仑利口酒，Kir 与 Kir Royale 标志性的红色与果香来源。", descriptionEn: "French blackcurrant liqueur, the signature colour and fruit of Kir and Kir Royale." },
+  { id: "ing-nutmeg", slug: "nutmeg", nameZh: "肉豆蔻", nameEn: "Grated Nutmeg", category: "HERB_SPICE", abv: 0, flavorTags: ["spice", "warm", "aromatic"], colorHex: "#C08840", descriptionZh: "现磨肉豆蔻，Porto Flip 等「Flip」类鸡尾酒的传统顶部装饰。", descriptionEn: "Freshly grated nutmeg, the traditional top-sprinkle of Porto Flip and other 'flip' family cocktails." },
+  { id: "ing-sugar", slug: "sugar", nameZh: "砂糖", nameEn: "Granulated Sugar", category: "GARNISH", abv: 0, flavorTags: ["sweet", "neutral"], colorHex: "#FAF0E0", descriptionZh: "细砂糖，Brandy Crusta 等杯边糖边的撒粉原料。", descriptionEn: "Fine granulated sugar for sugar-rimmed classics like the Brandy Crusta." },
 ];
 
 newIngredients.forEach((i) => {
@@ -470,14 +476,12 @@ const NEW = [
       { slug: "raspberry-syrup", amount: "15ml", isKey: true, optional: false, notesZh: null, notesEn: null, order: 2 },
       { slug: "lemon-juice", amount: "15ml", isKey: true, optional: false, notesZh: "现榨", notesEn: "freshly squeezed", order: 3 },
       { slug: "egg-white", amount: "1 piece", isKey: false, optional: false, notesZh: "干湿双摇", notesEn: "dry + wet shake", order: 4 },
-      { slug: "raspberry", amount: "3 pieces", isKey: false, optional: false, notesZh: "新鲜覆盆子装饰", notesEn: "fresh raspberries garnish", order: 5 },
     ],
     steps: [
       { order: 1, instructionZh: "摇酒壶加金酒、覆盆子糖浆、柠檬汁与蛋清（无冰）。", instructionEn: "Add gin, raspberry syrup, lemon juice and egg white to a shaker (no ice).", duration: null, techniqueSlug: "dry-shake", tipZh: null, tipEn: null },
       { order: 2, instructionZh: "干摇 15 秒让蛋清乳化。", instructionEn: "Dry-shake hard for 15 seconds to emulsify the egg white.", duration: "15s", techniqueSlug: "dry-shake", tipZh: null, tipEn: null },
       { order: 3, instructionZh: "加冰再摇 10-12 秒。", instructionEn: "Add ice and wet-shake for 10-12 seconds.", duration: "12s", techniqueSlug: "shake", tipZh: null, tipEn: null },
       { order: 4, instructionZh: "双重过滤入预冷马天尼杯。", instructionEn: "Double-strain into a chilled coupe.", duration: null, techniqueSlug: "double-strain", tipZh: null, tipEn: null },
-      { order: 5, instructionZh: "三颗新鲜覆盆子装饰。", instructionEn: "Garnish with three fresh raspberries.", duration: null, techniqueSlug: null, tipZh: null, tipEn: null },
     ],
     techniques: ["dry-shake", "shake", "double-strain"],
   },
@@ -898,6 +902,7 @@ const NEW = [
     steps: [
       { order: 1, instructionZh: "葡萄酒杯先倒入冰镇白葡萄酒。", instructionEn: "Pour the chilled white wine into a wine glass.", duration: null, techniqueSlug: "build", tipZh: null, tipEn: null },
       { order: 2, instructionZh: "顶部缓缓倒入黑加仑利口酒。", instructionEn: "Slowly pour the crème de cassis on top.", duration: null, techniqueSlug: "build", tipZh: "慢慢倒，形成红色底部。", tipEn: "Pour slowly to let the cassis sink to the bottom." },
+      { order: 3, instructionZh: "不要搅拌，立即上桌。", instructionEn: "Do not stir; serve immediately.", duration: null, techniqueSlug: null, tipZh: null, tipEn: null },
     ],
     techniques: ["build"],
   },
@@ -917,6 +922,7 @@ const NEW = [
     steps: [
       { order: 1, instructionZh: "笛形香槟杯先倒入冰镇香槟。", instructionEn: "Pour the chilled Champagne into a flute.", duration: null, techniqueSlug: "build", tipZh: null, tipEn: null },
       { order: 2, instructionZh: "缓缓加入黑加仑利口酒。", instructionEn: "Slowly add the crème de cassis.", duration: null, techniqueSlug: "build", tipZh: "形成红色气泡漩涡。", tipEn: "The cassis will form a red swirl as it rises." },
+      { order: 3, instructionZh: "不要搅拌，立即上桌。", instructionEn: "Do not stir; serve immediately.", duration: null, techniqueSlug: null, tipZh: null, tipEn: null },
     ],
     techniques: ["build"],
   },
@@ -964,7 +970,7 @@ const NEW = [
   // ───── 4. Fizzes & Collins (8) ──────────────────────────────────────────
   {
     slug: "gin-fizz",
-    nameZh: "金菲士", nameEn: "Gin Fizz",
+    nameZh: "金酒菲士", nameEn: "Gin Fizz",
     difficulty: 2, glassType: "highball", iceType: "cubed",
     descriptionZh: "金酒、柠檬、糖与苏打水的高杯菲士，是 19 世纪后期美国经典。",
     descriptionEn: "Gin, lemon, sugar and soda — the highball Fizz that defined 19th-century American drinking.",
@@ -1499,8 +1505,7 @@ const NEW = [
       { slug: "gin", amount: "60ml", isKey: true, optional: false, notesZh: null, notesEn: null, order: 1 },
       { slug: "lemon-juice", amount: "22.5ml", isKey: true, optional: false, notesZh: "现榨", notesEn: "freshly squeezed", order: 2 },
       { slug: "simple-syrup", amount: "15ml", isKey: true, optional: false, notesZh: null, notesEn: null, order: 3 },
-      { slug: "basil", amount: "8 leaves", isKey: true, optional: false, notesZh: "轻捣", notesEn: "muddle gently", order: 4 },
-      { slug: "basil", amount: "1 sprig", isKey: false, optional: false, notesZh: "装饰", notesEn: "garnish", order: 5 },
+      { slug: "basil", amount: "8 leaves", isKey: true, optional: false, notesZh: "8 叶轻捣 + 1 枝装饰", notesEn: "8 leaves muddled + 1 sprig garnish", order: 4 },
     ],
     steps: [
       { order: 1, instructionZh: "摇酒壶底放入罗勒叶与单糖浆。", instructionEn: "Place basil leaves and simple syrup at the bottom of a shaker.", duration: null, techniqueSlug: "muddle", tipZh: null, tipEn: null },

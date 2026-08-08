@@ -473,5 +473,42 @@
     ],
     "warningsZh": [],
     "warningsEn": []
+  },
+  {
+    "id": "tech-flash-blend",
+    "slug": "flash-blend",
+    "nameZh": "高速搅拌",
+    "nameEn": "Flash Blend",
+    "category": "SHAKE",
+    "descriptionZh": "用电动搅拌机短促搅拌 5-6 秒，让 tiki 与高糖鸡尾酒获得绵密泡沫与极冷降温。",
+    "descriptionEn": "A 5-6 second buzz in a blender that chills and aerates tiki and high-sugar drinks, producing a thick, even foam.",
+    "stepsZh": [
+      "将所有原料加入搅拌机的玻璃罐。",
+      "加入 1 杯碎冰。",
+      "盖紧刀头，短促搅拌 5-6 秒至完全顺滑。",
+      "立即倒入预冷过的 tiki 或 highball 杯。"
+    ],
+    "stepsEn": [
+      "Combine all ingredients in the blender jar.",
+      "Add 1 cup of crushed ice.",
+      "Secure the blade assembly and pulse for 5-6 seconds until fully smooth.",
+      "Pour immediately into a chilled tiki or highball glass."
+    ],
+    "tipsZh": [
+      "搅拌时间超过 8 秒会让冰融化稀释过度。",
+      "事先预冷玻璃罐可减少冰融化。"
+    ],
+    "tipsEn": [
+      "Blending longer than 8 seconds over-dilutes the drink.",
+      "Pre-chill the blender jar to minimise melt."
+    ],
+    "warningsZh": [
+      "运转时务必盖紧刀头，避免液体喷溅。",
+      "硬质食材如冰块需分批投入，避免刀头卡死。"
+    ],
+    "warningsEn": [
+      "Always secure the lid before blending to avoid splatter.",
+      "Add hard ingredients in batches to prevent the blade from jamming."
+    ]
   }
 ]

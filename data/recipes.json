@@ -12,7 +12,12 @@
     "descriptionEn": "The equal-parts Italian classic where bitter, sweet and botanical spirit meet in perfect balance.",
     "storyNoteZh": "1919 年意大利佛罗伦萨 Camillo Negroni 伯爵要求把 Americano 中的苏打水换成金酒，自此诞生。",
     "storyNoteEn": "Born in 1919 in Florence when Count Camillo Negroni asked to replace the soda in his Americano with gin.",
-    "balanceTags": ["bitter", "strong", "herbal", "balanced"]
+    "balanceTags": [
+      "bitter",
+      "strong",
+      "herbal",
+      "balanced"
+    ]
   },
   {
     "id": "rec-old-fashioned",
@@ -27,7 +32,12 @@
     "descriptionEn": "Whiskey, sugar, bitters and ice — the foundational template from which almost every stirred drink descends.",
     "storyNoteZh": "19 世纪末肯塔基州 Pendennis Club 调酒师首创，名字直指「老派」。",
     "storyNoteEn": "Created at Louisville's Pendennis Club in the late 1800s, the cocktail that defined the word 'cocktail' itself.",
-    "balanceTags": ["spirit-forward", "bitter", "oak", "classic"]
+    "balanceTags": [
+      "spirit-forward",
+      "bitter",
+      "oak",
+      "classic"
+    ]
   },
   {
     "id": "rec-margarita",
@@ -42,7 +52,12 @@
     "descriptionEn": "Tequila's bite, orange liqueur's sweetness and lime's sharpness — the Mexican trinity in one glass.",
     "storyNoteZh": "1930-50 年代墨西哥社交名流 Margarita Sames 在 Acapulco 家中首创。",
     "storyNoteEn": "Popularly credited to socialite Margarita Sames at her Acapulco home in the late 1940s.",
-    "balanceTags": ["sour", "citrus", "agave", "classic"]
+    "balanceTags": [
+      "sour",
+      "citrus",
+      "agave",
+      "classic"
+    ]
   },
   {
     "id": "rec-daiquiri",
@@ -57,7 +72,12 @@
     "descriptionEn": "White rum, lime and sugar — three ingredients done right is the whole point.",
     "storyNoteZh": "1898 年古巴 Daiquiri 矿区美国工程师 Jennings Cox 发明，是 Hemingway 的心头好。",
     "storyNoteEn": "Invented in 1898 by American engineer Jennings Cox in the Daiquiri mines of Cuba — a Hemingway favourite.",
-    "balanceTags": ["sour", "citrus", "refreshing", "classic"]
+    "balanceTags": [
+      "sour",
+      "citrus",
+      "refreshing",
+      "classic"
+    ]
   },
   {
     "id": "rec-manhattan",
@@ -72,7 +92,12 @@
     "descriptionEn": "Rye whiskey and sweet vermouth in a deep, dark duet, finished with a whisper of bitters.",
     "storyNoteZh": "19 世纪末纽约 Manhattan Club 调酒师为丘吉尔母亲 Jenny Jerome 调制的酒。",
     "storyNoteEn": "Created in the 1870s-80s at New York's Manhattan Club, allegedly for Lady Randolph Churchill.",
-    "balanceTags": ["spirit-forward", "herbal", "rich", "classic"]
+    "balanceTags": [
+      "spirit-forward",
+      "herbal",
+      "rich",
+      "classic"
+    ]
   },
   {
     "id": "rec-dry-martini",
@@ -87,7 +112,12 @@
     "descriptionEn": "Gin and dry vermouth in the most stripped-down dialogue in the cocktail world.",
     "storyNoteZh": "19 世纪末从 Martinez 演化而来，丘吉尔「看酒不看味」的故事是调酒界永恒传奇。",
     "storyNoteEn": "Evolved from the Martinez in the late 1800s; Churchill's 'just glance at the vermouth' is bar legend.",
-    "balanceTags": ["spirit-forward", "dry", "botanical", "classic"]
+    "balanceTags": [
+      "spirit-forward",
+      "dry",
+      "botanical",
+      "classic"
+    ]
   },
   {
     "id": "rec-whiskey-sour",
@@ -102,7 +132,12 @@
     "descriptionEn": "Bourbon's warmth, lemon's bite, egg white's silk — the modern revival of a pre-prohibition sour.",
     "storyNoteZh": "1862 年《Bartender's Guide》首次收录；蛋清版本因 Boston's Eastern Standard 餐厅而复兴。",
     "storyNoteEn": "First recorded in Jerry Thomas's 1862 Bartender's Guide; the egg-white version was revived at Boston's Eastern Standard.",
-    "balanceTags": ["sour", "citrus", "rich", "foamy"]
+    "balanceTags": [
+      "sour",
+      "citrus",
+      "rich",
+      "foamy"
+    ]
   },
   {
     "id": "rec-mojito",
@@ -117,7 +152,12 @@
     "descriptionEn": "White rum, mint, lime and soda — Hemingway's Havana in a tall glass.",
     "storyNoteZh": "16 世纪古巴的「El Draque」以朗姆、薄荷、青柠治病的鸡尾酒前身，海明威让之名扬世界。",
     "storyNoteEn": "Descended from 16th-century Cuban 'El Draque', a rum-mint-lime remedy; Hemingway popularised it worldwide.",
-    "balanceTags": ["refreshing", "citrus", "herbal", "highball"]
+    "balanceTags": [
+      "refreshing",
+      "citrus",
+      "herbal",
+      "highball"
+    ]
   },
   {
     "id": "rec-cosmopolitan",
@@ -132,7 +172,12 @@
     "descriptionEn": "Vodka, Cointreau, cranberry and lime in the pink drink that defined a 1990s New York aesthetic.",
     "storyNoteZh": "1980 年代末由 Toby Cecchini 在纽约 Liquidasset 改良定型，因《欲望都市》风靡全球。",
     "storyNoteEn": "Refined by Toby Cecchini at New York's Liquidasset in the late 1980s and made famous by Sex and the City.",
-    "balanceTags": ["sour", "citrus", "fruity", "modern-classic"]
+    "balanceTags": [
+      "sour",
+      "citrus",
+      "fruity",
+      "modern-classic"
+    ]
   },
   {
     "id": "rec-moscow-mule",
@@ -147,7 +192,12 @@
     "descriptionEn": "Vodka, ginger beer and lime served ice-cold in a copper mug.",
     "storyNoteZh": "1941 年洛杉矶 Cock'n Bull 餐厅老板与伏特加代理商联手推广铜杯时发明。",
     "storyNoteEn": "Concocted in 1941 in Los Angeles when Cock 'n' Bull restaurant teamed up with vodka importers to clear copper mugs.",
-    "balanceTags": ["refreshing", "spicy", "highball", "easy"]
+    "balanceTags": [
+      "refreshing",
+      "spicy",
+      "highball",
+      "easy"
+    ]
   },
   {
     "id": "rec-aperol-spritz",
@@ -162,7 +212,12 @@
     "descriptionEn": "Aperol, prosecco and soda in the orange aperitivo that put Italian summers on the map.",
     "storyNoteZh": "1919 年意大利 Padova 的 Barbieri 兄弟创立 Aperol，Spritz 形式在 2000 年代被全球接受。",
     "storyNoteEn": "Aperol was created in 1919 by the Barbieri brothers in Padova; the spritz format went global in the 2000s.",
-    "balanceTags": ["refreshing", "bitter", "citrus", "low-abv"]
+    "balanceTags": [
+      "refreshing",
+      "bitter",
+      "citrus",
+      "low-abv"
+    ]
   },
   {
     "id": "rec-boulevardier",
@@ -177,7 +232,12 @@
     "descriptionEn": "The bourbon Negroni — sweet vanilla oak against bitter orange Italian aperitivo.",
     "storyNoteZh": "1927 年旅居巴黎的美国人 Erskinne Gwynne 创办 Boulevardier 杂志时命名此酒。",
     "storyNoteEn": "Named by American ex-pat Erskinne Gwynne in his 1927 Paris magazine Boulevardier.",
-    "balanceTags": ["bitter", "spirit-forward", "herbal", "classic"]
+    "balanceTags": [
+      "bitter",
+      "spirit-forward",
+      "herbal",
+      "classic"
+    ]
   },
   {
     "id": "rec-penicillin",
@@ -192,7 +252,12 @@
     "descriptionEn": "Blended scotch, ginger-honey syrup and a peated Islay float — a modern classic by Sam Ross.",
     "storyNoteZh": "2005 年纽约 Milk & Honey 调酒师 Sam Ross 创作，被誉为 21 世纪最有影响力的鸡尾酒之一。",
     "storyNoteEn": "Created in 2005 by Sam Ross at New York's Milk & Honey, one of the most influential cocktails of the 21st century.",
-    "balanceTags": ["smoky", "spicy", "honey", "modern-classic"]
+    "balanceTags": [
+      "smoky",
+      "spicy",
+      "honey",
+      "modern-classic"
+    ]
   },
   {
     "id": "rec-last-word",
@@ -207,7 +272,12 @@
     "descriptionEn": "Equal parts gin, green Chartreuse, Maraschino and lime — herbaceous and floral in perfect proportion.",
     "storyNoteZh": "1916 年底特律 Detroit Athletic Club 发明，禁酒令时期消失，2004 年由 Murray Stenson 在 Seattle 重启。",
     "storyNoteEn": "Born in 1916 at the Detroit Athletic Club, lost after Prohibition and revived in 2004 by Murray Stenson at the Zig Zag Café in Seattle.",
-    "balanceTags": ["herbal", "floral", "complex", "equal-parts"]
+    "balanceTags": [
+      "herbal",
+      "floral",
+      "complex",
+      "equal-parts"
+    ]
   },
   {
     "id": "rec-paper-plane",
@@ -222,7 +292,12 @@
     "descriptionEn": "Equal parts bourbon, Aperol, Amaretto and lemon — bitter first, sweet finish.",
     "storyNoteZh": "2007 年芝加哥 Violet Hour 调酒师 Sam Ross 创作，M83 乐队专辑名同款。",
     "storyNoteEn": "Created in 2007 by Sam Ross at Chicago's Violet Hour, named after an M83 song.",
-    "balanceTags": ["sour", "bitter", "balanced", "modern-classic"]
+    "balanceTags": [
+      "sour",
+      "bitter",
+      "balanced",
+      "modern-classic"
+    ]
   },
   {
     "id": "rec-vieux-carre",
@@ -237,7 +312,12 @@
     "descriptionEn": "Rye, cognac and sweet vermouth layered with Bénédictine — the cocktail of the New Orleans French Quarter.",
     "storyNoteZh": "1938 年蒙特利尔 Carousel Bar 调酒师 Walter Bergeron 创作。",
     "storyNoteEn": "Created in 1938 by Walter Bergeron at the Carousel Bar of the Hotel Monteleone in New Orleans.",
-    "balanceTags": ["spirit-forward", "herbal", "rich", "complex"]
+    "balanceTags": [
+      "spirit-forward",
+      "herbal",
+      "rich",
+      "complex"
+    ]
   },
   {
     "id": "rec-mint-julep",
@@ -252,7 +332,12 @@
     "descriptionEn": "Bourbon, mint and crushed ice in the silver cup — Kentucky Derby ritual since the 1800s.",
     "storyNoteZh": "美国南方 18 世纪的传统冷饮，Kentucky Derby 每年消耗上万杯。",
     "storyNoteEn": "A southern American tradition since the 1700s; tens of thousands are served at the Kentucky Derby each year.",
-    "balanceTags": ["refreshing", "herbal", "spirit-forward", "traditional"]
+    "balanceTags": [
+      "refreshing",
+      "herbal",
+      "spirit-forward",
+      "traditional"
+    ]
   },
   {
     "id": "rec-singapore-sling",
@@ -267,7 +352,12 @@
     "descriptionEn": "Gin, Cherry Heering, pineapple and grenadine in the long, layered tropical highball from Raffles.",
     "storyNoteZh": "1915 年新加坡 Raffles 酒店调酒师 Ngiam Tong Boon 创作，是酒店最具代表性的一杯。",
     "storyNoteEn": "Created in 1915 by Ngiam Tong Boon at the Long Bar of Singapore's Raffles Hotel.",
-    "balanceTags": ["fruity", "tropical", "complex", "long-drink"]
+    "balanceTags": [
+      "fruity",
+      "tropical",
+      "complex",
+      "long-drink"
+    ]
   },
   {
     "id": "rec-mai-tai",
@@ -282,7 +372,12 @@
     "descriptionEn": "Aged rum, orgeat and lime — the tiki king, properly made with real orgeat.",
     "storyNoteZh": "1944 年 Trader Vic 调酒师 Victor Bergeron 在加州 Oakland 创作。",
     "storyNoteEn": "Concocted in 1944 by Victor 'Trader Vic' Bergeron at his Oakland restaurant.",
-    "balanceTags": ["tropical", "nutty", "tiki", "complex"]
+    "balanceTags": [
+      "tropical",
+      "nutty",
+      "tiki",
+      "complex"
+    ]
   },
   {
     "id": "rec-pisco-sour",
@@ -297,7 +392,12 @@
     "descriptionEn": "Peruvian pisco, lime and a velvety egg-white foam — the South American answer to the Whiskey Sour.",
     "storyNoteZh": "1920 年代秘鲁 Lima Morris' Bar 调酒师 Victor Morris 改良，秘鲁国饮。",
     "storyNoteEn": "Refined in 1920s Lima by Victor Morris; declared Peru's national cocktail.",
-    "balanceTags": ["sour", "foamy", "grape", "national"]
+    "balanceTags": [
+      "sour",
+      "foamy",
+      "grape",
+      "national"
+    ]
   },
   {
     "id": "rec-bloody-mary",
@@ -312,7 +412,12 @@
     "descriptionEn": "Vodka, tomato juice and Worcestershire in the umami-rich brunch staple.",
     "storyNoteZh": "1920 年代巴黎 Harry's New York Bar 调酒师 Fernand Petiot 创作，1934 年带到纽约。",
     "storyNoteEn": "Created in 1920s Paris by Fernand Petiot at Harry's New York Bar, brought to NYC in 1934.",
-    "balanceTags": ["savory", "spicy", "umami", "brunch"]
+    "balanceTags": [
+      "savory",
+      "spicy",
+      "umami",
+      "brunch"
+    ]
   },
   {
     "id": "rec-french-75",
@@ -327,7 +432,12 @@
     "descriptionEn": "Gin, lemon and Champagne in the light, sharp drink named after a WWI field gun.",
     "storyNoteZh": "1915 年巴黎 Harry's New York Bar 首现，名字取自 75mm 大炮的强劲后坐力。",
     "storyNoteEn": "First recorded at Harry's New York Bar in Paris in 1915; named for the kick of the 75mm field gun.",
-    "balanceTags": ["sparkling", "citrus", "elegant", "classic"]
+    "balanceTags": [
+      "sparkling",
+      "citrus",
+      "elegant",
+      "classic"
+    ]
   },
   {
     "id": "rec-tom-collins",
@@ -342,7 +452,12 @@
     "descriptionEn": "Gin, lemon and soda in the tall, refreshing version of the Gin Fizz.",
     "storyNoteZh": "1876 年由纽约调酒师 John Collins 首创，名字随 1874 年 'Tom Collins Hoax' 流行而走红。",
     "storyNoteEn": "Created in 1876 by New York bartender John Collins; 'Tom' became the popular name after a 1874 hoax.",
-    "balanceTags": ["refreshing", "citrus", "highball", "easy"]
+    "balanceTags": [
+      "refreshing",
+      "citrus",
+      "highball",
+      "easy"
+    ]
   },
   {
     "id": "rec-gin-tonic",
@@ -357,7 +472,12 @@
     "descriptionEn": "Gin and tonic — the elegant colonial descendant of a British anti-malaria quinine mix.",
     "storyNoteZh": "19 世纪英国驻印度军队把奎宁水与金酒混饮以缓解疟疾，G&T 自此诞生。",
     "storyNoteEn": "British troops in 19th-century India mixed quinine tonic with gin to take their medicine; the G&T was born.",
-    "balanceTags": ["refreshing", "bitter", "highball", "easy"]
+    "balanceTags": [
+      "refreshing",
+      "bitter",
+      "highball",
+      "easy"
+    ]
   },
   {
     "id": "rec-bramble",
@@ -372,7 +492,12 @@
     "descriptionEn": "Gin, lemon and crushed ice, finished with a generous pour of Crème de Mûre.",
     "storyNoteZh": "1984 年伦敦市中心 Townhouse 酒吧的 Dick Bradsell 创作。",
     "storyNoteEn": "Concocted in 1984 by Dick Bradsell at the Townhouse bar in central London.",
-    "balanceTags": ["fruity", "refreshing", "modern-classic", "berry"]
+    "balanceTags": [
+      "fruity",
+      "refreshing",
+      "modern-classic",
+      "berry"
+    ]
   },
   {
     "id": "rec-dark-n-stormy",
@@ -387,7 +512,12 @@
     "descriptionEn": "Dark rum floating on ginger beer — Bermuda's Gosling family trademark.",
     "storyNoteZh": "百慕大 Gosling's 家族品牌，配方为商业机密，只在百慕大用 Gosling's 商标。",
     "storyNoteEn": "Trademarked by the Gosling family of Bermuda; the recipe is a family secret.",
-    "balanceTags": ["refreshing", "spicy", "highball", "easy"]
+    "balanceTags": [
+      "refreshing",
+      "spicy",
+      "highball",
+      "easy"
+    ]
   },
   {
     "id": "rec-espresso-martini",
@@ -402,7 +532,12 @@
     "descriptionEn": "Vodka, fresh espresso and coffee liqueur, shaken to a thick crema on top.",
     "storyNoteZh": "1983 年伦敦 Soho 区 Fred's Club 调酒师 Dick Bradsell 应一位年轻超模要求「给我一杯能叫醒我的酒」而创作。",
     "storyNoteEn": "Created in 1983 by Dick Bradsell at Fred's Club in Soho, London, for a young model who asked for a drink 'to wake me up'.",
-    "balanceTags": ["coffee", "bitter", "rich", "modern-classic"]
+    "balanceTags": [
+      "coffee",
+      "bitter",
+      "rich",
+      "modern-classic"
+    ]
   },
   {
     "id": "rec-paloma",
@@ -417,7 +552,12 @@
     "descriptionEn": "Tequila and grapefruit soda in the refreshing highball that's Mexico's most-ordered cocktail.",
     "storyNoteZh": "传说 1930-50 年代墨西哥 Don Javier Delgado Corona 在 La Capilla 酒吧创作。",
     "storyNoteEn": "Popularly credited to Don Javier Delgado Corona at La Capilla in Mexico, mid-20th century.",
-    "balanceTags": ["refreshing", "bitter", "highball", "easy"]
+    "balanceTags": [
+      "refreshing",
+      "bitter",
+      "highball",
+      "easy"
+    ]
   },
   {
     "id": "rec-amaretto-sour",
@@ -432,7 +572,12 @@
     "descriptionEn": "Amaretto, lemon and egg white, in the modern version popularised by Jeffrey Morgenthaler.",
     "storyNoteZh": "原始版本 1970 年代流行，2012 年 Jeffrey Morgenthaler 加入波本与蛋清使其脱胎换骨。",
     "storyNoteEn": "Popular in the 1970s; Morgenthaler reworked it with bourbon and egg white in 2012.",
-    "balanceTags": ["sour", "nutty", "foamy", "modern-classic"]
+    "balanceTags": [
+      "sour",
+      "nutty",
+      "foamy",
+      "modern-classic"
+    ]
   },
   {
     "id": "rec-rusty-nail",
@@ -447,7 +592,12 @@
     "descriptionEn": "Scotch and Drambuie — honey and malt in the simplest warm stirred drink.",
     "storyNoteZh": "1960 年代纽约 21 Club 调酒师首创，名字据说得自客人的领带颜色。",
     "storyNoteEn": "Created at Manhattan's 21 Club in the 1960s; the name allegedly came from a regular's tie.",
-    "balanceTags": ["spirit-forward", "honey", "malty", "easy"]
+    "balanceTags": [
+      "spirit-forward",
+      "honey",
+      "malty",
+      "easy"
+    ]
   },
   {
     "id": "rec-aviation",
@@ -462,7 +612,12 @@
     "descriptionEn": "Gin, maraschino, crème de violette and lemon — the sky-blue floral classic.",
     "storyNoteZh": "1916 年 Hugo Ensslin《Recipes for Mixed Drinks》首载，禁酒令后几乎失传，Creme de Violette 2007 年回归后复兴。",
     "storyNoteEn": "First published in Hugo Ensslin's 1916 Recipes for Mixed Drinks; revived in 2007 when Crème de Violette returned to the US market.",
-    "balanceTags": ["floral", "sour", "classic", "balanced"]
+    "balanceTags": [
+      "floral",
+      "sour",
+      "classic",
+      "balanced"
+    ]
   },
   {
     "id": "rec-corpsereviver2",
@@ -477,7 +632,12 @@
     "descriptionEn": "Equal parts gin, Lillet Blanc, Cointreau and lemon with an absinthe rinse — the hair-of-the-dog classic.",
     "storyNoteZh": "1930 年 Harry Craddock《Savoy Cocktail Book》收录，号称「能唤醒死人」。",
     "storyNoteEn": "Recorded in Harry Craddock's 1930 Savoy Cocktail Book as a 'corpse reviver that will revive the dead'.",
-    "balanceTags": ["sour", "herbal", "complex", "balanced"]
+    "balanceTags": [
+      "sour",
+      "herbal",
+      "complex",
+      "balanced"
+    ]
   },
   {
     "id": "rec-hemingway-daiquiri",
@@ -492,7 +652,12 @@
     "descriptionEn": "White rum, grapefruit and maraschino — the sugar-free Daiquiri also known as Papa Doble.",
     "storyNoteZh": "1930 年代古巴 El Floridita 调酒师 Constante 为嗜甜的 Hemingway 改良。",
     "storyNoteEn": "Devised in 1930s Havana at El Floridita by bartender Constantino Ribalaigua Vert for Hemingway's sweet tooth.",
-    "balanceTags": ["sour", "bitter", "tart", "classic"]
+    "balanceTags": [
+      "sour",
+      "bitter",
+      "tart",
+      "classic"
+    ]
   },
   {
     "id": "rec-jack-rose",
@@ -507,7 +672,12 @@
     "descriptionEn": "Applejack, lemon and grenadine in the pink pre-prohibition American classic.",
     "storyNoteZh": "20 世纪初新泽西州起源，'Jack Rose' 名字据说得自 New Jersey 苹果花 Rosa rugosa 的颜色。",
     "storyNoteEn": "Originated in early 20th-century New Jersey; the name is said to come from the colour of the Rosa rugosa apple blossom.",
-    "balanceTags": ["sour", "fruity", "balanced", "classic"]
+    "balanceTags": [
+      "sour",
+      "fruity",
+      "balanced",
+      "classic"
+    ]
   },
   {
     "id": "rec-bees-knees",
@@ -522,7 +692,12 @@
     "descriptionEn": "Gin, honey syrup and lemon — the Prohibition-era classic that used honey to mask bad bootleg gin.",
     "storyNoteZh": "1920-30 年代纽约与巴黎流行，'bee's knees' 是当时俚语，意为 'the best'。",
     "storyNoteEn": "Popular in 1920s-30s New York and Paris; 'bee's knees' was 1920s slang for 'the best'.",
-    "balanceTags": ["sour", "honey", "classic", "floral"]
+    "balanceTags": [
+      "sour",
+      "honey",
+      "classic",
+      "floral"
+    ]
   },
   {
     "id": "rec-pimms-cup",
@@ -537,7 +712,12 @@
     "descriptionEn": "Pimm's No.1, lemonade, cucumber and mint — the quintessential English summer long drink.",
     "storyNoteZh": "1823 年伦敦 oyster bar 老板 James Pimm 发明，Wimbledon 与 Henley Regatta 的标志饮品。",
     "storyNoteEn": "Created in 1823 by James Pimm at his London oyster bar; a fixture at Wimbledon and Henley Regatta.",
-    "balanceTags": ["refreshing", "fruity", "low-abv", "summer"]
+    "balanceTags": [
+      "refreshing",
+      "fruity",
+      "low-abv",
+      "summer"
+    ]
   },
   {
     "id": "rec-southside",
@@ -552,7 +732,12 @@
     "descriptionEn": "Gin, lime, mint and simple syrup — the still version of the Southside Fizz.",
     "storyNoteZh": "1920 年代芝加哥 South Side 区 21 Club 起源，传说 Al Capone 帮派据点。",
     "storyNoteEn": "Originated in 1920s Chicago, possibly at the 21 Club on the city's South Side, near Al Capone's territory.",
-    "balanceTags": ["sour", "refreshing", "herbal", "classic"]
+    "balanceTags": [
+      "sour",
+      "refreshing",
+      "herbal",
+      "classic"
+    ]
   },
   {
     "id": "rec-zombie",
@@ -567,7 +752,12 @@
     "descriptionEn": "Three rums, falernum and Donn's Mix — Donn Beach's legendary tiki giant.",
     "storyNoteZh": "1934 年好莱坞 Don the Beachcomber 餐厅 Donn Beach 创作，配方至今部分保密。",
     "storyNoteEn": "Created in 1934 by Donn Beach at his Hollywood Don the Beachcomber restaurant; parts of the recipe remain secret.",
-    "balanceTags": ["tropical", "complex", "strong", "tiki"]
+    "balanceTags": [
+      "tropical",
+      "complex",
+      "strong",
+      "tiki"
+    ]
   },
   {
     "id": "rec-hurricane",
@@ -582,7 +772,12 @@
     "descriptionEn": "Light and dark rum with passion fruit, orange and grenadine in a New Orleans tiki classic.",
     "storyNoteZh": "1940 年代 Pat O'Brien 酒吧调酒师发明，因为卖不掉的朗姆需要消化而调配。",
     "storyNoteEn": "Concocted in 1940s at Pat O'Brien's bar to clear a surplus of rum; served in hurricane-lamp-shaped glasses.",
-    "balanceTags": ["tropical", "fruity", "tiki", "long-drink"]
+    "balanceTags": [
+      "tropical",
+      "fruity",
+      "tiki",
+      "long-drink"
+    ]
   },
   {
     "id": "rec-vieux-mot",
@@ -597,7 +792,12 @@
     "descriptionEn": "Cognac, Green Chartreuse, Maraschino and lemon — the signature Death & Co. cocktail.",
     "storyNoteZh": "2007 年纽约 Death & Co 调酒师 Eben Freeman 创作，受法国 Last Word 启发改用干邑。",
     "storyNoteEn": "Concocted in 2007 by Eben Freeman at Death & Co. in New York, a French cognac twist on the Last Word.",
-    "balanceTags": ["herbal", "floral", "complex", "modern-classic"]
+    "balanceTags": [
+      "herbal",
+      "floral",
+      "complex",
+      "modern-classic"
+    ]
   },
   {
     "id": "rec-tuxedo",
@@ -612,7 +812,12 @@
     "descriptionEn": "Gin, dry vermouth, maraschino and an absinthe rinse — the 19th-century gentleman's cocktail.",
     "storyNoteZh": "1882 年 Harry Johnson《New and Improved Bartender's Manual》首次记录。",
     "storyNoteEn": "First published in Harry Johnson's 1882 New and Improved Bartender's Manual.",
-    "balanceTags": ["spirit-forward", "herbal", "classic", "elegant"]
+    "balanceTags": [
+      "spirit-forward",
+      "herbal",
+      "classic",
+      "elegant"
+    ]
   },
   {
     "id": "rec-improved-whiskey",
@@ -627,7 +832,12 @@
     "descriptionEn": "Rye, sweet vermouth, maraschino and bitters — the 19th-century upgrade of the Old Fashioned.",
     "storyNoteZh": "Jerry Thomas 1876 年《Bon Vivant's Companion》收录，是 Old Fashioned 的加料版本。",
     "storyNoteEn": "Recorded in Jerry Thomas's 1876 Bon Vivant's Companion as a richer take on the Whiskey Cocktail.",
-    "balanceTags": ["spirit-forward", "herbal", "rich", "classic"]
+    "balanceTags": [
+      "spirit-forward",
+      "herbal",
+      "rich",
+      "classic"
+    ]
   },
   {
     "id": "rec-hanky-panky",
@@ -642,7 +852,12 @@
     "descriptionEn": "Gin, sweet vermouth and Fernet-Branca — the bitter London-Italian stirred classic.",
     "storyNoteZh": "1903 年伦敦 Savoy Hotel 调酒师 Harry Craddock 为演员 Charles Hawtrey 创作。",
     "storyNoteEn": "Created in 1903 by Harry Craddock at the Savoy Hotel in London for actor Charles Hawtrey.",
-    "balanceTags": ["bitter", "herbal", "spirit-forward", "classic"]
+    "balanceTags": [
+      "bitter",
+      "herbal",
+      "spirit-forward",
+      "classic"
+    ]
   },
   {
     "id": "rec-brooklyn",
@@ -657,7 +872,12 @@
     "descriptionEn": "Rye, dry vermouth, maraschino and a touch of amaro — the Manhattan variant that almost disappeared.",
     "storyNoteZh": "1908 年《Recipes for Mixed Drinks》作者 Jack Grohusko 创作，因 Amer Picon 难买而几近失传。",
     "storyNoteEn": "Created around 1908 by Jack Grohusko; it nearly vanished because the key ingredient, Amer Picon, was hard to find in the US.",
-    "balanceTags": ["spirit-forward", "herbal", "dry", "classic"]
+    "balanceTags": [
+      "spirit-forward",
+      "herbal",
+      "dry",
+      "classic"
+    ]
   },
   {
     "id": "rec-martinez",
@@ -672,7 +892,12 @@
     "descriptionEn": "Gin, sweet vermouth, maraschino and orange bitters — the direct ancestor of the Dry Martini.",
     "storyNoteZh": "1884 年加州奥克兰 bartender Jerry Thomas 创制，被认为是 Martini 的直接前身。",
     "storyNoteEn": "First attributed to Jerry Thomas in 1884 Oakland; considered the Martini's direct ancestor.",
-    "balanceTags": ["spirit-forward", "herbal", "rich", "classic"]
+    "balanceTags": [
+      "spirit-forward",
+      "herbal",
+      "rich",
+      "classic"
+    ]
   },
   {
     "id": "rec-champagne-cocktail",
@@ -687,7 +912,12 @@
     "descriptionEn": "Sugar cube, bitters and Champagne — the simplest elegant sparkling classic.",
     "storyNoteZh": "1862 年 Jerry Thomas《Bartender's Guide》最早记录，最古老的起泡鸡尾酒之一。",
     "storyNoteEn": "First recorded in Jerry Thomas's 1862 Bartender's Guide, one of the oldest sparkling cocktails.",
-    "balanceTags": ["sparkling", "elegant", "bitter", "easy"]
+    "balanceTags": [
+      "sparkling",
+      "elegant",
+      "bitter",
+      "easy"
+    ]
   },
   {
     "id": "rec-between-sheets",
@@ -702,7 +932,12 @@
     "descriptionEn": "Equal parts cognac, white rum and Cointreau with lemon — the inebriating cousin of the Sidecar.",
     "storyNoteZh": "1930 年代巴黎 Harry's New York Bar 调酒师 Harry MacElhone 创作。",
     "storyNoteEn": "Concocted in 1930s Paris by Harry MacElhone at Harry's New York Bar.",
-    "balanceTags": ["spirit-forward", "citrus", "elegant", "strong"]
+    "balanceTags": [
+      "spirit-forward",
+      "citrus",
+      "elegant",
+      "strong"
+    ]
   },
   {
     "id": "rec-sazerac",
@@ -717,7 +952,12 @@
     "descriptionEn": "Rye, sugar, Peychaud's bitters and an absinthe rinse — New Orleans' official cocktail.",
     "storyNoteZh": "1838 年新奥尔良 Sazerac Coffee House 药剂师 Antoine Peychaud 发明，2008 年被路易斯安那州定为官方鸡尾酒。",
     "storyNoteEn": "Concocted in 1838 by Antoine Peychaud at the Sazerac Coffee House in New Orleans; named the official cocktail of Louisiana in 2008.",
-    "balanceTags": ["spirit-forward", "herbal", "anise", "historic"]
+    "balanceTags": [
+      "spirit-forward",
+      "herbal",
+      "anise",
+      "historic"
+    ]
   },
   {
     "id": "rec-sidecar",
@@ -732,7 +972,12 @@
     "descriptionEn": "Cognac, Cointreau and lemon — the elegant 1920s Parisian classic, often with a sugar rim.",
     "storyNoteZh": "一战时期巴黎 Ritz 调酒师首创，因常被一位常坐摩托车边车的军官点单而得名。",
     "storyNoteEn": "Created in WWI Paris at the Ritz; named after a regular who arrived by motorcycle sidecar.",
-    "balanceTags": ["sour", "elegant", "citrus", "classic"]
+    "balanceTags": [
+      "sour",
+      "elegant",
+      "citrus",
+      "classic"
+    ]
   },
   {
     "id": "rec-white-lady",
@@ -747,7 +992,12 @@
     "descriptionEn": "Gin, Cointreau, lemon and egg white — the silky 1920s Paris/Savoy classic.",
     "storyNoteZh": "1919 年伦敦或巴黎首创，1930 年 Harry Craddock 收录在 Savoy Cocktail Book 中。",
     "storyNoteEn": "Created in 1919, popularised by Harry Craddock in his 1930 Savoy Cocktail Book.",
-    "balanceTags": ["sour", "foamy", "citrus", "classic"]
+    "balanceTags": [
+      "sour",
+      "foamy",
+      "citrus",
+      "classic"
+    ]
   },
   {
     "id": "rec-jungle-bird",
@@ -762,7 +1012,12 @@
     "descriptionEn": "Blackstrap rum, Campari, pineapple and lime — the modern tiki classic with a bitter edge.",
     "storyNoteZh": "1978 年马来西亚吉隆坡 Hilton 酒店 Aviary Bar 调酒师发明。",
     "storyNoteEn": "Created in 1978 at the Aviary Bar of the Hilton in Kuala Lumpur, Malaysia.",
-    "balanceTags": ["bitter", "tropical", "modern-classic", "tiki"]
+    "balanceTags": [
+      "bitter",
+      "tropical",
+      "modern-classic",
+      "tiki"
+    ]
   },
   {
     "id": "rec-naked-famous",
@@ -777,7 +1032,12 @@
     "descriptionEn": "Equal parts mezcal, Yellow Chartreuse, Aperol and lime — smoke and floral in tight harmony.",
     "storyNoteZh": "2011 年纽约 Death & Co 调酒师 Joaquín Simó 创作，是 Last Word 的烟熏后裔。",
     "storyNoteEn": "Created in 2011 by Joaquín Simó at Death & Co. in New York, a smoky descendant of the Last Word.",
-    "balanceTags": ["smoky", "herbal", "balanced", "modern-classic"]
+    "balanceTags": [
+      "smoky",
+      "herbal",
+      "balanced",
+      "modern-classic"
+    ]
   },
   {
     "id": "rec-division-bell",
@@ -792,7 +1052,12 @@
     "descriptionEn": "Mezcal, Aperol, maraschino and lime — the smoky New York cocktail named after a Pink Floyd album.",
     "storyNoteZh": "2009 年纽约 Death & Co 调酒师 Phil Ward 创作，名字取自 Pink Floyd《The Division Bell》。",
     "storyNoteEn": "Created in 2009 by Phil Ward at Death & Co. in New York, named after a Pink Floyd album.",
-    "balanceTags": ["smoky", "bitter", "complex", "modern-classic"]
+    "balanceTags": [
+      "smoky",
+      "bitter",
+      "complex",
+      "modern-classic"
+    ]
   },
   {
     "id": "rec-corn-n-oil",
@@ -807,7 +1072,12 @@
     "descriptionEn": "Blackstrap rum, falernum, lime and Angostura — the classic Caribbean short drink.",
     "storyNoteZh": "19 世纪加勒比海盗与水手间的酒，起源模糊但与 Falernum 起源地巴巴多斯密切相关。",
     "storyNoteEn": "A 19th-century Caribbean sailor's drink, closely linked to falernum's birthplace of Barbados.",
-    "balanceTags": ["spirit-forward", "spicy", "herbal", "tiki"]
+    "balanceTags": [
+      "spirit-forward",
+      "spicy",
+      "herbal",
+      "tiki"
+    ]
   },
   {
     "id": "rec-suffering-bastard",
@@ -822,7 +1092,12 @@
     "descriptionEn": "Bourbon, gin, lime and ginger beer — the WWII North Africa bar classic.",
     "storyNoteZh": "1942 年开罗 Shepheard's Hotel 调酒师 Joe Scialom 为驻北非的英美士兵创作。",
     "storyNoteEn": "Created in 1942 by Joe Scialom at Cairo's Shepheard's Hotel for Allied troops in WWII North Africa.",
-    "balanceTags": ["refreshing", "spicy", "highball", "historic"]
+    "balanceTags": [
+      "refreshing",
+      "spicy",
+      "highball",
+      "historic"
+    ]
   },
   {
     "id": "rec-charlie-chaplin",
@@ -837,7 +1112,12 @@
     "descriptionEn": "Sloe gin, apricot brandy and lime — the 1920s Chaplin-era sour.",
     "storyNoteZh": "1920 年代以喜剧大师 Charlie Chaplin 命名的纽约 Waldorf-Astoria 鸡尾酒。",
     "storyNoteEn": "A 1920s New York cocktail named after Charlie Chaplin, popular at the Waldorf-Astoria.",
-    "balanceTags": ["sour", "fruity", "balanced", "classic"]
+    "balanceTags": [
+      "sour",
+      "fruity",
+      "balanced",
+      "classic"
+    ]
   },
   {
     "id": "rec-el-presidente",
@@ -852,7 +1132,12 @@
     "descriptionEn": "White rum, dry vermouth, grenadine and orange bitters — the Prohibition-era Cuban classic.",
     "storyNoteZh": "1919-1933 年古巴哈瓦那由 Eddie Woelke 为 Gerardo Machado 总统调酒师发明。",
     "storyNoteEn": "Concocted in Havana 1919-33 by Eddie Woelke for Cuban President Gerardo Machado.",
-    "balanceTags": ["spirit-forward", "fruity", "balanced", "classic"]
+    "balanceTags": [
+      "spirit-forward",
+      "fruity",
+      "balanced",
+      "classic"
+    ]
   },
   {
     "id": "rec-ramos-gin-fizz",
@@ -867,7 +1152,12 @@
     "descriptionEn": "Gin, cream, egg white, orange flower water and soda — the ultimate New Orleans fizz.",
     "storyNoteZh": "1888 年新奥尔良 Imperial Cabinet Saloon 调酒师 Henry Ramos 发明；Ramos 时代单杯要摇 12 分钟。",
     "storyNoteEn": "Created in 1888 by Henry Ramos at the Imperial Cabinet Saloon in New Orleans; Ramos's original recipe required 12 minutes of shaking per drink.",
-    "balanceTags": ["foamy", "creamy", "elegant", "showpiece"]
+    "balanceTags": [
+      "foamy",
+      "creamy",
+      "elegant",
+      "showpiece"
+    ]
   },
   {
     "id": "rec-blood-and-sand",
@@ -882,7 +1172,12 @@
     "descriptionEn": "Equal parts scotch, sweet vermouth, Cherry Heering and orange juice — the 1920s film-title classic.",
     "storyNoteZh": "1922 年同名斗牛士电影首演后由 Harry Craddock 收录于 1930 年《Savoy Cocktail Book》。",
     "storyNoteEn": "Published by Harry Craddock in 1930 Savoy Cocktail Book, named after the 1922 Rudolph Valentino bullfighter film.",
-    "balanceTags": ["spirit-forward", "fruity", "complex", "classic"]
+    "balanceTags": [
+      "spirit-forward",
+      "fruity",
+      "complex",
+      "classic"
+    ]
   },
   {
     "id": "rec-rum-coke",
@@ -897,7 +1192,12 @@
     "descriptionEn": "White rum, cola and lime — the simplest Cuba Libre.",
     "storyNoteZh": "1900 年古巴独立后由美国驻哈瓦那记者以 'Cuba Libre' 命名，朗姆可乐加上青柠。",
     "storyNoteEn": "Named 'Cuba Libre' by an American journalist in Havana in 1900 after Cuban independence, with a lime added.",
-    "balanceTags": ["refreshing", "easy", "highball", "sweet"]
+    "balanceTags": [
+      "refreshing",
+      "easy",
+      "highball",
+      "sweet"
+    ]
   },
   {
     "id": "rec-gimlet",
@@ -912,7 +1212,12 @@
     "descriptionEn": "Gin and lime in the simplest sour, the modern descendant of the Royal Navy's anti-scurvy cordial.",
     "storyNoteZh": "19 世纪英国皇家海军外科医生 Thomas Gimlette 把柠檬汁混入金酒中给水兵喝。",
     "storyNoteEn": "Created by Royal Navy surgeon Thomas Gimlette in the 19th century to make his sailors' daily lime ration drinkable.",
-    "balanceTags": ["sour", "refreshing", "classic", "simple"]
+    "balanceTags": [
+      "sour",
+      "refreshing",
+      "classic",
+      "simple"
+    ]
   },
   {
     "id": "rec-rum-old-fashioned",
@@ -927,6 +1232,1611 @@
     "descriptionEn": "Aged dark rum, sugar and bitters — the Caribbean's riff on the Old Fashioned.",
     "storyNoteZh": "现代调酒师对 Old Fashioned 模板的常见延伸，使用陈年朗姆取代威士忌。",
     "storyNoteEn": "A modern bartender's riff on the Old Fashioned, swapping bourbon for aged rum.",
-    "balanceTags": ["spirit-forward", "rich", "caribbean", "oak"]
+    "balanceTags": [
+      "spirit-forward",
+      "rich",
+      "caribbean",
+      "oak"
+    ]
+  },
+  {
+    "id": "rec-martini-50-50",
+    "slug": "martini-50-50",
+    "nameZh": "50/50 马天尼",
+    "nameEn": "50/50 Martini",
+    "type": "CLASSIC",
+    "difficulty": 2,
+    "glassType": "coupe",
+    "iceType": "none",
+    "descriptionZh": "金酒与干味美思 1:1 的复古马天尼版本，比现代干马天尼口感更饱满。",
+    "descriptionEn": "A vintage Martini with gin and dry vermouth at 1:1 — fuller-bodied than the modern dry version.",
+    "storyNoteZh": "20 世纪前半叶伦敦干马天尼流行之前，1:1 是马天尼的标准比例，代表作之一。",
+    "storyNoteEn": "Before the 20th-century shift to dry Martinis, 1:1 was the standard ratio.",
+    "balanceTags": [
+      "spirit-forward",
+      "botanical",
+      "classic",
+      "balanced"
+    ]
+  },
+  {
+    "id": "rec-vesper",
+    "slug": "vesper",
+    "nameZh": "维斯帕",
+    "nameEn": "Vesper",
+    "type": "CLASSIC",
+    "difficulty": 2,
+    "glassType": "coupe",
+    "iceType": "none",
+    "descriptionZh": "金酒、伏特加与 Lillet 的詹姆斯·邦德配方，名字取自 007 中的 Vesper Lynd。",
+    "descriptionEn": "Gin, vodka and Lillet Blanc — the James Bond original named after Vesper Lynd.",
+    "storyNoteZh": "1953 年 Ian Fleming 小说《Casino Royale》中首次出现，是 Bond 唯一自创的鸡尾酒。",
+    "storyNoteEn": "First published in Ian Fleming's 1953 novel Casino Royale — the only cocktail Bond ever invented.",
+    "balanceTags": [
+      "spirit-forward",
+      "strong",
+      "elegant",
+      "classic"
+    ]
+  },
+  {
+    "id": "rec-gibson",
+    "slug": "gibson",
+    "nameZh": "吉布森",
+    "nameEn": "Gibson",
+    "type": "CLASSIC",
+    "difficulty": 2,
+    "glassType": "coupe",
+    "iceType": "none",
+    "descriptionZh": "干马天尼的亲戚，用腌洋葱代替橄榄或柠檬皮装饰。",
+    "descriptionEn": "The dry Martini's pickled-onion cousin, distinguished by its briny garnish.",
+    "storyNoteZh": "19 世纪末旧金山传说由 Walter D. Klinker 发明，但真正流行于 20 世纪初的纽约。",
+    "storyNoteEn": "Said to have been invented by Walter D. Klinker in late-19th-century San Francisco, popularised in early 1900s New York.",
+    "balanceTags": [
+      "spirit-forward",
+      "dry",
+      "savory",
+      "classic"
+    ]
+  },
+  {
+    "id": "rec-perfect-manhattan",
+    "slug": "perfect-manhattan",
+    "nameZh": "完美曼哈顿",
+    "nameEn": "Perfect Manhattan",
+    "type": "CLASSIC",
+    "difficulty": 2,
+    "glassType": "coupe",
+    "iceType": "none",
+    "descriptionZh": "等比甜味与干味美思的曼哈顿变奏，比标准版更显复杂。",
+    "descriptionEn": "The Manhattan split evenly between sweet and dry vermouth for a more layered spirit-forward drink.",
+    "storyNoteZh": "19 世纪末曼哈顿调酒师为追求「完美」平衡的客人改良。",
+    "storyNoteEn": "A late-19th-century bartending refinement that uses equal sweet and dry vermouth for a more balanced stirred drink.",
+    "balanceTags": [
+      "spirit-forward",
+      "herbal",
+      "rich",
+      "classic"
+    ]
+  },
+  {
+    "id": "rec-dry-manhattan",
+    "slug": "dry-manhattan",
+    "nameZh": "干曼哈顿",
+    "nameEn": "Dry Manhattan",
+    "type": "CLASSIC",
+    "difficulty": 2,
+    "glassType": "coupe",
+    "iceType": "none",
+    "descriptionZh": "用干味美思取代甜味美思的曼哈顿，更干更草本。",
+    "descriptionEn": "The Manhattan with dry vermouth in place of sweet — drier, more herbal and bone-dry on the finish.",
+    "storyNoteZh": "20 世纪初随干马天尼潮流而生的曼哈顿分支版本。",
+    "storyNoteEn": "A 20th-century offshoot of the Manhattan that followed the dry-vermouth wave from the Martini.",
+    "balanceTags": [
+      "spirit-forward",
+      "dry",
+      "herbal",
+      "classic"
+    ]
+  },
+  {
+    "id": "rec-rob-roy",
+    "slug": "rob-roy",
+    "nameZh": "罗布罗伊",
+    "nameEn": "Rob Roy",
+    "type": "CLASSIC",
+    "difficulty": 2,
+    "glassType": "coupe",
+    "iceType": "none",
+    "descriptionZh": "用苏格兰威士忌代替黑麦的曼哈顿版本，1890 年代纽约 Waldorf-Astoria 起源。",
+    "descriptionEn": "The Manhattan made with Scotch instead of rye, born in 1890s New York at the Waldorf-Astoria.",
+    "storyNoteZh": "1894 年纽约 Waldorf-Astoria 酒店为同名苏格兰歌剧《Rob Roy》首演而创作。",
+    "storyNoteEn": "Created in 1894 at the Waldorf-Astoria to mark the premiere of an opera about the Scottish folk hero Rob Roy.",
+    "balanceTags": [
+      "spirit-forward",
+      "smoky",
+      "rich",
+      "classic"
+    ]
+  },
+  {
+    "id": "rec-negroni-sbagliato",
+    "slug": "negroni-sbagliato",
+    "nameZh": "错版尼格罗尼",
+    "nameEn": "Negroni Sbagliato",
+    "type": "CLASSIC",
+    "difficulty": 2,
+    "glassType": "rocks",
+    "iceType": "large",
+    "descriptionZh": "用普罗赛克取代金酒的「错版」尼格罗尼，气泡轻盈版本。",
+    "descriptionEn": "The 'mistaken' Negroni with Prosecco in place of gin — a lighter, sparkling variation.",
+    "storyNoteZh": "1970 年代米兰 Bar Basso 调酒师 Mirko Stocchetto 本想加金酒却错拿了普罗赛克，从此成为新经典。",
+    "storyNoteEn": "Born in 1970s Milan when Mirko Stocchetto at Bar Basso grabbed Prosecco instead of gin; the 'mistake' became a new classic.",
+    "balanceTags": [
+      "bitter",
+      "sparkling",
+      "italian",
+      "modern-classic"
+    ]
+  },
+  {
+    "id": "rec-remember-the-maine",
+    "slug": "remember-the-maine",
+    "nameZh": "缅因号",
+    "nameEn": "Remember the Maine",
+    "type": "CLASSIC",
+    "difficulty": 3,
+    "glassType": "coupe",
+    "iceType": "none",
+    "descriptionZh": "黑麦、甜味美思、樱桃希林与苦艾酒点缀的曼哈顿变奏。",
+    "descriptionEn": "A Manhattan variant that adds Cherry Heering and a hint of absinthe for spice and depth.",
+    "storyNoteZh": "Charles H. Baker 在 1939 年《The Gentleman's Companion》中记录此酒，名字取自 1898 年美军缅因号战舰爆炸事件。",
+    "storyNoteEn": "Recorded by Charles H. Baker in his 1939 The Gentleman's Companion; named after the USS Maine explosion of 1898.",
+    "balanceTags": [
+      "spirit-forward",
+      "rich",
+      "anise",
+      "classic"
+    ]
+  },
+  {
+    "id": "rec-old-pal",
+    "slug": "old-pal",
+    "nameZh": "老友",
+    "nameEn": "Old Pal",
+    "type": "CLASSIC",
+    "difficulty": 2,
+    "glassType": "coupe",
+    "iceType": "none",
+    "descriptionZh": "等比黑麦、干味美思与金巴利的苦甜平衡版本，比 Negroni 更干。",
+    "descriptionEn": "Equal parts rye, dry vermouth and Campari — the drier, bone-bright cousin of the Negroni.",
+    "storyNoteZh": "1920 年代纽约名利场编辑 Sewall Collins 创作的曼哈顿/Negroni 杂交体。",
+    "storyNoteEn": "Created in 1920s New York by Vanity Fair editor Sewall Collins, a Negroni-Manhattan hybrid.",
+    "balanceTags": [
+      "bitter",
+      "dry",
+      "spirit-forward",
+      "classic"
+    ]
+  },
+  {
+    "id": "rec-algonquin",
+    "slug": "algonquin",
+    "nameZh": "阿尔冈昆",
+    "nameEn": "Algonquin",
+    "type": "CLASSIC",
+    "difficulty": 2,
+    "glassType": "coupe",
+    "iceType": "none",
+    "descriptionZh": "等比黑麦、干味美思与菠萝汁，曼哈顿的高球清爽版。",
+    "descriptionEn": "Equal parts rye, dry vermouth and pineapple juice — the Manhattan's tropical-light cousin.",
+    "storyNoteZh": "1930 年代纽约 Algonquin Hotel 的著名 Round Table 文学圈常点之酒。",
+    "storyNoteEn": "Popular in the 1930s at New York's Algonquin Hotel, the meeting place of the famous Round Table writers.",
+    "balanceTags": [
+      "spirit-forward",
+      "fruity",
+      "elegant",
+      "classic"
+    ]
+  },
+  {
+    "id": "rec-lucien-gaudin",
+    "slug": "lucien-gaudin",
+    "nameZh": "吕西安·高丹",
+    "nameEn": "Lucien Gaudin",
+    "type": "CLASSIC",
+    "difficulty": 3,
+    "glassType": "coupe",
+    "iceType": "none",
+    "descriptionZh": "金酒、干味美思、金巴利与绿查特的多重苦草本，1910 年代巴黎法国网球冠军命名。",
+    "descriptionEn": "Gin, dry vermouth, Campari and Green Chartreuse — a multi-bitter French classic named for a tennis champion.",
+    "storyNoteZh": "1920 年代巴黎 Harry MacElhone 创作，名字取自 1920 年代法国网球公开赛冠军 Lucien Gaudin。",
+    "storyNoteEn": "Created in 1920s Paris by Harry MacElhone, named after French tennis champion Lucien Gaudin.",
+    "balanceTags": [
+      "bitter",
+      "herbal",
+      "complex",
+      "classic"
+    ]
+  },
+  {
+    "id": "rec-tuxedo-no-2",
+    "slug": "tuxedo-no-2",
+    "nameZh": "燕尾服 2 号",
+    "nameEn": "Tuxedo No. 2",
+    "type": "CLASSIC",
+    "difficulty": 3,
+    "glassType": "coupe",
+    "iceType": "none",
+    "descriptionZh": "金酒、干味美思、马拉斯奇诺、苦艾酒与 Amaro Montenegro 的多层次版燕尾服。",
+    "descriptionEn": "A multi-layered Tuxedo that adds Amaro Montenegro for extra bitter depth.",
+    "storyNoteZh": "1910-30 年代 Harry Craddock 在伦敦 Savoy 对原始 Tuxedo 的扩展版本。",
+    "storyNoteEn": "An early 20th-century extension of the Tuxedo from Harry Craddock's Savoy era.",
+    "balanceTags": [
+      "spirit-forward",
+      "herbal",
+      "bitter",
+      "classic"
+    ]
+  },
+  {
+    "id": "rec-charterhouse",
+    "slug": "charterhouse",
+    "nameZh": "查特豪斯",
+    "nameEn": "Charterhouse",
+    "type": "CLASSIC",
+    "difficulty": 2,
+    "glassType": "coupe",
+    "iceType": "none",
+    "descriptionZh": "金酒与甜味美思的简单苦精调酒，1900 年代伦敦 Charterhouse 起源。",
+    "descriptionEn": "A simple gin-and-sweet-vermouth stirred drink with dual bitters, named for a London Charterhouse bar.",
+    "storyNoteZh": "19 世纪末伦敦 Charterhouse 修道士酒吧常点的开胃酒，1900 年代进入主流鸡尾酒书。",
+    "storyNoteEn": "A pre-1900 London apéritif associated with the Charterhouse; it entered cocktail books at the turn of the 20th century.",
+    "balanceTags": [
+      "spirit-forward",
+      "herbal",
+      "bitter",
+      "classic"
+    ]
+  },
+  {
+    "id": "rec-income-tax",
+    "slug": "income-tax",
+    "nameZh": "所得税",
+    "nameEn": "Income Tax",
+    "type": "CLASSIC",
+    "difficulty": 2,
+    "glassType": "coupe",
+    "iceType": "none",
+    "descriptionZh": "金酒、甜味与干味美思、橙汁与安格斯特拉的「苦涩税务日」鸡尾酒。",
+    "descriptionEn": "Gin, sweet and dry vermouth, orange juice and Angostura — a bitter 1920s aperitif with a tongue-in-cheek name.",
+    "storyNoteZh": "1920 年代禁酒令期间发明，原名「Income Tax Cocktail」，税季时的安慰酒。",
+    "storyNoteEn": "Created in 1920s Prohibition America; the name refers to the bitter taste that reminded drinkers of tax season.",
+    "balanceTags": [
+      "spirit-forward",
+      "bitter",
+      "fruity",
+      "classic"
+    ]
+  },
+  {
+    "id": "rec-green-point",
+    "slug": "green-point",
+    "nameZh": "绿点",
+    "nameEn": "Green Point",
+    "type": "CLASSIC",
+    "difficulty": 2,
+    "glassType": "coupe",
+    "iceType": "none",
+    "descriptionZh": "黑麦、甜味美思与黄查特的曼哈顿加绿版本，纽约绿点区命名。",
+    "descriptionEn": "Rye, sweet vermouth and Yellow Chartreuse — the Manhattan with a herbal, chartreuse-green twist.",
+    "storyNoteZh": "2000 年代纽约 Greenpoint 酒吧 Greenpoint 调酒师 Michael Mas co 创作，是 Manhattan 的现代绿色后裔。",
+    "storyNoteEn": "Created at New York's Greenpoint bar in the 2000s, a green Chartreuse-fortified Manhattan variant.",
+    "balanceTags": [
+      "spirit-forward",
+      "herbal",
+      "rich",
+      "modern-classic"
+    ]
+  },
+  {
+    "id": "rec-clover-club",
+    "slug": "clover-club",
+    "nameZh": "三叶草俱乐部",
+    "nameEn": "Clover Club",
+    "type": "CLASSIC",
+    "difficulty": 3,
+    "glassType": "coupe",
+    "iceType": "none",
+    "descriptionZh": "金酒、覆盆子糖浆、柠檬与蛋清的粉色酸酒，1900 年代费城男士俱乐部起源。",
+    "descriptionEn": "Gin, raspberry, lemon and egg white — the pink pre-Prohibition sour from Philadelphia's Clover Club.",
+    "storyNoteZh": "1900 年代费城 Clover Club 调酒师为男士俱乐部成员创作，2010 年代由 Death & Co 复兴。",
+    "storyNoteEn": "Originated in 1900s Philadelphia at the Clover Club gentlemen's club; revived by Death & Co. in the 2000s.",
+    "balanceTags": [
+      "sour",
+      "fruity",
+      "foamy",
+      "classic"
+    ]
+  },
+  {
+    "id": "rec-army-navy",
+    "slug": "army-navy",
+    "nameZh": "陆军与海军",
+    "nameEn": "Army & Navy",
+    "type": "CLASSIC",
+    "difficulty": 2,
+    "glassType": "coupe",
+    "iceType": "none",
+    "descriptionZh": "金酒、杏仁糖浆与柠檬的清亮酸酒，1910 年代华盛顿陆军海军俱乐部起源。",
+    "descriptionEn": "Gin, orgeat and lemon — a clean almond sour from Washington's Army and Navy Club.",
+    "storyNoteZh": "1910-30 年代华盛顿特区 Army and Navy Club 调酒师发明，原始配方无苦精。",
+    "storyNoteEn": "Created at the Army and Navy Club in Washington D.C. in the early 20th century.",
+    "balanceTags": [
+      "sour",
+      "nutty",
+      "classic",
+      "elegant"
+    ]
+  },
+  {
+    "id": "rec-airmail",
+    "slug": "airmail",
+    "nameZh": "航空邮件",
+    "nameEn": "Airmail",
+    "type": "CLASSIC",
+    "difficulty": 3,
+    "glassType": "coupe",
+    "iceType": "none",
+    "descriptionZh": "陈年朗姆、青柠、蜂蜜糖浆与香槟的 1930 年代气泡鸡尾酒。",
+    "descriptionEn": "Aged rum, lime, honey and Champagne — the 1930s sparkling Cuban letter-to-flyer cocktail.",
+    "storyNoteZh": "1930 年代古巴哈瓦那为纪念 1927 年林白首次跨大西洋航空邮件而创作。",
+    "storyNoteEn": "Created in 1930s Havana to honour the first trans-Atlantic airmail service.",
+    "balanceTags": [
+      "sparkling",
+      "honey",
+      "tropical",
+      "classic"
+    ]
+  },
+  {
+    "id": "rec-boston-sour",
+    "slug": "boston-sour",
+    "nameZh": "波士顿酸",
+    "nameEn": "Boston Sour",
+    "type": "CLASSIC",
+    "difficulty": 3,
+    "glassType": "rocks",
+    "iceType": "large",
+    "descriptionZh": "威士忌酸加蛋白与红葡萄酒浮酒的双层酸酒。",
+    "descriptionEn": "A Whiskey Sour finished with egg white and a red wine float for an extra layer of tannin.",
+    "storyNoteZh": "19 世纪末波士顿调酒师对 Whiskey Sour 的扩版本，加上蛋清与红葡萄酒浮层。",
+    "storyNoteEn": "A late-19th-century Boston variation on the Whiskey Sour that adds egg white and a red wine float.",
+    "balanceTags": [
+      "sour",
+      "foamy",
+      "rich",
+      "classic"
+    ]
+  },
+  {
+    "id": "rec-new-york-sour",
+    "slug": "new-york-sour",
+    "nameZh": "纽约酸",
+    "nameEn": "New York Sour",
+    "type": "CLASSIC",
+    "difficulty": 3,
+    "glassType": "rocks",
+    "iceType": "large",
+    "descriptionZh": "波本威士忌酸加红葡萄酒浮酒的视觉与味觉双层。",
+    "descriptionEn": "A Whiskey Sour with a red wine float — the layered, blush-coloured pre-Prohibition classic.",
+    "storyNoteZh": "19 世纪末至禁酒令前期的美国版本，原创版本传说是波士顿 Sour 的纽约亲戚。",
+    "storyNoteEn": "A pre-Prohibition American cousin of the Whiskey Sour with a red wine float for colour and tannin.",
+    "balanceTags": [
+      "sour",
+      "rich",
+      "foamy",
+      "classic"
+    ]
+  },
+  {
+    "id": "rec-planters-punch",
+    "slug": "planters-punch",
+    "nameZh": "种植园主宾治",
+    "nameEn": "Planter's Punch",
+    "type": "CLASSIC",
+    "difficulty": 3,
+    "glassType": "highball",
+    "iceType": "cubed",
+    "descriptionZh": "黑朗姆、青柠、糖与安格斯特拉的传统加勒比高球。",
+    "descriptionEn": "Dark rum, lime, sugar and Angostura — the Caribbean planter's classic long punch.",
+    "storyNoteZh": "19 世纪牙买加种植园主发明，传统口诀「一份酸、两份甜、三份强、四份柔」。",
+    "storyNoteEn": "Created by 19th-century Jamaican planters; the recipe famously follows the rhyme 'one of sour, two of sweet, three of strong, four of weak'.",
+    "balanceTags": [
+      "refreshing",
+      "tropical",
+      "highball",
+      "classic"
+    ]
+  },
+  {
+    "id": "rec-stone-fence",
+    "slug": "stone-fence",
+    "nameZh": "石墙",
+    "nameEn": "Stone Fence",
+    "type": "CLASSIC",
+    "difficulty": 2,
+    "glassType": "highball",
+    "iceType": "cubed",
+    "descriptionZh": "黑麦或苹果白兰地加干型苹果西打的美国殖民时期高球。",
+    "descriptionEn": "Rye or applejack with dry hard cider — the colonial American stone-wall highball.",
+    "storyNoteZh": "美国独立战争时期起源，原始版本用苹果白兰地或黑麦配苹果酒。",
+    "storyNoteEn": "A colonial American highball dating to the Revolutionary War, traditionally made with applejack and hard cider.",
+    "balanceTags": [
+      "refreshing",
+      "highball",
+      "historic",
+      "easy"
+    ]
+  },
+  {
+    "id": "rec-southside-fizz",
+    "slug": "southside-fizz",
+    "nameZh": "南区菲士",
+    "nameEn": "Southside Fizz",
+    "type": "CLASSIC",
+    "difficulty": 2,
+    "glassType": "highball",
+    "iceType": "cubed",
+    "descriptionZh": "Southside 的气泡高杯版本，加苏打水延长口感。",
+    "descriptionEn": "The highball, fizzy version of the Southside — gin, lime, mint and soda lengthened with fizz.",
+    "storyNoteZh": "1920 年代纽约长岛 South Side 鸡尾酒的高杯版本，可能与禁酒令时期黑帮据点相关。",
+    "storyNoteEn": "The highball version of the Southside that became popular in 1920s New York.",
+    "balanceTags": [
+      "refreshing",
+      "citrus",
+      "herbal",
+      "highball"
+    ]
+  },
+  {
+    "id": "rec-sloe-gin-fizz",
+    "slug": "sloe-gin-fizz",
+    "nameZh": "黑刺李金菲士",
+    "nameEn": "Sloe Gin Fizz",
+    "type": "CLASSIC",
+    "difficulty": 3,
+    "glassType": "highball",
+    "iceType": "cubed",
+    "descriptionZh": "黑刺李金酒、金酒、柠檬与苏打水的朦胧粉色菲士。",
+    "descriptionEn": "Sloe gin, dry gin, lemon and soda — the hazy pink fizz that made Bourbon Street famous.",
+    "storyNoteZh": "1910 年代新奥尔良 French Quarter 流行，据说可以连续喝 12 杯不醉。",
+    "storyNoteEn": "Popular in 1910s New Orleans; the 'twelve-mile cocktail' legend claims a fresh one arrives before you finish the last.",
+    "balanceTags": [
+      "refreshing",
+      "fruity",
+      "highball",
+      "classic"
+    ]
+  },
+  {
+    "id": "rec-boston-sidecar",
+    "slug": "boston-sidecar",
+    "nameZh": "波士顿边车",
+    "nameEn": "Boston Sidecar",
+    "type": "CLASSIC",
+    "difficulty": 2,
+    "glassType": "coupe",
+    "iceType": "none",
+    "descriptionZh": "用 Grand Marnier 替代君度的边车变奏，更复杂更橙香。",
+    "descriptionEn": "The Sidecar with Grand Marnier in place of Cointreau — a richer, more bitter-orange version.",
+    "storyNoteZh": "1930 年代波士顿版本，与巴黎原版同时流行，Grand Marnier 的苦橙更显厚重。",
+    "storyNoteEn": "A 1930s Boston variation that uses Grand Marnier for a more bitter-orange depth.",
+    "balanceTags": [
+      "sour",
+      "elegant",
+      "citrus",
+      "classic"
+    ]
+  },
+  {
+    "id": "rec-jasmine",
+    "slug": "jasmine",
+    "nameZh": "茉莉",
+    "nameEn": "Jasmine",
+    "type": "CLASSIC",
+    "difficulty": 2,
+    "glassType": "coupe",
+    "iceType": "none",
+    "descriptionZh": "金酒、君度、Campari 与柠檬的现代小杯酸酒。",
+    "descriptionEn": "Gin, Cointreau, Campari and lemon — a bitter-orange modern small-serve sour.",
+    "storyNoteZh": "1990 年代由 Paul Harrington 在 San Francisco 创作，是 21 世纪最初一批现代经典之一。",
+    "storyNoteEn": "Created in 1990s San Francisco by Paul Harrington, one of the first modern classics of the 21st century.",
+    "balanceTags": [
+      "sour",
+      "bitter",
+      "balanced",
+      "modern-classic"
+    ]
+  },
+  {
+    "id": "rec-gold-rush",
+    "slug": "gold-rush",
+    "nameZh": "淘金热",
+    "nameEn": "Gold Rush",
+    "type": "CLASSIC",
+    "difficulty": 2,
+    "glassType": "rocks",
+    "iceType": "large",
+    "descriptionZh": "波本、蜂蜜糖浆与柠檬的现代经典酸酒。",
+    "descriptionEn": "Bourbon, honey syrup and lemon — the modern sour that put T.J. Siegel's Milk & Honey on the map.",
+    "storyNoteZh": "2000 年代纽约 Milk & Honey 调酒师 T.J. Siegel 创作，是 21 世纪最具影响力的现代经典之一。",
+    "storyNoteEn": "Created in the 2000s at New York's Milk & Honey by T.J. Siegel; one of the most influential modern classics.",
+    "balanceTags": [
+      "sour",
+      "honey",
+      "modern-classic",
+      "balanced"
+    ]
+  },
+  {
+    "id": "rec-gin-rickey",
+    "slug": "gin-rickey",
+    "nameZh": "金雷基",
+    "nameEn": "Gin Rickey",
+    "type": "CLASSIC",
+    "difficulty": 1,
+    "glassType": "highball",
+    "iceType": "cubed",
+    "descriptionZh": "金酒、青柠与苏打水的极简气泡鸡尾酒，1890 年代华盛顿特区起源。",
+    "descriptionEn": "Gin, lime and soda — the highball built around a splash of fresh lime and lots of bubbles.",
+    "storyNoteZh": "1880 年代华盛顿特区 Lobby House 调酒师 George A. Williamson 为 Colonel Joe Rickey 创作，原始版本用波本。",
+    "storyNoteEn": "Created in 1880s D.C. at the Shoomaker's bar for lobbyist Colonel Joe Rickey; the bourbon original predates the gin version.",
+    "balanceTags": [
+      "refreshing",
+      "citrus",
+      "highball",
+      "easy"
+    ]
+  },
+  {
+    "id": "rec-americano",
+    "slug": "americano",
+    "nameZh": "美国佬",
+    "nameEn": "Americano",
+    "type": "CLASSIC",
+    "difficulty": 1,
+    "glassType": "highball",
+    "iceType": "cubed",
+    "descriptionZh": "金巴利、甜味美思与苏打水的意大利开胃高球。",
+    "descriptionEn": "Campari, sweet vermouth and soda — Italy's most refreshing pre-dinner highball.",
+    "storyNoteZh": "19 世纪意大利加斯帕雷·坎帕里发明的「Milano-Torino」演变而来；意大利语「AmERICANO」是对美国游客的友好戏称。",
+    "storyNoteEn": "Evolved from Gaspare Campari's 19th-century 'Milano-Torino'; the name nods to American tourists who loved to add soda.",
+    "balanceTags": [
+      "refreshing",
+      "bitter",
+      "highball",
+      "easy"
+    ]
+  },
+  {
+    "id": "rec-sherry-cobbler",
+    "slug": "sherry-cobbler",
+    "nameZh": "雪利碎冰杯",
+    "nameEn": "Sherry Cobbler",
+    "type": "CLASSIC",
+    "difficulty": 2,
+    "glassType": "rocks",
+    "iceType": "crushed",
+    "descriptionZh": "雪利酒、糖浆与碎冰的 19 世纪经典杯饮。",
+    "descriptionEn": "Sherry, sugar and crushed ice — the 19th-century cobbler that launched a glassware style.",
+    "storyNoteZh": "1830 年代美国流行，是 19 世纪中叶最受欢迎的鸡尾酒之一；Cobbler 杯因此类饮品得名。",
+    "storyNoteEn": "A 1830s American classic; the 'cobbler' glass shape was named after this very drink.",
+    "balanceTags": [
+      "refreshing",
+      "nutty",
+      "historic",
+      "highball"
+    ]
+  },
+  {
+    "id": "rec-shandy",
+    "slug": "shandy",
+    "nameZh": "香蒂",
+    "nameEn": "Shandy",
+    "type": "CLASSIC",
+    "difficulty": 1,
+    "glassType": "highball",
+    "iceType": "cubed",
+    "descriptionZh": "啤酒与柠檬汽水各半的英国夏日高球。",
+    "descriptionEn": "Half lager, half lemonade — the British summer long drink.",
+    "storyNoteZh": "19 世纪英国起源，原始版本用姜汁啤酒与柠檬汽水。",
+    "storyNoteEn": "Originated in 19th-century Britain; the modern version pairs lager with lemonade.",
+    "balanceTags": [
+      "refreshing",
+      "easy",
+      "highball",
+      "low-abv"
+    ]
+  },
+  {
+    "id": "rec-bamboo",
+    "slug": "bamboo",
+    "nameZh": "竹",
+    "nameEn": "Bamboo",
+    "type": "CLASSIC",
+    "difficulty": 2,
+    "glassType": "coupe",
+    "iceType": "none",
+    "descriptionZh": "等比干味美思与菲诺雪利酒的开胃酒，1890 年代横滨起源。",
+    "descriptionEn": "Equal parts dry vermouth and fino sherry — the elegant pre-dinner classic from 1890s Yokohama.",
+    "storyNoteZh": "1890 年代横滨 Grand Hotel 调酒师 Louis Eppinger 创作。",
+    "storyNoteEn": "Created in 1890s Yokohama by German bartender Louis Eppinger at the Grand Hotel.",
+    "balanceTags": [
+      "elegant",
+      "dry",
+      "aperitif",
+      "classic"
+    ]
+  },
+  {
+    "id": "rec-adonis",
+    "slug": "adonis",
+    "nameZh": "阿多尼斯",
+    "nameEn": "Adonis",
+    "type": "CLASSIC",
+    "difficulty": 2,
+    "glassType": "coupe",
+    "iceType": "none",
+    "descriptionZh": "等比甜味美思与阿蒙提亚多雪利酒的开胃酒，1880 年代百老汇同名音乐剧起源。",
+    "descriptionEn": "Equal parts sweet vermouth and Amontillado sherry — the 1884 Broadway pre-dinner classic.",
+    "storyNoteZh": "1884 年百老汇同名音乐剧首演时由调酒师创作，是现存最古老的马天尼杯型开胃酒之一。",
+    "storyNoteEn": "Created for the 1884 Broadway premiere of the musical Adonis; one of the earliest recorded cocktail-style apéritifs.",
+    "balanceTags": [
+      "elegant",
+      "aperitif",
+      "nutty",
+      "classic"
+    ]
+  },
+  {
+    "id": "rec-kir",
+    "slug": "kir",
+    "nameZh": "基尔酒",
+    "nameEn": "Kir",
+    "type": "CLASSIC",
+    "difficulty": 1,
+    "glassType": "wine",
+    "iceType": "none",
+    "descriptionZh": "干白葡萄酒与黑加仑利口酒的法国开胃酒。",
+    "descriptionEn": "Dry white wine and crème de cassis — the French apéritif named for the Resistance hero Canon Félix Kir.",
+    "storyNoteZh": "19 世纪勃艮第第戎市长 Canon Félix Kir 在二战后推广，因此酒闻名。",
+    "storyNoteEn": "Popularised after WWII by Canon Félix Kir, mayor of Dijon in Burgundy, as a regional signature drink.",
+    "balanceTags": [
+      "refreshing",
+      "fruity",
+      "low-abv",
+      "aperitif"
+    ]
+  },
+  {
+    "id": "rec-kir-royale",
+    "slug": "kir-royale",
+    "nameZh": "皇家基尔",
+    "nameEn": "Kir Royale",
+    "type": "CLASSIC",
+    "difficulty": 1,
+    "glassType": "flute",
+    "iceType": "none",
+    "descriptionZh": "香槟加黑加仑利口酒的升级版 Kir Royale。",
+    "descriptionEn": "Champagne and crème de cassis in a flute — the sparkling French celebration aperitif.",
+    "storyNoteZh": "1950 年代法国上流社会流行，1960 年代与香槟一起成为庆典饮品。",
+    "storyNoteEn": "Emerged in 1950s French society as the Champagne upgrade of the classic Kir.",
+    "balanceTags": [
+      "sparkling",
+      "elegant",
+      "low-abv",
+      "classic"
+    ]
+  },
+  {
+    "id": "rec-mimosa",
+    "slug": "mimosa",
+    "nameZh": "含羞草",
+    "nameEn": "Mimosa",
+    "type": "CLASSIC",
+    "difficulty": 1,
+    "glassType": "flute",
+    "iceType": "none",
+    "descriptionZh": "等比香槟与橙汁的早午餐经典。",
+    "descriptionEn": "Equal parts Champagne and orange juice — the brunch classic that pairs bubbles with citrus.",
+    "storyNoteZh": "1925 年巴黎 Hotel Ritz 的 Frank Meier 创作，名字取自含羞草花的鲜艳黄色。",
+    "storyNoteEn": "Created in 1925 by Frank Meier at Paris's Hotel Ritz, named for the mimosa flower.",
+    "balanceTags": [
+      "sparkling",
+      "refreshing",
+      "low-abv",
+      "brunch"
+    ]
+  },
+  {
+    "id": "rec-bellini",
+    "slug": "bellini",
+    "nameZh": "贝里尼",
+    "nameEn": "Bellini",
+    "type": "CLASSIC",
+    "difficulty": 1,
+    "glassType": "flute",
+    "iceType": "none",
+    "descriptionZh": "白桃果泥与普罗赛克的威尼斯早午餐经典。",
+    "descriptionEn": "White peach purée and Prosecco — the Venetian brunch classic.",
+    "storyNoteZh": "1948 年威尼斯 Harry's Bar 调酒师 Giuseppe Cipriani 创作，名字取自画家 Giovanni Bellini 的粉红调色。",
+    "storyNoteEn": "Created in 1948 by Giuseppe Cipriani at Harry's Bar in Venice; named for the painter Bellini's rosy palette.",
+    "balanceTags": [
+      "sparkling",
+      "fruity",
+      "elegant",
+      "classic"
+    ]
+  },
+  {
+    "id": "rec-gin-fizz",
+    "slug": "gin-fizz",
+    "nameZh": "金酒菲士",
+    "nameEn": "Gin Fizz",
+    "type": "CLASSIC",
+    "difficulty": 2,
+    "glassType": "highball",
+    "iceType": "cubed",
+    "descriptionZh": "金酒、柠檬、糖与苏打水的高杯菲士，是 19 世纪后期美国经典。",
+    "descriptionEn": "Gin, lemon, sugar and soda — the highball Fizz that defined 19th-century American drinking.",
+    "storyNoteZh": "1880 年代新奥尔良起源，是 Ramos Gin Fizz 的祖先之一。",
+    "storyNoteEn": "Originated in 1880s New Orleans; the parent of the Ramos Gin Fizz and countless sours.",
+    "balanceTags": [
+      "refreshing",
+      "citrus",
+      "highball",
+      "classic"
+    ]
+  },
+  {
+    "id": "rec-silver-fizz",
+    "slug": "silver-fizz",
+    "nameZh": "银菲士",
+    "nameEn": "Silver Fizz",
+    "type": "CLASSIC",
+    "difficulty": 3,
+    "glassType": "highball",
+    "iceType": "cubed",
+    "descriptionZh": "Gin Fizz 加蛋清的绵密顶部版本。",
+    "descriptionEn": "The Gin Fizz with added egg white for a silky, mousse-like cap.",
+    "storyNoteZh": "1880 年代新奥尔良 Gin Fizz 家族的绵密分支，名字取自银白泡沫顶部。",
+    "storyNoteEn": "An 1880s New Orleans offshoot of the Gin Fizz, named for the white cap of egg-white foam.",
+    "balanceTags": [
+      "refreshing",
+      "foamy",
+      "highball",
+      "classic"
+    ]
+  },
+  {
+    "id": "rec-golden-fizz",
+    "slug": "golden-fizz",
+    "nameZh": "金菲士",
+    "nameEn": "Golden Fizz",
+    "type": "CLASSIC",
+    "difficulty": 3,
+    "glassType": "highball",
+    "iceType": "cubed",
+    "descriptionZh": "Gin Fizz 加蛋黄的金色绵密版本。",
+    "descriptionEn": "The Gin Fizz with egg yolk for a richer, golden-bodied, more substantial cap.",
+    "storyNoteZh": "1880 年代新奥尔良 Gin Fizz 家族的金色分支。",
+    "storyNoteEn": "An 1880s New Orleans sibling of the Silver Fizz, but with yolk instead of white for body.",
+    "balanceTags": [
+      "refreshing",
+      "rich",
+      "highball",
+      "classic"
+    ]
+  },
+  {
+    "id": "rec-john-collins",
+    "slug": "john-collins",
+    "nameZh": "约翰·柯林斯",
+    "nameEn": "John Collins",
+    "type": "CLASSIC",
+    "difficulty": 2,
+    "glassType": "highball",
+    "iceType": "cubed",
+    "descriptionZh": "波本（或 Old Tom 金酒）、柠檬、糖与苏打水的 Tom Collins 原版。",
+    "descriptionEn": "Bourbon (or Old Tom gin), lemon, sugar and soda — the original Collins from 1870s New York.",
+    "storyNoteZh": "1870 年代纽约调酒师 John Collins 在 Limmer's Hotel 创作的原始版本，原本用荷式金酒。",
+    "storyNoteEn": "Created in 1870s New York at Limmer's Hotel by John Collins, originally with Holland gin before Tom Collins took over.",
+    "balanceTags": [
+      "refreshing",
+      "citrus",
+      "highball",
+      "classic"
+    ]
+  },
+  {
+    "id": "rec-peach-tree",
+    "slug": "peach-tree",
+    "nameZh": "桃树",
+    "nameEn": "Peach Tree",
+    "type": "CLASSIC",
+    "difficulty": 2,
+    "glassType": "highball",
+    "iceType": "cubed",
+    "descriptionZh": "金酒、桃子利口酒、柠檬与石榴糖浆的果味菲士。",
+    "descriptionEn": "Gin, peach liqueur, lemon and a dash of grenadine — the pink highball fizz.",
+    "storyNoteZh": "20 世纪中期的美式版本，桃子利口酒让经典 Gin Fizz 变成桃味。",
+    "storyNoteEn": "A mid-20th-century American peach-garnished twist on the Gin Fizz.",
+    "balanceTags": [
+      "refreshing",
+      "fruity",
+      "highball",
+      "classic"
+    ]
+  },
+  {
+    "id": "rec-pink-gin",
+    "slug": "pink-gin",
+    "nameZh": "粉红金酒",
+    "nameEn": "Pink Gin",
+    "type": "CLASSIC",
+    "difficulty": 1,
+    "glassType": "coupe",
+    "iceType": "none",
+    "descriptionZh": "金酒与安格斯特拉的极简粉红染色苦精酒，英国皇家海军传统。",
+    "descriptionEn": "Gin and Angostura — the Royal Navy's pre-dinner pink, just two ingredients in a glass.",
+    "storyNoteZh": "19 世纪英国皇家海军医官 Gordon's 推广，灵感来自热带地区给药用的苦精水。",
+    "storyNoteEn": "A 19th-century Royal Navy tradition; the magenta hue comes from Angostura's dye diluting in gin.",
+    "balanceTags": [
+      "spirit-forward",
+      "bitter",
+      "classic",
+      "historic"
+    ]
+  },
+  {
+    "id": "rec-gin-sling",
+    "slug": "gin-sling",
+    "nameZh": "金酒司令",
+    "nameEn": "Gin Sling",
+    "type": "CLASSIC",
+    "difficulty": 2,
+    "glassType": "highball",
+    "iceType": "cubed",
+    "descriptionZh": "金酒、柠檬、糖与苏打水的 19 世纪美式 Sling 长饮。",
+    "descriptionEn": "Gin, lemon, sugar and soda — the 19th-century American long sling that predates the Tom Collins.",
+    "storyNoteZh": "19 世纪初美国流行的「Sling」长饮之一，是 Tom Collins 的直系祖先。",
+    "storyNoteEn": "A 19th-century American sling that is the direct ancestor of the Tom Collins.",
+    "balanceTags": [
+      "refreshing",
+      "citrus",
+      "highball",
+      "classic"
+    ]
+  },
+  {
+    "id": "rec-peach-blossom",
+    "slug": "peach-blossom",
+    "nameZh": "桃花",
+    "nameEn": "Peach Blossom",
+    "type": "CLASSIC",
+    "difficulty": 3,
+    "glassType": "coupe",
+    "iceType": "none",
+    "descriptionZh": "金酒、桃子利口酒、奶油、柠檬与石榴糖浆的粉色酸酒。",
+    "descriptionEn": "Gin, peach liqueur, cream, lemon and grenadine — the pink creamy sloe-cousin sour.",
+    "storyNoteZh": "20 世纪初巴黎与纽约的果味酸酒，与 Clover Club 同期流行。",
+    "storyNoteEn": "An early 20th-century pink sour, served at Paris and New York in the same era as the Clover Club.",
+    "balanceTags": [
+      "sour",
+      "creamy",
+      "fruity",
+      "classic"
+    ]
+  },
+  {
+    "id": "rec-suffering-bar-bastard",
+    "slug": "suffering-bar-bastard",
+    "nameZh": "酒吧混蛋的受难日",
+    "nameEn": "Suffering Bar Bastard",
+    "type": "CLASSIC",
+    "difficulty": 3,
+    "glassType": "highball",
+    "iceType": "cubed",
+    "descriptionZh": "波本、白兰地、青柠与姜汁啤酒的浓郁加长版受苦混蛋。",
+    "descriptionEn": "Bourbon, brandy, lime and ginger beer — the extra-strength sibling of the Suffering Bastard.",
+    "storyNoteZh": "1942 年开罗 Shepheard's Hotel 调酒师 Joe Scialom 创作的 Suffering Bastard 的浓缩版本。",
+    "storyNoteEn": "A stronger 1942 sibling of the Suffering Bastard, also born at Cairo's Shepheard's Hotel.",
+    "balanceTags": [
+      "refreshing",
+      "spicy",
+      "highball",
+      "historic"
+    ]
+  },
+  {
+    "id": "rec-three-dots-and-a-dash",
+    "slug": "three-dots-and-a-dash",
+    "nameZh": "三点与一划",
+    "nameEn": "Three Dots and a Dash",
+    "type": "CLASSIC",
+    "difficulty": 4,
+    "glassType": "tiki",
+    "iceType": "crushed",
+    "descriptionZh": "陈年朗姆、青柠、falernum、蜂蜜与多香果的 1945 年唐恩海滩 tiki 经典。",
+    "descriptionEn": "Aged rum, lime, falernum, honey and allspice — the 1945 Donn Beach tiki Morse-code classic.",
+    "storyNoteZh": "1945 年 Don the Beachcomber 餐厅调酒师 Donn Beach 创作，名字「··· —」是莫尔斯电码的「V」，代表胜利。",
+    "storyNoteEn": "Created in 1945 by Donn Beach at Don the Beachcomber; 'three dots and a dash' is Morse code for V (Victory).",
+    "balanceTags": [
+      "tropical",
+      "spice",
+      "tiki",
+      "complex"
+    ]
+  },
+  {
+    "id": "rec-jet-pilot",
+    "slug": "jet-pilot",
+    "nameZh": "喷气机飞行员",
+    "nameEn": "Jet Pilot",
+    "type": "CLASSIC",
+    "difficulty": 4,
+    "glassType": "tiki",
+    "iceType": "crushed",
+    "descriptionZh": "黑朗姆、falernum、葡萄柚与多香果的 Donn Beach 招牌 tiki。",
+    "descriptionEn": "Dark rum, falernum, grapefruit and allspice — Donn Beach's spice-forward tiki standard.",
+    "storyNoteZh": "Don the Beachcomber 1940 年代调酒师 Donn Beach 创作。",
+    "storyNoteEn": "Created in the 1940s at Don the Beachcomber by Donn Beach; a spice-forward cousin of the Three Dots.",
+    "balanceTags": [
+      "tropical",
+      "spice",
+      "tiki",
+      "complex"
+    ]
+  },
+  {
+    "id": "rec-saturn",
+    "slug": "saturn",
+    "nameZh": "土星",
+    "nameEn": "Saturn",
+    "type": "CLASSIC",
+    "difficulty": 4,
+    "glassType": "tiki",
+    "iceType": "crushed",
+    "descriptionZh": "金酒、falernum、百香果、柠檬与杏仁糖浆的土星环状 tiki。",
+    "descriptionEn": "Gin, falernum, passion fruit, lemon and orgeat — the ringed tiki classic.",
+    "storyNoteZh": "1960 年代加州 Trader Vic 调酒师 J. Pop Skinner 创作，灵感来自土星环。",
+    "storyNoteEn": "Created in the 1960s at Trader Vic's by J. Pop Skinner, inspired by the planet Saturn's rings.",
+    "balanceTags": [
+      "tropical",
+      "nutty",
+      "tiki",
+      "complex"
+    ]
+  },
+  {
+    "id": "rec-navy-grog",
+    "slug": "navy-grog",
+    "nameZh": "海军格罗格",
+    "nameEn": "Navy Grog",
+    "type": "CLASSIC",
+    "difficulty": 4,
+    "glassType": "tiki",
+    "iceType": "crushed",
+    "descriptionZh": "三种朗姆、葡萄柚、青柠与蜂蜜的 Trader Vic 经典。",
+    "descriptionEn": "Three rums, grapefruit, lime and honey — Trader Vic's mellowed tiki standard.",
+    "storyNoteZh": "1940 年代 Trader Vic 改良 18 世纪英国皇家海军格罗格酒的 tiki 版本。",
+    "storyNoteEn": "Trader Vic's 1940s tiki makeover of the 18th-century British Royal Navy grog ration.",
+    "balanceTags": [
+      "tropical",
+      "smooth",
+      "tiki",
+      "complex"
+    ]
+  },
+  {
+    "id": "rec-port-royal",
+    "slug": "port-royal",
+    "nameZh": "皇家港",
+    "nameEn": "Port Royal",
+    "type": "CLASSIC",
+    "difficulty": 3,
+    "glassType": "tiki",
+    "iceType": "crushed",
+    "descriptionZh": "黑朗姆、falernum、葡萄柚与安格斯特拉的中等复杂度 tiki。",
+    "descriptionEn": "Dark rum, falernum, grapefruit and Angostura — Trader Vic's medium-bodied tiki.",
+    "storyNoteZh": "Trader Vic 1950 年代作品，名字取自牙买加皇家港。",
+    "storyNoteEn": "A 1950s Trader Vic original named after the Jamaican port capital of piracy.",
+    "balanceTags": [
+      "tropical",
+      "spice",
+      "tiki",
+      "balanced"
+    ]
+  },
+  {
+    "id": "rec-fog-cutter",
+    "slug": "fog-cutter",
+    "nameZh": "破雾者",
+    "nameEn": "Fog Cutter",
+    "type": "CLASSIC",
+    "difficulty": 4,
+    "glassType": "tiki",
+    "iceType": "crushed",
+    "descriptionZh": "白朗姆、金酒、白兰地、雪利酒、橙汁、柠檬与杏仁糖浆的 Trader Vic 顶点。",
+    "descriptionEn": "Light rum, gin, brandy, sherry, orange, lemon and orgeat — Trader Vic's tiki showpiece.",
+    "storyNoteZh": "1940 年代 Trader Vic 创作，「清除迷雾」是 tiki 鸡尾酒中酒精度最高的之一。",
+    "storyNoteEn": "Created in the 1940s at Trader Vic's; one of the strongest tiki cocktails, said to 'cut through any fog'.",
+    "balanceTags": [
+      "tropical",
+      "strong",
+      "tiki",
+      "showpiece"
+    ]
+  },
+  {
+    "id": "rec-blue-hawaiian",
+    "slug": "blue-hawaiian",
+    "nameZh": "蓝色夏威夷",
+    "nameEn": "Blue Hawaiian",
+    "type": "CLASSIC",
+    "difficulty": 2,
+    "glassType": "highball",
+    "iceType": "crushed",
+    "descriptionZh": "白朗姆、蓝橙皮酒、菠萝与椰子奶油的热带蓝色高球。",
+    "descriptionEn": "White rum, Blue Curaçao, pineapple and coconut cream — the tropical blue tiki highball.",
+    "storyNoteZh": "1957 年好莱坞 Hilton 餐厅调酒师 Harry Yee 创作，因蓝色对比菠萝黄而成名。",
+    "storyNoteEn": "Created in 1957 at the Hollywood Hilton by Harry Yee, originally designed to match the blue of the Pacific.",
+    "balanceTags": [
+      "tropical",
+      "creamy",
+      "tiki",
+      "showpiece"
+    ]
+  },
+  {
+    "id": "rec-shrunken-skull",
+    "slug": "shrunken-skull",
+    "nameZh": "缩头鬼",
+    "nameEn": "Shrunken Skull",
+    "type": "CLASSIC",
+    "difficulty": 3,
+    "glassType": "tiki",
+    "iceType": "crushed",
+    "descriptionZh": "黑与白朗姆、falernum、多香果与石榴糖浆的多层次 Donn Beach tiki。",
+    "descriptionEn": "Dark and white rum, falernum, allspice and grenadine — the tiki shrunken-head classic.",
+    "storyNoteZh": "Don the Beachcomber 餐厅 1930 年代调酒师 Donn Beach 创作。",
+    "storyNoteEn": "Originated in 1930s Hollywood at Don the Beachcomber; one of Donn Beach's most spice-heavy recipes.",
+    "balanceTags": [
+      "tropical",
+      "spice",
+      "tiki",
+      "complex"
+    ]
+  },
+  {
+    "id": "rec-pina-colada",
+    "slug": "pina-colada",
+    "nameZh": "椰林飘香",
+    "nameEn": "Piña Colada",
+    "type": "CLASSIC",
+    "difficulty": 2,
+    "glassType": "hurricane",
+    "iceType": "crushed",
+    "descriptionZh": "白朗姆、菠萝汁与椰子奶油的波多黎各国饮。",
+    "descriptionEn": "White rum, pineapple juice and coconut cream — Puerto Rico's national cocktail.",
+    "storyNoteZh": "1954 年波多黎各 San Juan Caribe Hilton 调酒师 Ramón \"Monchito\" Marrero 创作，1978 年定为波多黎各国饮。",
+    "storyNoteEn": "Created in 1954 by Ramón 'Monchito' Marrero at San Juan's Caribe Hilton; declared Puerto Rico's national drink in 1978.",
+    "balanceTags": [
+      "tropical",
+      "creamy",
+      "tiki",
+      "classic"
+    ]
+  },
+  {
+    "id": "rec-whiskey-smash",
+    "slug": "whiskey-smash",
+    "nameZh": "威士忌碎冰",
+    "nameEn": "Whiskey Smash",
+    "type": "CLASSIC",
+    "difficulty": 2,
+    "glassType": "rocks",
+    "iceType": "large",
+    "descriptionZh": "波本、柠檬、薄荷与单糖浆的清爽酸酒版 Julep。",
+    "descriptionEn": "Bourbon, lemon, mint and simple syrup — the citrusy cousin of the Mint Julep.",
+    "storyNoteZh": "Jerry Thomas 1862 年《Bartender's Guide》首载的 19 世纪柠檬薄荷酸酒。",
+    "storyNoteEn": "First recorded in Jerry Thomas's 1862 Bartender's Guide as a pre-Prohibition lemon-mint sour.",
+    "balanceTags": [
+      "refreshing",
+      "herbal",
+      "citrus",
+      "classic"
+    ]
+  },
+  {
+    "id": "rec-peach-julep",
+    "slug": "peach-julep",
+    "nameZh": "桃子朱利",
+    "nameEn": "Peach Julep",
+    "type": "CLASSIC",
+    "difficulty": 2,
+    "glassType": "julep",
+    "iceType": "crushed",
+    "descriptionZh": "波本、桃子、薄荷与单糖浆的南方 Julep 变奏。",
+    "descriptionEn": "Bourbon, fresh peach, mint and simple syrup — the Southern Julep's stone-fruit cousin.",
+    "storyNoteZh": "19 世纪美国南方 Peach Belt 农场的夏日经典。",
+    "storyNoteEn": "A 19th-century Southern classic from the American peach belt, served in silver julep cups.",
+    "balanceTags": [
+      "refreshing",
+      "fruity",
+      "herbal",
+      "classic"
+    ]
+  },
+  {
+    "id": "rec-gin-smash",
+    "slug": "gin-smash",
+    "nameZh": "金酒碎冰",
+    "nameEn": "Gin Smash",
+    "type": "CLASSIC",
+    "difficulty": 2,
+    "glassType": "rocks",
+    "iceType": "large",
+    "descriptionZh": "金酒、柠檬、薄荷与单糖浆的清爽版本。",
+    "descriptionEn": "Gin, lemon, mint and simple syrup — the gin sibling of the Whiskey Smash.",
+    "storyNoteZh": "Jerry Thomas 1862 年与 Whiskey Smash 同期首载的版本。",
+    "storyNoteEn": "Recorded in the same 1862 Jerry Thomas Bartender's Guide as the Whiskey Smash, but with gin.",
+    "balanceTags": [
+      "refreshing",
+      "citrus",
+      "herbal",
+      "classic"
+    ]
+  },
+  {
+    "id": "rec-basil-smash",
+    "slug": "basil-smash",
+    "nameZh": "罗勒碎冰",
+    "nameEn": "Basil Smash",
+    "type": "CLASSIC",
+    "difficulty": 2,
+    "glassType": "rocks",
+    "iceType": "large",
+    "descriptionZh": "金酒、罗勒、柠檬与单糖浆的德国现代经典。",
+    "descriptionEn": "Gin, basil, lemon and simple syrup — the German herbaceous modern classic.",
+    "storyNoteZh": "2008 年德国汉堡 Le Lion 酒吧调酒师 Jörg Meyer 创作，迅速成为现代经典。",
+    "storyNoteEn": "Created in 2008 by Jörg Meyer at Hamburg's Le Lion bar; one of the first 21st-century European classics.",
+    "balanceTags": [
+      "refreshing",
+      "herbal",
+      "citrus",
+      "modern-classic"
+    ]
+  },
+  {
+    "id": "rec-derby",
+    "slug": "derby",
+    "nameZh": "德比",
+    "nameEn": "Derby",
+    "type": "CLASSIC",
+    "difficulty": 2,
+    "glassType": "coupe",
+    "iceType": "none",
+    "descriptionZh": "金酒、桃子薄荷与单糖浆的 Kentucky Derby 经典。",
+    "descriptionEn": "Gin, peach and mint — the refreshing Kentucky Derby classic.",
+    "storyNoteZh": "19 世纪后期 Kentucky Derby 比赛日传统鸡尾酒，原始版本以 Bourbon 为主也有 Gin 版。",
+    "storyNoteEn": "A late-19th-century Kentucky Derby classic, with both bourbon and gin versions in circulation.",
+    "balanceTags": [
+      "refreshing",
+      "fruity",
+      "herbal",
+      "classic"
+    ]
+  },
+  {
+    "id": "rec-peach-smash",
+    "slug": "peach-smash",
+    "nameZh": "桃子碎冰",
+    "nameEn": "Peach Smash",
+    "type": "CLASSIC",
+    "difficulty": 2,
+    "glassType": "rocks",
+    "iceType": "large",
+    "descriptionZh": "波本、桃子、柠檬与薄荷的夏日碎冰酸酒。",
+    "descriptionEn": "Bourbon, peach, lemon and mint — the Southern summer's stone-fruit smash.",
+    "storyNoteZh": "19 世纪美国南方 Peach Belt 农场的夏日经典，现代版本多用桃子利口酒。",
+    "storyNoteEn": "A Southern American summer classic; modern versions use peach liqueur for consistency.",
+    "balanceTags": [
+      "refreshing",
+      "fruity",
+      "herbal",
+      "classic"
+    ]
+  },
+  {
+    "id": "rec-marconi-wireless",
+    "slug": "marconi-wireless",
+    "nameZh": "马可尼无线电",
+    "nameEn": "Marconi Wireless",
+    "type": "CLASSIC",
+    "difficulty": 3,
+    "glassType": "coupe",
+    "iceType": "none",
+    "descriptionZh": "金酒、马拉斯奇诺与黄查特的高对比度 Last Word 变奏。",
+    "descriptionEn": "Gin, maraschino and Yellow Chartreuse — the radio-themed Last Word cousin.",
+    "storyNoteZh": "2000 年代纽约 Death & Co 调酒师 Phil Ward 创作，名字纪念马可尼发明的无线电报。",
+    "storyNoteEn": "Created in the 2000s at Death & Co. by Phil Ward, named after Guglielmo Marconi's wireless telegraphy.",
+    "balanceTags": [
+      "herbal",
+      "floral",
+      "complex",
+      "modern-classic"
+    ]
+  },
+  {
+    "id": "rec-bijou",
+    "slug": "bijou",
+    "nameZh": "宝石",
+    "nameEn": "Bijou",
+    "type": "CLASSIC",
+    "difficulty": 2,
+    "glassType": "coupe",
+    "iceType": "none",
+    "descriptionZh": "金酒、绿查特、甜味美思与橙皮苦精的三色宝石。",
+    "descriptionEn": "Gin, Green Chartreuse, sweet vermouth and orange bitters — the jewel-toned 1900s classic.",
+    "storyNoteZh": "1890 年代 Harry Johnson《New and Improved Bartender's Manual》首载，名字「Bijou」即宝石之意。",
+    "storyNoteEn": "First published in Harry Johnson's 1890 New and Improved Bartender's Manual; 'bijou' means jewel in French.",
+    "balanceTags": [
+      "herbal",
+      "spirit-forward",
+      "complex",
+      "classic"
+    ]
+  },
+  {
+    "id": "rec-bobby-burns",
+    "slug": "bobby-burns",
+    "nameZh": "鲍比·伯恩斯",
+    "nameEn": "Bobby Burns",
+    "type": "CLASSIC",
+    "difficulty": 2,
+    "glassType": "coupe",
+    "iceType": "none",
+    "descriptionZh": "苏格兰威士忌、甜味美思与本笃会酒的 Robert Burns 纪念款。",
+    "descriptionEn": "Scotch, sweet vermouth and Bénédictine — the poet Robert Burns tribute cocktail.",
+    "storyNoteZh": "1900 年代伦敦 Waldorf-Astoria 调酒师为纪念苏格兰诗人 Robert Burns 创作。",
+    "storyNoteEn": "Created at the Waldorf-Astoria in early 20th-century London to honour Scottish poet Robert Burns.",
+    "balanceTags": [
+      "spirit-forward",
+      "herbal",
+      "smoky",
+      "classic"
+    ]
+  },
+  {
+    "id": "rec-la-louise",
+    "slug": "la-louise",
+    "nameZh": "拉·路易丝",
+    "nameEn": "La Louise",
+    "type": "CLASSIC",
+    "difficulty": 2,
+    "glassType": "coupe",
+    "iceType": "none",
+    "descriptionZh": "金酒、干味美思与本笃会酒的多苦草本经典。",
+    "descriptionEn": "Gin, dry vermouth and Bénédictine — the herbal-dry 1900s classic.",
+    "storyNoteZh": "1890 年代 Harry Johnson 首载的 19 世纪末「Martini 变奏」之一。",
+    "storyNoteEn": "First recorded by Harry Johnson in the 1890s as a Martini-style herbal variant.",
+    "balanceTags": [
+      "spirit-forward",
+      "herbal",
+      "dry",
+      "classic"
+    ]
+  },
+  {
+    "id": "rec-chrysanthemum",
+    "slug": "chrysanthemum",
+    "nameZh": "菊花",
+    "nameEn": "Chrysanthemum",
+    "type": "CLASSIC",
+    "difficulty": 2,
+    "glassType": "coupe",
+    "iceType": "none",
+    "descriptionZh": "干味美思、本笃会酒与苦艾酒的 1900 年代干燥开胃酒。",
+    "descriptionEn": "Dry vermouth, Bénédictine and absinthe — the bone-dry 1900s aperitif.",
+    "storyNoteZh": "1900 年代 Harry Craddock 在 Savoy 调酒师时期的菊花酒。",
+    "storyNoteEn": "First published in Harry Craddock's Savoy Cocktail Book, 1930.",
+    "balanceTags": [
+      "spirit-forward",
+      "anise",
+      "herbal",
+      "classic"
+    ]
+  },
+  {
+    "id": "rec-hugo-spritz",
+    "slug": "hugo-spritz",
+    "nameZh": "雨果气泡",
+    "nameEn": "Hugo Spritz",
+    "type": "CLASSIC",
+    "difficulty": 1,
+    "glassType": "wine",
+    "iceType": "cubed",
+    "descriptionZh": "接骨木花糖浆、普罗赛克与苏打水的南蒂罗尔夏日开胃酒。",
+    "descriptionEn": "Elderflower, Prosecco and soda — the South Tyrolean summer aperitif.",
+    "storyNoteZh": "2005 年意大利南蒂罗尔 Naturns 调酒师 Roland Gruber 创作，迅速在欧洲流行。",
+    "storyNoteEn": "Created in 2005 by Roland Gruber in Naturns, South Tyrol; became a European aperitivo staple in the 2010s.",
+    "balanceTags": [
+      "refreshing",
+      "floral",
+      "low-abv",
+      "modern-classic"
+    ]
+  },
+  {
+    "id": "rec-stinger",
+    "slug": "stinger",
+    "nameZh": "刺针",
+    "nameEn": "Stinger",
+    "type": "CLASSIC",
+    "difficulty": 2,
+    "glassType": "coupe",
+    "iceType": "none",
+    "descriptionZh": "白兰地与白薄荷利口酒的 20 世纪初纽约餐后酒。",
+    "descriptionEn": "Brandy and white crème de menthe — the simple 20th-century after-dinner classic.",
+    "storyNoteZh": "19 世纪末至 20 世纪初纽约上流社会餐后酒，禁酒令后几乎消失。",
+    "storyNoteEn": "A late-19th to early-20th-century New York after-dinner classic that nearly vanished after Prohibition.",
+    "balanceTags": [
+      "spirit-forward",
+      "minty",
+      "dessert",
+      "classic"
+    ]
+  },
+  {
+    "id": "rec-angel-face",
+    "slug": "angel-face",
+    "nameZh": "天使面孔",
+    "nameEn": "Angel Face",
+    "type": "CLASSIC",
+    "difficulty": 3,
+    "glassType": "coupe",
+    "iceType": "none",
+    "descriptionZh": "等比金酒、杏子白兰地与卡尔瓦多斯的法式三重奏。",
+    "descriptionEn": "Equal parts gin, apricot brandy and Calvados — the apple-almond-juniper French classic.",
+    "storyNoteZh": "1930 年 Harry Craddock《Savoy Cocktail Book》收录的法国版本。",
+    "storyNoteEn": "Recorded in Harry Craddock's 1930 Savoy Cocktail Book as a French apple-gin classic.",
+    "balanceTags": [
+      "spirit-forward",
+      "fruity",
+      "elegant",
+      "classic"
+    ]
+  },
+  {
+    "id": "rec-casino",
+    "slug": "casino",
+    "nameZh": "赌场",
+    "nameEn": "Casino",
+    "type": "CLASSIC",
+    "difficulty": 3,
+    "glassType": "coupe",
+    "iceType": "none",
+    "descriptionZh": "金酒、马拉斯奇诺、柠檬与橙皮苦精的 Old Tom 酸酒。",
+    "descriptionEn": "Gin, maraschino, lemon and orange bitters — the Old Tom gin casino classic.",
+    "storyNoteZh": "20 世纪初 Harry Craddock 在《Savoy Cocktail Book》收录的酸酒；Casino 的酸酒是「Ace」的意思。",
+    "storyNoteEn": "Recorded in Harry Craddock's 1930 Savoy Cocktail Book; 'casino' means 'little house' (the ace of cards).",
+    "balanceTags": [
+      "sour",
+      "elegant",
+      "classic",
+      "balanced"
+    ]
+  },
+  {
+    "id": "rec-porto-flip",
+    "slug": "porto-flip",
+    "nameZh": "波特翻",
+    "nameEn": "Porto Flip",
+    "type": "CLASSIC",
+    "difficulty": 3,
+    "glassType": "coupe",
+    "iceType": "none",
+    "descriptionZh": "白兰地、波特酒与蛋黄的多层次翻转经典。",
+    "descriptionEn": "Brandy, ruby port and egg yolk — the rich, foamy 19th-century flip.",
+    "storyNoteZh": "19 世纪欧美经典的「Flip」类鸡尾酒，原始版本用热铁棒烫熟。",
+    "storyNoteEn": "A 19th-century European flip; the original flip was heated with a hot iron, modern versions just shake.",
+    "balanceTags": [
+      "spirit-forward",
+      "rich",
+      "foamy",
+      "classic"
+    ]
+  },
+  {
+    "id": "rec-scofflaw",
+    "slug": "scofflaw",
+    "nameZh": "违禁者",
+    "nameEn": "Scofflaw",
+    "type": "CLASSIC",
+    "difficulty": 3,
+    "glassType": "coupe",
+    "iceType": "none",
+    "descriptionZh": "黑麦、干味美思、柠檬、石榴糖浆与橙皮苦精的禁酒令反骨鸡尾酒。",
+    "descriptionEn": "Rye, dry vermouth, lemon, grenadine and orange bitters — the Prohibition-era antihero cocktail.",
+    "storyNoteZh": "1924 年巴黎 Harry's New York Bar 调酒师 Jock MacNab 创作，「Scofflaw」一词是 1924 年波士顿报纸为禁酒令违禁者创造的词汇。",
+    "storyNoteEn": "Created in 1924 by Jock MacNab at Paris's Harry's New York Bar; the name came from a Boston newspaper contest for Prohibition-defiers.",
+    "balanceTags": [
+      "sour",
+      "bitter",
+      "balanced",
+      "classic"
+    ]
+  },
+  {
+    "id": "rec-corpse-reviver-1",
+    "slug": "corpse-reviver-1",
+    "nameZh": "还魂酒 1 号",
+    "nameEn": "Corpse Reviver #1",
+    "type": "CLASSIC",
+    "difficulty": 2,
+    "glassType": "coupe",
+    "iceType": "none",
+    "descriptionZh": "等比干邑、卡尔瓦多斯与甜味美思的 1930 年代醒酒方。",
+    "descriptionEn": "Equal parts cognac, Calvados and sweet vermouth — the 1930s dawn pick-me-up.",
+    "storyNoteZh": "1930 年 Harry Craddock《Savoy Cocktail Book》收录的「Corpse Reviver」家族的简单版本。",
+    "storyNoteEn": "The simpler sibling of the Corpse Reviver #2, recorded in Harry Craddock's 1930 Savoy Cocktail Book.",
+    "balanceTags": [
+      "spirit-forward",
+      "rich",
+      "elegant",
+      "classic"
+    ]
+  },
+  {
+    "id": "rec-20th-century",
+    "slug": "20th-century",
+    "nameZh": "20 世纪",
+    "nameEn": "20th Century",
+    "type": "CLASSIC",
+    "difficulty": 3,
+    "glassType": "coupe",
+    "iceType": "none",
+    "descriptionZh": "等比金酒、干味美思、白可可与柠檬的 1930 年代火车命名的酸酒。",
+    "descriptionEn": "Equal parts gin, dry vermouth, white crème de cacao and lemon — the 1930s train-named sour.",
+    "storyNoteZh": "1937 年伦敦 Cafe Royal 调酒师 C.A. Tuck 为纪念 20 世纪特快列车而创作。",
+    "storyNoteEn": "Created in 1937 by C.A. Tuck at London's Café Royal, named for the 20th Century Limited express train.",
+    "balanceTags": [
+      "sour",
+      "elegant",
+      "chocolate",
+      "classic"
+    ]
+  },
+  {
+    "id": "rec-paradise",
+    "slug": "paradise",
+    "nameZh": "天堂",
+    "nameEn": "Paradise",
+    "type": "CLASSIC",
+    "difficulty": 2,
+    "glassType": "coupe",
+    "iceType": "none",
+    "descriptionZh": "金酒、杏子白兰地、橙汁与苦精的 1930 年代果味酸酒。",
+    "descriptionEn": "Gin, apricot brandy, orange juice and bitters — the fruity 1930s short sour.",
+    "storyNoteZh": "1930 年 Harry Craddock《Savoy Cocktail Book》收录的轻盈果味酸酒。",
+    "storyNoteEn": "Recorded in Harry Craddock's 1930 Savoy Cocktail Book as a light, fruity pre-dinner sour.",
+    "balanceTags": [
+      "sour",
+      "fruity",
+      "elegant",
+      "classic"
+    ]
+  },
+  {
+    "id": "rec-brandy-crusta",
+    "slug": "brandy-crusta",
+    "nameZh": "白兰地脆皮",
+    "nameEn": "Brandy Crusta",
+    "type": "CLASSIC",
+    "difficulty": 4,
+    "glassType": "coupe",
+    "iceType": "none",
+    "descriptionZh": "白兰地、柠檬、马拉斯奇诺与苦精的糖边经典，19 世纪中叶新奥尔良发明。",
+    "descriptionEn": "Brandy, lemon, maraschino and bitters with a sugar rim and a long lemon-peel spiral — the 1850s New Orleans showpiece.",
+    "storyNoteZh": "19 世纪中叶新奥尔良 Joseph Santini 与 Louis Diat 改良，是 Crusta 杯型的由来。",
+    "storyNoteEn": "Refined in 1850s New Orleans by Joseph Santini and later Louis Diat; the Crusta glass was named for this drink.",
+    "balanceTags": [
+      "spirit-forward",
+      "elegant",
+      "showpiece",
+      "classic"
+    ]
+  },
+  {
+    "id": "rec-millionaire",
+    "slug": "millionaire",
+    "nameZh": "百万富翁",
+    "nameEn": "Millionaire",
+    "type": "CLASSIC",
+    "difficulty": 2,
+    "glassType": "coupe",
+    "iceType": "none",
+    "descriptionZh": "黑麦、黑刺李金酒、甜味美思、杏子白兰地与石榴糖浆的复合经典。",
+    "descriptionEn": "Rye, sloe gin, sweet vermouth, apricot brandy and grenadine — the multi-fruit millionaire classic.",
+    "storyNoteZh": "1910-20 年代纽约「Millionaire's Club」起源的复合水果鸡尾酒。",
+    "storyNoteEn": "Born in 1910s-20s New York at the Millionaire's Club; a complex multi-fruit stirred drink.",
+    "balanceTags": [
+      "spirit-forward",
+      "fruity",
+      "rich",
+      "classic"
+    ]
+  },
+  {
+    "id": "rec-harvard",
+    "slug": "harvard",
+    "nameZh": "哈佛",
+    "nameEn": "Harvard",
+    "type": "CLASSIC",
+    "difficulty": 2,
+    "glassType": "coupe",
+    "iceType": "none",
+    "descriptionZh": "金酒、甜味美思与石榴糖浆的波士顿常春藤调酒。",
+    "descriptionEn": "Gin, sweet vermouth and grenadine — the crimson Ivy League aperitif.",
+    "storyNoteZh": "1890 年代波士顿 Harvard Club 调酒师为校友聚会而创作，名字来自常春藤联盟的红。",
+    "storyNoteEn": "Created in 1890s Boston at the Harvard Club for alumni gatherings; the crimson hue matches school colours.",
+    "balanceTags": [
+      "spirit-forward",
+      "fruity",
+      "elegant",
+      "classic"
+    ]
+  },
+  {
+    "id": "rec-daisy",
+    "slug": "daisy",
+    "nameZh": "雏菊",
+    "nameEn": "Daisy",
+    "type": "CLASSIC",
+    "difficulty": 2,
+    "glassType": "rocks",
+    "iceType": "large",
+    "descriptionZh": "威士忌、柠檬、石榴糖浆与苏打水的 19 世纪酸酒家族。",
+    "descriptionEn": "Whiskey, lemon, grenadine and soda — the 19th-century Daisy family template.",
+    "storyNoteZh": "19 世纪中叶美国流行的「Daisy」酸酒家族，Margarita 是其后代。",
+    "storyNoteEn": "A mid-19th-century American Daisy family template; the Margarita is its most famous descendant.",
+    "balanceTags": [
+      "sour",
+      "refreshing",
+      "highball",
+      "classic"
+    ]
+  },
+  {
+    "id": "rec-deauville",
+    "slug": "deauville",
+    "nameZh": "多维尔",
+    "nameEn": "Deauville",
+    "type": "CLASSIC",
+    "difficulty": 3,
+    "glassType": "coupe",
+    "iceType": "none",
+    "descriptionZh": "黑麦、干邑、甜味美思与柠檬的多层次法国版本。",
+    "descriptionEn": "Rye, cognac, sweet vermouth and lemon — the Normandy harbour-town classic.",
+    "storyNoteZh": "1920 年代法国诺曼底 Deauville 度假村鸡尾酒，名字取自该地。",
+    "storyNoteEn": "A 1920s French classic from the Deauville seaside resort in Normandy.",
+    "balanceTags": [
+      "sour",
+      "spirit-forward",
+      "rich",
+      "classic"
+    ]
   }
 ]
