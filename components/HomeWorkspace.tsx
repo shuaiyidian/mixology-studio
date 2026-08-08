@@ -136,17 +136,17 @@ export function HomeWorkspace({ ingredients }: Props) {
             onClearAll={handleClearAll}
           />
 
+          <RecipeResults
+            matches={effectiveMatches}
+            selectedIds={selectedSet}
+          />
+
           <IngredientPalette
             ingredients={ingredients}
             category={category}
             onCategoryChange={setCategory}
             selectedIds={selectedSet}
             onToggle={handleToggle}
-          />
-
-          <RecipeResults
-            matches={effectiveMatches}
-            selectedIds={selectedSet}
           />
 
           {matchError && (
