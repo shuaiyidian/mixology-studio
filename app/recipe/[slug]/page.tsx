@@ -91,11 +91,11 @@ export default async function RecipePage({ params }: PageProps) {
 
       {/* Techniques used */}
       {recipe.techniques.length > 0 && (
-        <section className="mt-10">
+        <section className="mt-10 min-w-0">
           <h2 className="mb-4 text-xl font-semibold text-[var(--color-text-primary)]">
             涉及技法 <span className="text-base font-normal text-[var(--color-text-secondary)]">/ Techniques</span>
           </h2>
-          <div className="grid gap-4 sm:grid-cols-2">
+          <div className="grid min-w-0 gap-4 sm:grid-cols-2">
             {recipe.techniques.map((t) => {
               const full = getTechniqueById(t.id);
               if (!full) return null;

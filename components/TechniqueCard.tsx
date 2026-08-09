@@ -27,17 +27,17 @@ export function TechniqueCard({ technique }: Props) {
   const previewSteps = technique.stepsZh.slice(0, 2);
 
   return (
-    <div className="rounded-xl border border-[var(--color-border)] bg-white">
+    <div className="min-w-0 rounded-xl border border-[var(--color-border)] bg-white">
       <button
         type="button"
         onClick={() => setOpen((o) => !o)}
-        className="flex w-full items-start justify-between gap-4 p-4 text-left transition-colors hover:bg-stone-50"
+        className="flex w-full min-w-0 items-start justify-between gap-4 p-4 text-left transition-colors hover:bg-stone-50"
         aria-expanded={open}
       >
         <div className="min-w-0 flex-1">
-          <div className="mb-1 flex items-center gap-2">
-            <span className={`rounded-full px-2 py-0.5 text-[10px] font-medium ${cat.cls}`}>{cat.zh}</span>
-            <h3 className="font-semibold text-[var(--color-text-primary)]">
+          <div className="mb-1 flex flex-wrap items-center gap-x-2 gap-y-1">
+            <span className={`shrink-0 rounded-full px-2 py-0.5 text-[10px] font-medium ${cat.cls}`}>{cat.zh}</span>
+            <h3 className="min-w-0 font-semibold text-[var(--color-text-primary)]">
               {technique.nameZh}{" "}
               <span className="text-sm font-normal text-[var(--color-text-secondary)]">/ {technique.nameEn}</span>
             </h3>

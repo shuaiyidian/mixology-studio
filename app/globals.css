@@ -16,12 +16,46 @@
   --font-mono: var(--font-geist-mono);
 }
 
+html,
+body {
+  /* Prevent horizontal overflow from forcing mobile browsers to auto-zoom-out
+     and show the page at the wrong initial scale. Without this, any single
+     element wider than the viewport (a long unbreakable English string, a
+     flex item that can't shrink, etc.) silently breaks the mobile experience
+     because the user has to pinch-zoom to see the right side of the page. */
+  overflow-x: hidden;
+  max-width: 100%;
+  min-width: 0;
+}
+
 body {
   background: var(--color-surface);
   color: var(--color-text-primary);
   font-family: var(--font-sans), ui-sans-serif, system-ui, sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+}
+
+/* Flexbox fix: a flex child defaults to `min-width: auto`, which means it
+   refuses to shrink below its content's intrinsic min-width. On the recipe
+   detail page, the technique card's preview-step <li> uses `truncate`
+   (white-space: nowrap), so its intrinsic min-width is the full text width.
+   That bubbles up through the card → grid → main → body and pushes the
+   whole page to ~424px, forcing mobile browsers to zoom out.
+
+   Setting `min-width: 0` on direct children of the body lets the main
+   shrink to the viewport, and the technique card's `truncate` + `line-clamp-2`
+   then clip the text with an ellipsis instead of pushing the layout. */
+body > * {
+  min-width: 0;
+  max-width: 100%;
+}
+
+/* Allow long unbreakable text (English ingredient names, URLs, etc.) to wrap
+   inside any container instead of forcing the parent to scroll. */
+body * {
+  overflow-wrap: anywhere;
+  word-break: break-word;
 }
 
 /* Subtle scrollbar (WebKit) */

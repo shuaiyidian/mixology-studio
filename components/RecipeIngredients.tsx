@@ -45,21 +45,21 @@ export function RecipeIngredients({ recipe }: Props) {
                 aria-hidden
               />
               <div className="flex-1 min-w-0">
-                <div className="flex items-baseline gap-2">
+                <div className="flex flex-wrap items-baseline gap-x-2 gap-y-1">
                   <span className={`font-medium ${ri.isKey ? "text-[var(--color-text-primary)]" : "text-[var(--color-text-secondary)]"}`}>
                     {ri.ingredient.nameZh}
                   </span>
                   <span className="text-sm text-[var(--color-text-muted)]">/ {ri.ingredient.nameEn}</span>
                   {ri.isKey && (
                     <span
-                      className="inline-flex items-center rounded-full bg-[var(--color-accent-soft)] px-2 py-0.5 text-[10px] font-medium uppercase tracking-wide text-[var(--color-accent)]"
+                      className="inline-flex shrink-0 items-center rounded-full bg-[var(--color-accent-soft)] px-2 py-0.5 text-[10px] font-medium uppercase tracking-wide text-[var(--color-accent)]"
                       title="关键原料 / Key ingredient"
                     >
                       ★ 关键
                     </span>
                   )}
                   {ri.optional && (
-                    <span className="inline-flex items-center rounded-full bg-stone-100 px-2 py-0.5 text-[10px] font-medium text-stone-500">
+                    <span className="inline-flex shrink-0 items-center rounded-full bg-stone-100 px-2 py-0.5 text-[10px] font-medium text-stone-500">
                       可选 / optional
                     </span>
                   )}
