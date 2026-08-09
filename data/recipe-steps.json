@@ -4928,39 +4928,6 @@
     "tipEn": null
   },
   {
-    "id": "rs-449",
-    "recipeId": "rec-pink-gin",
-    "order": 1,
-    "instructionZh": "马天尼杯倒入 3 dashes 安氏，转动杯身让苦精挂壁。",
-    "instructionEn": "Add 3 dashes Angostura to a chilled coupe; swirl to coat the inside.",
-    "duration": null,
-    "techniqueId": null,
-    "tipZh": null,
-    "tipEn": null
-  },
-  {
-    "id": "rs-450",
-    "recipeId": "rec-pink-gin",
-    "order": 2,
-    "instructionZh": "倒入冰镇金酒。",
-    "instructionEn": "Pour in the chilled gin.",
-    "duration": null,
-    "techniqueId": "tech-build",
-    "tipZh": null,
-    "tipEn": null
-  },
-  {
-    "id": "rs-451",
-    "recipeId": "rec-pink-gin",
-    "order": 3,
-    "instructionZh": "不搅拌，柠檬皮装饰（可选）。",
-    "instructionEn": "Do not stir; garnish with lemon peel (optional).",
-    "duration": null,
-    "techniqueId": null,
-    "tipZh": "不搅是英国海军传统。",
-    "tipEn": "Not stirring is the British naval tradition."
-  },
-  {
     "id": "rs-452",
     "recipeId": "rec-gin-sling",
     "order": 1,

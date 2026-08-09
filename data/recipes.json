@@ -2184,27 +2184,6 @@
     "popularity": 65
   },
   {
-    "id": "rec-pink-gin",
-    "slug": "pink-gin",
-    "nameZh": "粉红金酒",
-    "nameEn": "Pink Gin",
-    "type": "CLASSIC",
-    "difficulty": 1,
-    "glassType": "coupe",
-    "iceType": "none",
-    "descriptionZh": "金酒与安氏的极简粉红染色苦精酒，英国皇家海军传统。",
-    "descriptionEn": "Gin and Angostura — the Royal Navy's pre-dinner pink, just two ingredients in a glass.",
-    "storyNoteZh": "19 世纪英国皇家海军医官 Gordon's 推广，灵感来自热带地区给药用的苦精水。",
-    "storyNoteEn": "A 19th-century Royal Navy tradition; the magenta hue comes from Angostura's dye diluting in gin.",
-    "balanceTags": [
-      "spirit-forward",
-      "bitter",
-      "classic",
-      "historic"
-    ],
-    "popularity": 65
-  },
-  {
     "id": "rec-gin-sling",
     "slug": "gin-sling",
     "nameZh": "金酒司令",

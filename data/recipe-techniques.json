@@ -1110,11 +1110,6 @@
     "techniqueId": "tech-build"
   },
   {
-    "id": "rt-223",
-    "recipeId": "rec-pink-gin",
-    "techniqueId": "tech-build"
-  },
-  {
     "id": "rt-224",
     "recipeId": "rec-gin-sling",
     "techniqueId": "tech-build"

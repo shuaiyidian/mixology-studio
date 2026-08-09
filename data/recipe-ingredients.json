@@ -5412,28 +5412,6 @@
     "order": 5
   },
   {
-    "id": "ri-495",
-    "recipeId": "rec-pink-gin",
-    "ingredientId": "ing-gin",
-    "amount": "60ml",
-    "isKey": true,
-    "optional": false,
-    "notesZh": "Plymouth 经典",
-    "notesEn": "Plymouth classic",
-    "order": 1
-  },
-  {
-    "id": "ri-496",
-    "recipeId": "rec-pink-gin",
-    "ingredientId": "ing-angostura",
-    "amount": "3 dashes",
-    "isKey": true,
-    "optional": false,
-    "notesZh": "在杯中直接用苦精洗内壁",
-    "notesEn": "swirl dashes to coat the glass",
-    "order": 2
-  },
-  {
     "id": "ri-497",
     "recipeId": "rec-gin-sling",
     "ingredientId": "ing-gin",
