@@ -15,6 +15,8 @@ import { IngredientPalette } from "@/components/IngredientPalette";
 import { DropZone } from "@/components/DropZone";
 import { RecipeResults } from "@/components/RecipeResults";
 import { CategoryFilter, type CategoryFilterValue } from "@/components/CategoryFilter";
+import { ModeToggle, type WorkspaceMode } from "@/components/ModeToggle";
+import { InnovationPanel } from "@/components/InnovationPanel";
 import type { Ingredient, MatchResponse, MatchResult } from "@/lib/types";
 
 interface Props {
@@ -23,6 +25,7 @@ interface Props {
 
 export function HomeWorkspace({ ingredients }: Props) {
   const [category, setCategory] = useState<CategoryFilterValue>("ALL");
+  const [mode, setMode] = useState<WorkspaceMode>("CLASSIC");
   const [selectedIds, setSelectedIds] = useState<string[]>([]);
   const [activeDragIngredient, setActiveDragIngredient] = useState<Ingredient | null>(null);
   const [matches, setMatches] = useState<MatchResult[] | null>(null);
@@ -136,10 +139,18 @@ export function HomeWorkspace({ ingredients }: Props) {
             onClearAll={handleClearAll}
           />
 
-          <RecipeResults
-            matches={effectiveMatches}
-            selectedIds={selectedSet}
-          />
+          <div className="flex justify-center sm:justify-start">
+            <ModeToggle value={mode} onChange={setMode} />
+          </div>
+
+          {mode === "CLASSIC" ? (
+            <RecipeResults
+              matches={effectiveMatches}
+              selectedIds={selectedSet}
+            />
+          ) : (
+            <InnovationPanel selectedIngredients={selectedIngredients} />
+          )}
 
           <IngredientPalette
             ingredients={ingredients}
