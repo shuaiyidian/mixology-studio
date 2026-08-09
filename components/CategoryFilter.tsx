@@ -17,6 +17,7 @@ const tabs: Array<{ value: CategoryFilterValue; labelZh: string; labelEn: string
   { value: "WINE", labelZh: "美思", labelEn: "Wine" },
   { value: "JUICE", labelZh: "果汁", labelEn: "Juice" },
   { value: "SYRUP", labelZh: "糖浆", labelEn: "Syrup" },
+  { value: "SODA", labelZh: "汽水", labelEn: "Soda" },
   { value: "BITTERS", labelZh: "苦精", labelEn: "Bitters" },
   { value: "DAIRY", labelZh: "乳蛋", labelEn: "Dairy" },
   { value: "HERB_SPICE", labelZh: "香草", labelEn: "Herb" },

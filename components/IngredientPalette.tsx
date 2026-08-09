@@ -19,6 +19,7 @@ const categoryOrder: IngredientCategory[] = [
   "WINE",
   "JUICE",
   "SYRUP",
+  "SODA",
   "BITTERS",
   "DAIRY",
   "HERB_SPICE",
