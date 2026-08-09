@@ -205,7 +205,7 @@
   {
     "id": "ing-tequila-reposado",
     "slug": "tequila-reposado",
-    "nameZh": "金色龙舌兰",
+    "nameZh": "金龙舌兰",
     "nameEn": "Tequila Reposado",
     "category": "BASE_SPIRIT",
     "abv": 40,
@@ -375,7 +375,7 @@
   {
     "id": "ing-triple-sec",
     "slug": "triple-sec",
-    "nameZh": "三秒干橙酒",
+    "nameZh": "白橙皮酒",
     "nameEn": "Triple Sec",
     "category": "LIQUEUR",
     "abv": 30,
@@ -391,7 +391,7 @@
   {
     "id": "ing-kahlua",
     "slug": "kahlua",
-    "nameZh": "甘露咖啡利口酒",
+    "nameZh": "咖啡利口酒",
     "nameEn": "Kahlúa",
     "category": "LIQUEUR",
     "abv": 20,
@@ -442,7 +442,7 @@
   {
     "id": "ing-benedictine",
     "slug": "benedictine",
-    "nameZh": "本笃会甜酒",
+    "nameZh": "班尼迪克汀",
     "nameEn": "Bénédictine",
     "category": "LIQUEUR",
     "abv": 40,
@@ -493,7 +493,7 @@
   {
     "id": "ing-maraschino",
     "slug": "maraschino",
-    "nameZh": "马拉斯奇诺樱桃酒",
+    "nameZh": "黑樱桃酒",
     "nameEn": "Luxardo Maraschino",
     "category": "LIQUEUR",
     "abv": 32,
@@ -544,7 +544,7 @@
   {
     "id": "ing-fernet-branca",
     "slug": "fernet-branca",
-    "nameZh": "Fernet 苦酒",
+    "nameZh": "菲奈特苦酒",
     "nameEn": "Fernet-Branca",
     "category": "LIQUEUR",
     "abv": 39,
@@ -561,7 +561,7 @@
   {
     "id": "ing-cherry-heering",
     "slug": "cherry-heering",
-    "nameZh": "樱桃希林",
+    "nameZh": "希灵樱桃酒",
     "nameEn": "Cherry Heering",
     "category": "LIQUEUR",
     "abv": 24,
@@ -746,7 +746,7 @@
   {
     "id": "ing-simple-syrup",
     "slug": "simple-syrup",
-    "nameZh": "单糖浆（1:1）",
+    "nameZh": "简单糖浆（1:1）",
     "nameEn": "Simple Syrup (1:1)",
     "category": "SYRUP",
     "abv": 0,
@@ -861,7 +861,7 @@
   {
     "id": "ing-orange-bitters",
     "slug": "orange-bitters",
-    "nameZh": "橙皮苦精",
+    "nameZh": "橙味苦精",
     "nameEn": "Orange Bitters",
     "category": "BITTERS",
     "abv": 39,
@@ -1087,7 +1087,7 @@
   {
     "id": "ing-maraschino-cherry",
     "slug": "maraschino-cherry",
-    "nameZh": "酒渍马拉斯奇诺樱桃",
+    "nameZh": "酒渍樱桃",
     "nameEn": "Maraschino Cherry",
     "category": "GARNISH",
     "abv": 0,
@@ -1280,7 +1280,7 @@
   {
     "id": "ing-averna",
     "slug": "averna",
-    "nameZh": "Averna 阿玛罗",
+    "nameZh": "Averna 雅凡娜",
     "nameEn": "Averna Amaro",
     "category": "LIQUEUR",
     "abv": 29,
@@ -1297,7 +1297,7 @@
   {
     "id": "ing-cynar",
     "slug": "cynar",
-    "nameZh": "Cynar 雅玛罗",
+    "nameZh": "Cynar 西娜尔",
     "nameEn": "Cynar",
     "category": "LIQUEUR",
     "abv": 16.5,
@@ -1892,5 +1892,428 @@
     "colorHex": "#FAF0E0",
     "descriptionZh": "细砂糖，Brandy Crusta 等杯边糖边的撒粉原料。",
     "descriptionEn": "Fine granulated sugar for sugar-rimmed classics like the Brandy Crusta."
+  },
+  {
+    "id": "ing-suze",
+    "slug": "suze",
+    "nameZh": "苏兹",
+    "nameEn": "Suze (French Gentian Aperitif)",
+    "category": "LIQUEUR",
+    "abv": 15,
+    "flavorTags": [
+      "bitter",
+      "gentian",
+      "herbal",
+      "french"
+    ],
+    "colorHex": "#E0A030",
+    "descriptionZh": "法国金色龙胆草开胃酒，是 White Negroni 中 Campari 的替代品。",
+    "descriptionEn": "French golden gentian aperitif, the gentian-bitter swap for Campari in the White Negroni."
+  },
+  {
+    "id": "ing-espresso",
+    "slug": "espresso",
+    "nameZh": "浓缩咖啡",
+    "nameEn": "Fresh Espresso",
+    "category": "OTHER",
+    "abv": 0,
+    "flavorTags": [
+      "coffee",
+      "bitter",
+      "roasty",
+      "fresh"
+    ],
+    "colorHex": "#3A1A0A",
+    "descriptionZh": "新鲜现萃的浓缩咖啡，是 Coffee Negroni、Espresso Martini 与 Irish Coffee 的苦味来源。",
+    "descriptionEn": "Freshly pulled espresso shot, the bitter backbone of Coffee Negroni, Espresso Martini and Irish Coffee."
+  },
+  {
+    "id": "ing-soju",
+    "slug": "soju",
+    "nameZh": "烧酒",
+    "nameEn": "Soju (Korean)",
+    "category": "BASE_SPIRIT",
+    "abv": 20,
+    "flavorTags": [
+      "neutral",
+      "light",
+      "rice",
+      "korean"
+    ],
+    "colorHex": "#F8F4E8",
+    "descriptionZh": "韩国大米蒸馏酒，干净轻盈，是 Soju Sour、Yuzu Soju Spritz 的亚洲基酒。",
+    "descriptionEn": "Korean rice-distilled spirit, light and clean, the East-Asian base of Soju Sour and Yuzu Soju Spritz."
+  },
+  {
+    "id": "ing-yuzu-juice",
+    "slug": "yuzu-juice",
+    "nameZh": "柚子汁",
+    "nameEn": "Yuzu Juice",
+    "category": "JUICE",
+    "abv": 0,
+    "flavorTags": [
+      "yuzo",
+      "citrus",
+      "floral",
+      "japanese"
+    ],
+    "colorHex": "#F4E870",
+    "descriptionZh": "日本柚子果汁，Yuzu Soju Spritz 与日本调酒的标志性柑橘。",
+    "descriptionEn": "Japanese yuzu citrus juice, the signature citrus of Yuzu Soju Spritz and modern Japanese cocktails."
+  },
+  {
+    "id": "ing-shochu",
+    "slug": "shochu",
+    "nameZh": "烧酎",
+    "nameEn": "Shochu (Japanese)",
+    "category": "BASE_SPIRIT",
+    "abv": 25,
+    "flavorTags": [
+      "rice",
+      "earthy",
+      "japanese",
+      "umami"
+    ],
+    "colorHex": "#F2EDD8",
+    "descriptionZh": "日本芋/麦烧酎，是 Chu-Hai、Lemon Sour 与日本风格基酒。",
+    "descriptionEn": "Japanese sweet-potato or barley spirit, the base of Chu-Hai, Lemon Sour and other Japanese cocktails."
+  },
+  {
+    "id": "ing-matcha",
+    "slug": "matcha",
+    "nameZh": "抹茶粉",
+    "nameEn": "Matcha Powder",
+    "category": "HERB_SPICE",
+    "abv": 0,
+    "flavorTags": [
+      "green-tea",
+      "umami",
+      "bitter",
+      "earthy"
+    ],
+    "colorHex": "#7A9A30",
+    "descriptionZh": "日本蒸青碾茶粉，Matcha Highball 与日式茶鸡尾茶的标志。",
+    "descriptionEn": "Japanese powdered green tea, the signature ingredient of Matcha Highball and other Japanese tea cocktails."
+  },
+  {
+    "id": "ing-hibiscus-syrup",
+    "slug": "hibiscus-syrup",
+    "nameZh": "洛神花糖浆",
+    "nameEn": "Hibiscus Syrup",
+    "category": "SYRUP",
+    "abv": 0,
+    "flavorTags": [
+      "floral",
+      "tart",
+      "berry",
+      "red"
+    ],
+    "colorHex": "#9A1A3A",
+    "descriptionZh": "洛神花萼熬制的红宝石色糖浆，Hibiscus Cooler 与 Hibiscus Negroni 的深红色与酸度。",
+    "descriptionEn": "Ruby-red syrup from hibiscus calyces, the colour and tartness of Hibiscus Cooler and Hibiscus Negroni."
+  },
+  {
+    "id": "ing-lavender-syrup",
+    "slug": "lavender-syrup",
+    "nameZh": "薰衣草糖浆",
+    "nameEn": "Lavender Syrup",
+    "category": "SYRUP",
+    "abv": 0,
+    "flavorTags": [
+      "floral",
+      "aromatic",
+      "sweet",
+      "purple"
+    ],
+    "colorHex": "#A088C0",
+    "descriptionZh": "法国薰衣草糖浆，薰衣草柠檬气泡水与法式花型鸡尾酒的花香。",
+    "descriptionEn": "French lavender-infused syrup, the floral soul of Lavender Lemonade Spritz and other Provençal cocktails."
+  },
+  {
+    "id": "ing-seedlip",
+    "slug": "seedlip",
+    "nameZh": "苏滋",
+    "nameEn": "Seedlip (non-alcoholic)",
+    "category": "BASE_SPIRIT",
+    "abv": 0,
+    "flavorTags": [
+      "non-alcoholic",
+      "herbal",
+      "spice",
+      "bittersweet"
+    ],
+    "colorHex": "#D0D8B0",
+    "descriptionZh": "英国无酒精蒸馏「烈酒」，Phony Negroni 与 Seedlip Sour 的 NA 替代基酒。",
+    "descriptionEn": "British non-alcoholic distilled spirit, the NA backbone of Phony Negroni and Seedlip Sour."
+  },
+  {
+    "id": "ing-sake",
+    "slug": "sake",
+    "nameZh": "清酒",
+    "nameEn": "Sake (Japanese)",
+    "category": "BASE_SPIRIT",
+    "abv": 15,
+    "flavorTags": [
+      "rice",
+      "clean",
+      "umami",
+      "japanese"
+    ],
+    "colorHex": "#FAF6E0",
+    "descriptionZh": "日本米酒，Matcha Highball 与 Sake Spritz 的日本基酒。",
+    "descriptionEn": "Japanese rice wine, the base of Matcha Highball and Sake Spritz."
+  },
+  {
+    "id": "ing-cherry-syrup",
+    "slug": "cherry-syrup",
+    "nameZh": "樱桃糖浆",
+    "nameEn": "Cherry Syrup",
+    "category": "SYRUP",
+    "abv": 0,
+    "flavorTags": [
+      "cherry",
+      "fruity",
+      "sweet",
+      "red"
+    ],
+    "colorHex": "#B0182A",
+    "descriptionZh": "深色樱桃糖浆，Cherry Sour、Shirley Temple 等果味鸡尾酒的红色与果香。",
+    "descriptionEn": "Dark cherry syrup, the red fruit of Cherry Sour, Shirley Temple and other cherry-based drinks."
+  },
+  {
+    "id": "ing-demerara-syrup",
+    "slug": "demerara-syrup",
+    "nameZh": "德麦拉拉糖浆",
+    "nameEn": "Demerara Syrup",
+    "category": "SYRUP",
+    "abv": 0,
+    "flavorTags": [
+      "cane",
+      "rich",
+      "caramel",
+      "tropical"
+    ],
+    "colorHex": "#8A4A1A",
+    "descriptionZh": "德麦拉拉粗糖糖浆，tiki 鸡尾酒与 Demerara Sour 的深糖风味。",
+    "descriptionEn": "Demerara raw-sugar syrup, the deep cane backbone of tiki drinks and Demerara Sour."
+  },
+  {
+    "id": "ing-grenadine-pomegranate",
+    "slug": "grenadine-pomegranate",
+    "nameZh": "红石榴糖浆",
+    "nameEn": "Pomegranate Grenadine",
+    "category": "SYRUP",
+    "abv": 0,
+    "flavorTags": [
+      "pomegranate",
+      "tart",
+      "sweet",
+      "red"
+    ],
+    "colorHex": "#A01828",
+    "descriptionZh": "红石榴糖浆，Pomegranate Sour 与多款红色果味鸡尾酒的石榴酸。",
+    "descriptionEn": "Pomegranate grenadine, the pomegranate acid of Pomegranate Sour and other red-fruit drinks."
+  },
+  {
+    "id": "ing-tabasco",
+    "slug": "tabasco",
+    "nameZh": "塔巴斯科辣酱",
+    "nameEn": "Tabasco Sauce",
+    "category": "BITTERS",
+    "abv": 0,
+    "flavorTags": [
+      "hot",
+      "vinegary",
+      "spice",
+      "pepper"
+    ],
+    "colorHex": "#A02010",
+    "descriptionZh": "墨西哥 Tabasco 辣椒酱，Bloody Mary / Virgin Mary 的辣味来源。",
+    "descriptionEn": "Mexican tabasco pepper sauce, the signature heat of Bloody Mary and Virgin Mary."
+  },
+  {
+    "id": "ing-amarena-cherry",
+    "slug": "amarena-cherry",
+    "nameZh": "阿玛雷纳樱桃",
+    "nameEn": "Amarena Cherry",
+    "category": "GARNISH",
+    "abv": 0,
+    "flavorTags": [
+      "cherry",
+      "sweet",
+      "italian",
+      "dark"
+    ],
+    "colorHex": "#3A0A1A",
+    "descriptionZh": "意大利 Amarena 黑樱桃，Manhattan、Black Manhattan 与鸡尾酒的高档装饰。",
+    "descriptionEn": "Italian Amarena wild cherry, the upscale garnish of Manhattans, Black Manhattans and craft cocktails."
+  },
+  {
+    "id": "ing-cachaca",
+    "slug": "cachaca",
+    "nameZh": "卡沙萨",
+    "nameEn": "Cachaça (Brazilian)",
+    "category": "BASE_SPIRIT",
+    "abv": 40,
+    "flavorTags": [
+      "sugarcane",
+      "earthy",
+      "vegetal",
+      "brazilian"
+    ],
+    "colorHex": "#F8F4E0",
+    "descriptionZh": "巴西甘蔗蒸馏酒，Caipirinha、Batida de Coco 的巴西基酒。",
+    "descriptionEn": "Brazilian sugarcane spirit, the unmistakable base of Caipirinha and Batida de Coco."
+  },
+  {
+    "id": "ing-limoncello",
+    "slug": "limoncello",
+    "nameZh": "柠檬酒",
+    "nameEn": "Limoncello",
+    "category": "LIQUEUR",
+    "abv": 28,
+    "flavorTags": [
+      "lemon",
+      "sweet",
+      "italian",
+      "citrus"
+    ],
+    "colorHex": "#F4E070",
+    "descriptionZh": "意大利柠檬皮利口酒，Limoncello Spritz 与意式甜型鸡尾酒。",
+    "descriptionEn": "Italian lemon-peel liqueur, the sweet citrus of Limoncello Spritz and other Italian dolci cocktails."
+  },
+  {
+    "id": "ing-chocolate-bitters",
+    "slug": "chocolate-bitters",
+    "nameZh": "可可苦精",
+    "nameEn": "Chocolate Bitters",
+    "category": "BITTERS",
+    "abv": 44,
+    "flavorTags": [
+      "cocoa",
+      "bitter",
+      "aromatic",
+      "spice"
+    ],
+    "colorHex": "#3A1A0A",
+    "descriptionZh": "可可豆苦精，Oaxaca Old Fashioned 与巧克力鸡尾酒的可可苦。",
+    "descriptionEn": "Cocoa-bean bitters, the chocolate depth of Oaxaca Old Fashioned and other cocoa cocktails."
+  },
+  {
+    "id": "ing-pomegranate-juice",
+    "slug": "pomegranate-juice",
+    "nameZh": "石榴汁",
+    "nameEn": "Pomegranate Juice",
+    "category": "JUICE",
+    "abv": 0,
+    "flavorTags": [
+      "pomegranate",
+      "tart",
+      "fruity",
+      "red"
+    ],
+    "colorHex": "#9A2030",
+    "descriptionZh": "现榨石榴汁，Pomegranate Sour 与 Hibiscus Cooler 的果酸。",
+    "descriptionEn": "Fresh pomegranate juice, the bright acidity of Pomegranate Sour and Hibiscus Cooler."
+  },
+  {
+    "id": "ing-becherovka",
+    "slug": "becherovka",
+    "nameZh": "贝赫罗夫卡",
+    "nameEn": "Becherovka",
+    "category": "LIQUEUR",
+    "abv": 38,
+    "flavorTags": [
+      "herbal",
+      "spice",
+      "czech",
+      "bitter"
+    ],
+    "colorHex": "#C09040",
+    "descriptionZh": "捷克草药利口酒，Conference 等 Death & Co 鸡尾酒的中欧香料。",
+    "descriptionEn": "Czech herbal liqueur, the Central-European spice of Conference and other Death & Co cocktails."
+  },
+  {
+    "id": "ing-arrack",
+    "slug": "arrack",
+    "nameZh": "阿拉吉",
+    "nameEn": "Arrack (Southeast Asian)",
+    "category": "BASE_SPIRIT",
+    "abv": 50,
+    "flavorTags": [
+      "sugarcane",
+      "funk",
+      "tropical",
+      "indonesian"
+    ],
+    "colorHex": "#F0EAD0",
+    "descriptionZh": "印尼/斯里兰卡椰子或棕榈糖蒸馏酒，Arrack Sour 等亚洲酸酒的基酒。",
+    "descriptionEn": "Indonesian/Sri Lankan coconut or palm-sugar spirit, the funky base of Arrack Sour and Asian sours."
+  },
+  {
+    "id": "ing-amaro-nonino",
+    "slug": "amaro-nonino",
+    "nameZh": "诺利普拉",
+    "nameEn": "Amaro Nonino Quintessentia",
+    "category": "LIQUEUR",
+    "abv": 35,
+    "flavorTags": [
+      "bitter",
+      "grappa",
+      "herbal",
+      "smooth"
+    ],
+    "colorHex": "#7A4010",
+    "descriptionZh": "意大利 Nonino 家族格拉帕基苦酒，Paper Plane、Amaro Sour 等现代基酒。",
+    "descriptionEn": "Italian grappa-based amaro from Nonino, the bitter base of Paper Plane and modern Amaro Sours."
+  },
+  {
+    "id": "ing-coffee-beans",
+    "slug": "coffee-beans",
+    "nameZh": "咖啡豆",
+    "nameEn": "Coffee Beans",
+    "category": "GARNISH",
+    "abv": 0,
+    "flavorTags": [
+      "coffee",
+      "aromatic",
+      "bitter"
+    ],
+    "colorHex": "#4A2A10",
+    "descriptionZh": "整粒烘焙咖啡豆，Coffee Negroni 与 Espresso Martini 的传统三粒装饰。",
+    "descriptionEn": "Whole roasted coffee beans, the traditional three-bean garnish of Coffee Negroni and Espresso Martini."
+  },
+  {
+    "id": "ing-ginger-ale",
+    "slug": "ginger-ale",
+    "nameZh": "姜汁汽水",
+    "nameEn": "Ginger Ale",
+    "category": "SODA",
+    "abv": 0,
+    "flavorTags": [
+      "ginger",
+      "sweet",
+      "carbonated"
+    ],
+    "colorHex": "#F2E870",
+    "descriptionZh": "甜型姜汁汽水，Shirley Temple 与其他无酒精姜味饮品的传统汽水。",
+    "descriptionEn": "Sweet ginger ale soda, the carbonated base of Shirley Temple and other NA ginger drinks."
+  },
+  {
+    "id": "ing-celery-salt",
+    "slug": "celery-salt",
+    "nameZh": "芹菜盐",
+    "nameEn": "Celery Salt",
+    "category": "BITTERS",
+    "abv": 0,
+    "flavorTags": [
+      "salty",
+      "celery",
+      "savory",
+      "umami"
+    ],
+    "colorHex": "#D0D0B0",
+    "descriptionZh": "芹菜籽研磨的盐，Bloody Mary / Virgin Mary 杯边的标志盐边。",
+    "descriptionEn": "Celery-seed salt, the signature rim salt of Bloody Mary and Virgin Mary."
   }
 ]

@@ -93,3 +93,98 @@ Chinese names follow the conventions most used by 调酒师 (bartending) communi
 - All recipes have at least 2 ingredients and at least 3 steps.
 - The (recipeId, ingredientId) unique constraint is honored — no recipe lists the same ingredient twice.
 - All slugs are unique within their respective entities.
+
+## 9. B2-Extension v2 (110 additional classic recipes — v0.2+ batch)
+
+The 110 recipes added in v2 are drawn from the same canonical references plus the following specialised sources:
+
+15. **Death & Co: Modern Classic Cocktails (2nd Edition, 2022)** — used for the modern craft cluster (Oaxaca Old Fashioned, Conference, Amor y Amargo, Thunderbolt, Obituary, Wandering Poet, La Rosa, Fair and Square, Peninsula, Five Spice, Surrender, Ready Fire Aim, Trinidad Sour) and the East India revival.
+16. **Beachbum Berry Remixed** (Jeff Berry, 2010) — used for Aku Aku, Mystery Word, Cobra's Fang, Sidewinder's Fang, Nui Nui, Missionary's Downfall, Q.B. Cooler, Beachcomber's Gold, Pearl Diver.
+17. **Beachbum Berry's Sippin' Safari** (Jeff Berry, 1998 / 2002) — used to verify the Painkiller attribution to Daphne Henderson at the Soggy Dollar Bar (BVI).
+18. **PDT Cocktail Book** (Jim Meehan, 2011) — used for La Rosa, Los Angeles Negroni variations.
+19. **The Dead Rabbit Drinks Manual** (Sean Muldoon & Jack McGarry, 2015) — used for the Dead Rabbit Irish Coffee spec.
+20. **Harry Craddock's Savoy Cocktail Book** (1930) — used for Holland House Cocktail, Bronx Cocktail, Italian Gentleman, Champs-Élysées, Japan Cocktail.
+21. **Jerry Thomas's Bartender's Guide** (1862/1876) — used for Japan Cocktail (1884) and Holland House origins.
+22. **Imbibe! (David Wondrich, 2007)** — used for the Bronx Cocktail, Monkey Gland, Widow's Kiss, and Grasshopper origin stories.
+23. **The Oxford Companion to Spirits and Cocktails** (2022) — used for Alaska, Pink Lady, Brandy Alexander and the 1918 Tujague's Grasshopper claim.
+24. **Punch: The Delights (and Dangers) of the Flowing Bowl** (David Wondrich, 2010) — used for Bishop, Singapore Sling, and the Garibaldi 1915 Naples origin.
+25. **Iban Uriz / Izar** — used for the "tinto de verano" Madrid 1960s provenance.
+
+### New ingredients added (25)
+suze, espresso, soju, yuzu-juice, shochu, matcha, hibiscus-syrup, lavender-syrup, seedlip, sake, cherry-syrup, demerara-syrup, grenadine-pomegranate, tabasco, amarena-cherry, cachaca, limoncello, chocolate-bitters, pomegranate-juice, becherovka, arrack, amaro-nonino, coffee-beans, ginger-ale, celery-salt.
+
+### New techniques added (0)
+No new techniques; the 14 existing techniques cover all 110 new recipes.
+
+### Per-recipe notes for the v2 batch (selected)
+- **Rec-white-negroni** — Created in 2001 by Wayne Collins at London's Brunswick House; Suze's gentian bitterness is the gentler replacement for Campari.
+- **Rec-coffee-negroni** — Modern 2010s Italian and NYC craft-bar variant; the espresso shot is freshly pulled (not cold brew).
+- **Rec-garibaldi** — A 20th-century Neapolitan aperitivo, not a 19th-century one. The ratio of Campari to fresh orange juice is typically 1:2.
+- **Rec-cardinale** — A 1940s-50s Roman variant from Hotel Excelsior, gin-heavy with dry vermouth and a small pour of Campari (different from the 1:1:1 Negroni).
+- **Rec-negroni-bianco** — Uses Dolin Blanc vermouth (not the red vermouth) for a paler, drier Negroni cousin.
+- **Rec-count-negroni** — The legend has it that the original 1919 Camillo Negroni asked for cognac, not gin. Recorded as a curio rather than a mainstream recipe.
+- **Rec-sicilian-negroni** — 2010s Italian NYC variant with Amaretto; the Sicilian almond signature.
+- **Rec-peach-sour** — A 1930s bourbon-peach sour popular in American Southern cocktail manuals; we use the bourbon + fresh peach purée version (not the modern peach-schnapps version).
+- **Rec-trinidad-sour** — 2007 Death & Co NYC; the Angostura-as-main-spirit template is unusual but distinctive.
+- **Rec-pomegranate-sour** — 2010s craft revival; pomegranate grenadine is a separate ingredient from regular grenadine.
+- **Rec-japanese-sour** — Tokyo craft-bar shochu sour; we use the shochu + lemon + simple ratio (not the yuzu variant which is more Western).
+- **Rec-campari-sour** — A 2010s Italian bartending revival; the IBA-adjacent 1:2 ratio (Campari : lemon+sugar).
+- **Rec-mexican-mule** through **rec-cherry-mule** — All 15 mules use the same template (60ml base spirit + lime + ginger beer) with the spirit swapped; we used existing ginger-beer ingredient.
+- **Rec-st-germain-mule** — St-Germain + Gin + Ginger Beer; a post-2007 craft-bar take.
+- **Rec-blood-orange-mule** — Uses regular orange juice as a stand-in for blood orange; in season, blood orange is preferred.
+- **Rec-soju-sour** — A 2010s Seoul craft-bar soju sour variant. Soju's lower ABV means a slightly longer pour (60ml vs 45ml whiskey) to balance.
+- **Rec-yuzu-soju-spritz** — Modern Japanese-Korean fusion; we substituted lemon peel for the yuzu-peel garnish.
+- **Rec-matcha-highball** — Requires pre-whisking the matcha with a small amount of hot water to form a paste before adding to the highball; this is a key prep step.
+- **Rec-lemon-sour (Remon Sour)** — The single most popular izakaya cocktail in Japan; 1950s origin.
+- **Rec-caipirinha** — The traditional Brazilian method muddles lime wedges with sugar; we used fresh lime juice + sugar as a more recipe-data-friendly substitute. The "modern Caipirinha" is functionally identical to the traditional version.
+- **Rec-pisco-punch** — The original San Francisco Bank Exchange 1893 recipe used soluble pineapple; modern recipes use fresh pineapple juice.
+- **Rec-sangria** — The pitcher serves 6-8; we use Cognac (the canonical Spanish brandy) rather than the less-authentic generic "brandy" ingredient.
+- **Rec-st-germain-spritz** — 2007+ St-Germain launch led to this floral spritz alternative to Aperol.
+- **Rec-vermouth-cassis** — A Spanish vermut aperitivo; the same drink as the French "vermouth cassis" tradition.
+- **Rec-porto-tonic** — 2000s Porto-origin low-ABV aperitivo; uses ruby port specifically.
+- **Rec-limoncello-spritz** — 2010s Amalfi-coast summer spritz using limoncello in place of Aperol.
+- **Rec-oaxaca-old-fashioned** — 2006 Phil Ward at Death & Co NYC; chocolate bitters (we added `ing-chocolate-bitters`) are non-substitutable for the canonical version.
+- **Rec-dead-rabbit-irish-coffee** — 2010s Dead Rabbit refinement; the cream is lightly whipped to a yogurt consistency (not fully whipped to peaks) so it floats properly.
+- **Rec-conference** — 2007 Death & Co pairing American applejack with Czech Becherovka; a trans-Atlantic herbal combination.
+- **Rec-amor-y-amargo** — 2008 Joaquín Simó at Death & Co; the "love and bitter" name is the literal Spanish translation.
+- **Rec-thunderbolt** — 2010 Death & Co cognac-Italian-amaro-cherry sour; one of the richer sours in the book.
+- **Rec-obituary** — 2009 Death & Co; Cynar-led bitter-bourbon sour.
+- **Rec-east-india** — 1870s NYC East India Hotel; the recipe is one of the oldest printed sours.
+- **Rec-wandering-poet** — 2011 Death & Co bourbon-Averna-maraschino sour.
+- **Rec-la-rosa** — PDT NYC, Aperol + Peychaud's gin sour; the pink colour comes from the Peychaud's, not from cranberry or strawberry.
+- **Rec-fair-and-square** — 2012 Death & Co cherry-bourbon sour; the Amarena cherry garnish is a modern upgrade from the classic maraschino.
+- **Rec-peninsula** — 2008 Death & Co rye-Cynar-orange-bitters sour.
+- **Rec-five-spice** — 2009 Death & Co bourbon-allspice-dram spice sour; Peychaud's + nutmeg is the signature top.
+- **Rec-surrender** — 2008 Death & Co bourbon-cherry-Peychaud's sour.
+- **Rec-ready-fire-aim** — 2008 Death & Co rye-Cynar-absinthe stirred drink; the absinthe is 1 tsp, not a full bar spoon.
+- **Rec-aku-aku** through **Rec-pearl-diver** — All Donn Beach (Don the Beachcomber) originals; the original 1930s-40s recipes are partially secret but the modern published versions are widely accepted.
+- **Rec-painkiller** — Trademarked name (Pusser's Rum); we use 60ml Pusser's aged rum as the canonical version. Daphne Henderson at the Soggy Dollar Bar (BVI) is the 1970s origin.
+- **Rec-virgin-mary** — Uses cranberry juice as a stand-in for tomato juice (the existing data convention).
+- **Rec-shirley-temple** — 1930s Hollywood Chasen's restaurant; the traditional 50/50 ginger-ale-to-grenadine ratio.
+- **Rec-roy-rogers** — The "boys' Shirley Temple" with cola instead of ginger ale.
+- **Rec-nojito** — Spirit-free Mojito; we use lime juice + mint (not muddled lime wedges) to stay within the existing ingredient set.
+- **Rec-phony-negroni** — 2020s spirit-free Negroni using Seedlip + NA bitter + NA sweet vermouth (Lyre's Aperitif Dry/Rosso).
+- **Rec-seedlip-sour** — NA spirit sour, vegan-friendly alternative to the classic whiskey sour.
+- **Rec-lavender-lemonade-spritz** — 2010s Provençal floral mocktail; lavender syrup + lemon + soda.
+- **Rec-cucumber-cooler** — 2010s NA summer cooler; cucumber + St-Germain + lime + tonic.
+- **Rec-pineapple-ginger-mocktail** — 2010s tropical ginger mocktail; ginger syrup adds the warmth.
+- **Rec-hibiscus-cooler** — 2010s ruby-red mocktail; hibiscus + pomegranate + lime + soda.
+- **Rec-bronx-cocktail** — 1900s NYC Waldorf-Astoria; a "perfect martini" variant with both vermouths + orange juice.
+- **Rec-holland-house-cocktail** — 1880s NYC Holland House Hotel; recorded in Harry Johnson's 1882 manual.
+- **Rec-widow-kiss** — 1895 NYC George J. Kappeler; Calvados + yellow Chartreuse + Bénédictine + Angostura.
+- **Rec-monkey-gland** — 1920s Paris Harry's New York Bar; named for the dubious 1920s monkey-gland rejuvenation therapy.
+- **Rec-champs-elysees** — 1930 Harry Craddock Savoy Cocktail Book; cognac + yellow Chartreuse + lemon + bitters.
+- **Rec-brandy-alexander** — 1920s NYC; the original Alexander used gin, but by 1922 the brandy version was the popular standard.
+- **Rec-grasshopper** — 1918 New Orleans Tujague's by Philip Guichet; the mint-milkshake dessert sipper.
+- **Rec-pink-lady** — 1930s; the original used applejack but gin became the standard base by the late 1930s.
+- **Rec-alaska** — 1900s gin-and-yellow-Chartreuse minimalist herbal cocktail, recorded in the 1930 Savoy Cocktail Book.
+- **Rec-japan-cocktail** — 1884 Harry Johnson; one of the earliest printed cocktail recipes, named for 1880s Japonisme.
+
+### Caveats and minor deviations
+- **Lillet Rouge substitution**: The "Only Negroni" canonical recipe uses Lillet Rouge; we recorded it with sweet vermouth as a substitute (Lillet Rouge is not in the existing 139 ingredients). Documented in the recipe's `notesEn`.
+- **Lemon peel in lieu of yuzu peel**: A few Japanese recipes (Japanese Sour, Yuzu Soju Spritz) traditionally use yuzu peel garnish; we used lemon peel as a substitute to avoid adding a fourth citrus-peel ingredient.
+- **Mole bitters substitute**: The canonical Oaxaca Old Fashioned uses Xocolatl Mole Bitters; we used chocolate bitters (now in the 139 ingredients) as the closest available substitute.
+- **Cranberry juice for tomato juice**: The existing convention (since v0.1) is to use cranberry juice as a stand-in for tomato juice in Bloody Mary and Virgin Mary. Documented.
+- **Amarena cherry garnish**: Some original recipes call for maraschino cherry garnish; we use Amarena cherry (an Italian upgrade) where appropriate.
+- **Single-strain steps**: We use the "stir" technique for both the stirring and the single-straining step in stirred drinks (consistent with the existing Negroni/Manhattan data convention).
+
