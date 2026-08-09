@@ -1,0 +1,153 @@
+// localStorage wrapper for user-saved AI-generated cocktails.
+// SSR-safe: returns empty arrays on the server. Errors are swallowed and
+// logged; users shouldn't see crashes if localStorage is disabled or full.
+
+import type { InnovationRecipe } from "@/lib/llm/schema";
+
+export interface SavedInnovation {
+  id: string;
+  savedAt: string; // ISO timestamp
+  recipe: InnovationRecipe;
+  /** Names of the user's selected ingredients that the recipe actually used. */
+  usedSelectedNames: string[];
+  model: string;
+  usage?: { prompt: number; completion: number; total: number };
+  /** Free-form user input that produced this recipe. */
+  context?: {
+    ingredientIds: string[];
+    vibe?: string;
+    strength?: "light" | "balanced" | "strong";
+    glass?: string;
+  };
+}
+
+const STORAGE_KEY = "mixology.savedInnovations.v1";
+const MAX_ITEMS = 50;
+
+function isBrowser(): boolean {
+  return typeof window !== "undefined" && typeof window.localStorage !== "undefined";
+}
+
+function readRaw(): SavedInnovation[] {
+  if (!isBrowser()) return [];
+  try {
+    const raw = window.localStorage.getItem(STORAGE_KEY);
+    if (!raw) return [];
+    const parsed = JSON.parse(raw);
+    if (!Array.isArray(parsed)) return [];
+    return parsed.filter((x): x is SavedInnovation => {
+      return (
+        x &&
+        typeof x.id === "string" &&
+        typeof x.savedAt === "string" &&
+        x.recipe &&
+        typeof x.recipe.nameZh === "string"
+      );
+    });
+  } catch (e) {
+    console.warn("[savedInnovations] read failed:", e);
+    return [];
+  }
+}
+
+function writeRaw(items: SavedInnovation[]): boolean {
+  if (!isBrowser()) return false;
+  try {
+    window.localStorage.setItem(STORAGE_KEY, JSON.stringify(items));
+    return true;
+  } catch (e) {
+    console.warn("[savedInnovations] write failed:", e);
+    return false;
+  }
+}
+
+export function listSaved(): SavedInnovation[] {
+  return readRaw().sort((a, b) => (a.savedAt > b.savedAt ? -1 : 1));
+}
+
+export function isSaved(id: string): boolean {
+  return readRaw().some((x) => x.id === id);
+}
+
+export function save(input: Omit<SavedInnovation, "id" | "savedAt">): { ok: boolean; id: string } {
+  const id = `si-${Date.now()}-${Math.random().toString(36).slice(2, 8)}`;
+  const item: SavedInnovation = { id, savedAt: new Date().toISOString(), ...input };
+  const items = readRaw();
+  // De-dup by nameZh + same ingredients set so a regenerated identical recipe
+  // updates the existing entry rather than producing two.
+  const sig = (r: InnovationRecipe) =>
+    r.nameZh.trim() + "|" + r.ingredients.map((i) => i.nameZh).join(",");
+  const sigNew = sig(input.recipe);
+  const existingIdx = items.findIndex((x) => sig(x.recipe) === sigNew);
+  if (existingIdx >= 0) {
+    items[existingIdx] = { ...items[existingIdx], ...item, id: items[existingIdx].id };
+  } else {
+    items.unshift(item);
+  }
+  // Cap size — drop oldest beyond MAX_ITEMS.
+  const capped = items.slice(0, MAX_ITEMS);
+  const ok = writeRaw(capped);
+  return { ok, id };
+}
+
+export function unsave(id: string): boolean {
+  const items = readRaw();
+  const next = items.filter((x) => x.id !== id);
+  if (next.length === items.length) return false;
+  return writeRaw(next);
+}
+
+export function clearAll(): boolean {
+  if (!isBrowser()) return false;
+  try {
+    window.localStorage.removeItem(STORAGE_KEY);
+    return true;
+  } catch {
+    return false;
+  }
+}
+
+/** Hook helper: subscribe to localStorage changes from other tabs. Returns
+ *  an unsubscribe function. Safe to call on the server (returns noop). */
+export function onStorageChange(handler: () => void): () => void {
+  if (!isBrowser()) return () => {};
+  const wrapped = (e: StorageEvent) => {
+    if (e.key === STORAGE_KEY || e.key === null) handler();
+  };
+  window.addEventListener("storage", wrapped);
+  return () => window.removeEventListener("storage", wrapped);
+}
+
+export function formatRecipeAsText(s: SavedInnovation): string {
+  const r = s.recipe;
+  const lines: string[] = [];
+  lines.push(`${r.nameZh} / ${r.nameEn}`);
+  lines.push("");
+  if (r.descriptionZh) {
+    lines.push(r.descriptionZh);
+    lines.push("");
+  }
+  if (r.storyNoteZh) {
+    lines.push(`📜 ${r.storyNoteZh}`);
+    lines.push("");
+  }
+  lines.push("【原料 Ingredients】");
+  for (const ing of r.ingredients) {
+    const star = ing.isKey ? "★ " : "  ";
+    const note = ing.notesZh ? `  (${ing.notesZh})` : "";
+    lines.push(`${star}${ing.amount.padEnd(8)} ${ing.nameZh} / ${ing.nameEn}${note}`);
+  }
+  lines.push("");
+  lines.push(`【做法 Steps · ${r.techniqueSlug}】`);
+  r.steps.forEach((step, i) => {
+    const dur = step.duration ? ` [${step.duration}]` : "";
+    lines.push(`${i + 1}. ${step.textZh}${dur}`);
+    if (step.tipZh) lines.push(`   💡 ${step.tipZh}`);
+  });
+  lines.push("");
+  lines.push(`🥃 ${r.glassType}${r.iceType ? ` · 🧊 ${r.iceType}` : ""}`);
+  if (r.balanceTags.length) lines.push(`🏷 ${r.balanceTags.join(", ")}`);
+  lines.push("");
+  lines.push(`— AI generated by ${s.model} (${s.usage?.total ?? "?"} tokens) · Mixology Studio`);
+  return lines.join("\n");
+}
