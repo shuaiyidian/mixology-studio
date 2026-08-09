@@ -2752,5 +2752,53 @@
     "colorHex": "#C77B3E",
     "descriptionZh": "现代酒吧爱用的桃子苦精，给 Old Fashioned / Sour 添果味层次。",
     "descriptionEn": "Modern bar's secret weapon. Stone-fruit bitterness on an Old Fashioned or Whiskey Sour."
+  },
+  {
+    "id": "ing-apple-juice",
+    "slug": "apple-juice",
+    "nameZh": "苹果汁",
+    "nameEn": "Apple Juice",
+    "category": "JUICE",
+    "abv": null,
+    "flavorTags": [
+      "fruity",
+      "sweet",
+      "tart"
+    ],
+    "colorHex": "#F5E1A4",
+    "descriptionZh": "鲜榨苹果汁，甜润带微酸，是 Appletini / Jack Rose 等经典的基础。",
+    "descriptionEn": "Fresh-pressed apple juice. Sweet-tart and crisp — the base of an Appletini or Jack Rose."
+  },
+  {
+    "id": "ing-green-apple-juice",
+    "slug": "green-apple-juice",
+    "nameZh": "青苹果汁",
+    "nameEn": "Green Apple Juice",
+    "category": "JUICE",
+    "abv": null,
+    "flavorTags": [
+      "fruity",
+      "tart",
+      "crisp",
+      "fresh"
+    ],
+    "colorHex": "#C8D96B",
+    "descriptionZh": "青苹果鲜榨汁，酸度比红苹果高，香气更尖锐，现代酒吧做 Spring Sour / Apple Martini 时首选。",
+    "descriptionEn": "Pressed Granny Smith-style juice. Sharper acidity and brighter aroma than red apple — a modern bar staple for sours and Appletinis."
+  },
+  {
+    "id": "ing-apple-slice",
+    "slug": "apple-slice",
+    "nameZh": "苹果薄片",
+    "nameEn": "Apple Slice (garnish)",
+    "category": "GARNISH",
+    "abv": null,
+    "flavorTags": [
+      "fruity",
+      "fresh"
+    ],
+    "colorHex": "#F5E1A4",
+    "descriptionZh": "超薄青苹果或红苹果片，挂在杯沿做装饰。",
+    "descriptionEn": "Ultra-thin apple slice for rim garnish. Granny Smith gives tart snap, red apple gives sweet color."
   }
 ]
