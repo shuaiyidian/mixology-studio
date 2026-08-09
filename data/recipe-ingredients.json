@@ -4435,7 +4435,7 @@
   {
     "id": "ri-406",
     "recipeId": "rec-planters-punch",
-    "ingredientId": "ing-soda-bread",
+    "ingredientId": "ing-soda-water",
     "amount": "60ml",
     "isKey": false,
     "optional": false,
@@ -5898,7 +5898,7 @@
   {
     "id": "ri-541",
     "recipeId": "rec-navy-grog",
-    "ingredientId": "ing-soda-bread",
+    "ingredientId": "ing-soda-water",
     "amount": "30ml",
     "isKey": false,
     "optional": false,

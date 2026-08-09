@@ -1263,21 +1263,6 @@
     "descriptionEn": "Blackberry liqueur, the signature float for the Bramble."
   },
   {
-    "id": "ing-soda-bread",
-    "slug": "club-soda",
-    "nameZh": "苏打水（同 soda-water）",
-    "nameEn": "Club Soda",
-    "category": "SODA",
-    "abv": 0,
-    "flavorTags": [
-      "neutral",
-      "sparkling"
-    ],
-    "colorHex": "#F0F0F0",
-    "descriptionZh": "中性碳酸水，用于调高球杯鸡尾酒。",
-    "descriptionEn": "Neutral sparkling water for highball dilution."
-  },
-  {
     "id": "ing-averna",
     "slug": "averna",
     "nameZh": "Averna 雅凡娜",
@@ -1782,7 +1767,7 @@
     "id": "ing-lemonade",
     "slug": "lemonade",
     "nameZh": "柠檬汽水",
-    "nameEn": "Lemonade (Soda)",
+    "nameEn": "Lemon Soda",
     "category": "SODA",
     "abv": 0,
     "flavorTags": [
@@ -1792,7 +1777,7 @@
     ],
     "colorHex": "#F2E870",
     "descriptionZh": "柠檬味汽水，Shandy 高球的汽水侧。",
-    "descriptionEn": "Lemon soda, the fizzy side of the Shandy highball."
+    "descriptionEn": "Sparkling lemon-flavored soda (not fresh lemonade). For highballs, spritzes, and Tom Collins variations."
   },
   {
     "id": "ing-hard-cider",
@@ -2315,23 +2300,6 @@
     "colorHex": "#D0D0B0",
     "descriptionZh": "芹菜籽研磨的盐，Bloody Mary / Virgin Mary 杯边的标志盐边。",
     "descriptionEn": "Celery-seed salt, the signature rim salt of Bloody Mary and Virgin Mary."
-  },
-  {
-    "id": "ing-matcha-powder",
-    "slug": "matcha-powder",
-    "nameZh": "抹茶粉",
-    "nameEn": "Matcha Powder",
-    "category": "HERB_SPICE",
-    "abv": null,
-    "flavorTags": [
-      "umami",
-      "bitter",
-      "herbal",
-      "earthy"
-    ],
-    "colorHex": "#7BA05B",
-    "descriptionZh": "日本蒸青绿茶粉，给酒体带来苔藓般的清苦与回甘，是 Speak Low 同款经典调味料。",
-    "descriptionEn": "Stone-ground Japanese green tea. Gives drinks mossy bitterness and umami depth — a hallmark of modern craft bars."
   },
   {
     "id": "ing-earl-grey-tea",
