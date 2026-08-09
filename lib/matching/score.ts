@@ -4,11 +4,13 @@
 import type { RecipeWithRelations } from "../types";
 
 export interface ScoreInputs {
-  coverage: number;        // 0-1
+  coverage: number;             // 0-1
   matchedKeyCount: number;
   missingKeyCount: number;
   totalKeyCount: number;
-  techniqueBoost: number;  // 0 or 10
+  techniqueBoost: number;       // 0 or 10
+  popularity: number;           // 0-1 (recipe.popularity / 100)
+  popularityWeight: number;     // 0-1; 0 = pure coverage, 1 = pure popularity
 }
 
 export interface ScoreBreakdown extends ScoreInputs {
@@ -18,13 +20,27 @@ export interface ScoreBreakdown extends ScoreInputs {
 }
 
 /**
- * Compute the match score. Returns the rounded 0-100 score and the breakdown
- * so the caller can show debug info if needed.
+ * Compute the match score. Returns the rounded 0-100 score and the breakdown.
+ *
+ * Blends coverage and popularity:
+ *   raw = coverage * 50 * (1 - popularityWeight)
+ *       + popularity * 50 * popularityWeight
+ *       + matchedKeyCount * 8
+ *       - missingKeyCount * 12
+ *       + techniqueBoost
+ *
+ * Hard cap at 60 when ≥2 key ingredients are missing (recipe too incomplete
+ * for a confident recommendation even if it's famous).
  */
 export function computeScore(inputs: ScoreInputs): ScoreBreakdown {
-  const { coverage, matchedKeyCount, missingKeyCount, techniqueBoost } = inputs;
+  const { coverage, matchedKeyCount, missingKeyCount, techniqueBoost, popularity, popularityWeight } = inputs;
+
+  const coverageComponent = coverage * 50 * (1 - popularityWeight);
+  const popularityComponent = popularity * 50 * popularityWeight;
+
   let raw =
-    coverage * 50 +
+    coverageComponent +
+    popularityComponent +
     matchedKeyCount * 8 -
     missingKeyCount * 12 +
     techniqueBoost;

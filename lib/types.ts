@@ -96,6 +96,10 @@ export interface Recipe {
   storyNoteZh: string | null;
   storyNoteEn: string | null;
   balanceTags: string[];
+  /** 0-100. Higher = more famous/popular. Optional; defaults to 60 if missing.
+   *  Used as a secondary sort signal so partial selections (e.g. just a base
+   *  spirit) still surface well-known recipes. */
+  popularity?: number;
 }
 
 // ─── UI projection (already-joined, what components render) ─────────────────
@@ -116,7 +120,12 @@ export interface MatchRequest {
     type?: RecipeType;                            // filter: only classic or only innovative
     techniqueSlug?: string;                       // optional preference (e.g. "shake")
     maxResults?: number;                          // default 12
-    minCoverage?: number;                         // 0-1, default 0.4
+    minCoverage?: number;                         // 0-1, default 0.15 (permissive — popularity
+                                                  //   signal filters out irrelevant recipes)
+    /** 0-1. How much to weight popularity vs coverage. 0 = pure coverage (old
+     *  behavior); 1 = pure popularity. Default 0.3. Lets a single-ingredient
+     *  selection still surface famous recipes. */
+    popularityWeight?: number;
   };
 }
 

@@ -19,18 +19,29 @@ export interface MatchOptionsResolved {
   techniqueSlug?: string;
   maxResults: number;
   minCoverage: number;
+  popularityWeight: number;
 }
 
 const DEFAULT_MAX_RESULTS = 12;
-const DEFAULT_MIN_COVERAGE = 0.4;
+// Lowered from 0.4 → 0.15. The popularity signal filters irrelevant recipes
+// downstream, so we can be permissive about how few ingredients the user picks.
+const DEFAULT_MIN_COVERAGE = 0.15;
+const DEFAULT_POPULARITY_WEIGHT = 0.3;
 
 export function resolveOptions(options?: MatchRequest["options"]): MatchOptionsResolved {
+  const popularityWeight = clamp01(options?.popularityWeight ?? DEFAULT_POPULARITY_WEIGHT);
   return {
     type: options?.type,
     techniqueSlug: options?.techniqueSlug,
     maxResults: options?.maxResults ?? DEFAULT_MAX_RESULTS,
-    minCoverage: options?.minCoverage ?? DEFAULT_MIN_COVERAGE,
+    minCoverage: clamp01(options?.minCoverage ?? DEFAULT_MIN_COVERAGE),
+    popularityWeight,
   };
+}
+
+function clamp01(n: number): number {
+  if (Number.isNaN(n)) return 0;
+  return Math.max(0, Math.min(1, n));
 }
 
 export async function matchRecipes(request: MatchRequest): Promise<MatchResponse> {
@@ -68,12 +79,18 @@ export async function matchRecipes(request: MatchRequest): Promise<MatchResponse
         ? 10
         : 0;
 
+    // Popularity defaults to 60 if the recipe doesn't have it set. We keep the
+    // /100 normalization at the call site so the scorer stays unit-clean.
+    const popularity = (recipe.popularity ?? 60) / 100;
+
     const { score } = computeScore({
       coverage,
       matchedKeyCount,
       missingKeyCount: missingKeyLinks.length,
       totalKeyCount,
       techniqueBoost: hasTechniqueBoost,
+      popularity,
+      popularityWeight: options.popularityWeight,
     });
 
     const reason = generateReason({

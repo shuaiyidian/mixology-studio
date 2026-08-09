@@ -17,7 +17,8 @@
       "strong",
       "herbal",
       "balanced"
-    ]
+    ],
+    "popularity": 100
   },
   {
     "id": "rec-old-fashioned",
@@ -37,7 +38,8 @@
       "bitter",
       "oak",
       "classic"
-    ]
+    ],
+    "popularity": 100
   },
   {
     "id": "rec-margarita",
@@ -57,7 +59,8 @@
       "citrus",
       "agave",
       "classic"
-    ]
+    ],
+    "popularity": 99
   },
   {
     "id": "rec-daiquiri",
@@ -77,7 +80,8 @@
       "citrus",
       "refreshing",
       "classic"
-    ]
+    ],
+    "popularity": 99
   },
   {
     "id": "rec-manhattan",
@@ -97,7 +101,8 @@
       "herbal",
       "rich",
       "classic"
-    ]
+    ],
+    "popularity": 99
   },
   {
     "id": "rec-dry-martini",
@@ -117,7 +122,8 @@
       "dry",
       "botanical",
       "classic"
-    ]
+    ],
+    "popularity": 97
   },
   {
     "id": "rec-whiskey-sour",
@@ -137,7 +143,8 @@
       "citrus",
       "rich",
       "foamy"
-    ]
+    ],
+    "popularity": 98
   },
   {
     "id": "rec-mojito",
@@ -157,7 +164,8 @@
       "citrus",
       "herbal",
       "highball"
-    ]
+    ],
+    "popularity": 97
   },
   {
     "id": "rec-cosmopolitan",
@@ -177,7 +185,8 @@
       "citrus",
       "fruity",
       "modern-classic"
-    ]
+    ],
+    "popularity": 96
   },
   {
     "id": "rec-moscow-mule",
@@ -197,7 +206,8 @@
       "spicy",
       "highball",
       "easy"
-    ]
+    ],
+    "popularity": 97
   },
   {
     "id": "rec-aperol-spritz",
@@ -217,7 +227,8 @@
       "bitter",
       "citrus",
       "low-abv"
-    ]
+    ],
+    "popularity": 95
   },
   {
     "id": "rec-boulevardier",
@@ -237,7 +248,8 @@
       "spirit-forward",
       "herbal",
       "classic"
-    ]
+    ],
+    "popularity": 90
   },
   {
     "id": "rec-penicillin",
@@ -257,7 +269,8 @@
       "spicy",
       "honey",
       "modern-classic"
-    ]
+    ],
+    "popularity": 93
   },
   {
     "id": "rec-last-word",
@@ -277,7 +290,8 @@
       "floral",
       "complex",
       "equal-parts"
-    ]
+    ],
+    "popularity": 90
   },
   {
     "id": "rec-paper-plane",
@@ -297,7 +311,8 @@
       "bitter",
       "balanced",
       "modern-classic"
-    ]
+    ],
+    "popularity": 86
   },
   {
     "id": "rec-vieux-carre",
@@ -317,7 +332,8 @@
       "herbal",
       "rich",
       "complex"
-    ]
+    ],
+    "popularity": 65
   },
   {
     "id": "rec-mint-julep",
@@ -337,7 +353,8 @@
       "herbal",
       "spirit-forward",
       "traditional"
-    ]
+    ],
+    "popularity": 65
   },
   {
     "id": "rec-singapore-sling",
@@ -357,7 +374,8 @@
       "tropical",
       "complex",
       "long-drink"
-    ]
+    ],
+    "popularity": 65
   },
   {
     "id": "rec-mai-tai",
@@ -377,7 +395,8 @@
       "nutty",
       "tiki",
       "complex"
-    ]
+    ],
+    "popularity": 90
   },
   {
     "id": "rec-pisco-sour",
@@ -397,7 +416,8 @@
       "foamy",
       "grape",
       "national"
-    ]
+    ],
+    "popularity": 88
   },
   {
     "id": "rec-bloody-mary",
@@ -417,7 +437,8 @@
       "spicy",
       "umami",
       "brunch"
-    ]
+    ],
+    "popularity": 96
   },
   {
     "id": "rec-french-75",
@@ -437,7 +458,8 @@
       "citrus",
       "elegant",
       "classic"
-    ]
+    ],
+    "popularity": 94
   },
   {
     "id": "rec-tom-collins",
@@ -457,7 +479,8 @@
       "citrus",
       "highball",
       "easy"
-    ]
+    ],
+    "popularity": 95
   },
   {
     "id": "rec-gin-tonic",
@@ -477,7 +500,8 @@
       "bitter",
       "highball",
       "easy"
-    ]
+    ],
+    "popularity": 65
   },
   {
     "id": "rec-bramble",
@@ -497,7 +521,8 @@
       "refreshing",
       "modern-classic",
       "berry"
-    ]
+    ],
+    "popularity": 86
   },
   {
     "id": "rec-dark-n-stormy",
@@ -517,7 +542,8 @@
       "spicy",
       "highball",
       "easy"
-    ]
+    ],
+    "popularity": 65
   },
   {
     "id": "rec-espresso-martini",
@@ -537,7 +563,8 @@
       "bitter",
       "rich",
       "modern-classic"
-    ]
+    ],
+    "popularity": 96
   },
   {
     "id": "rec-paloma",
@@ -557,7 +584,8 @@
       "bitter",
       "highball",
       "easy"
-    ]
+    ],
+    "popularity": 65
   },
   {
     "id": "rec-amaretto-sour",
@@ -577,7 +605,8 @@
       "nutty",
       "foamy",
       "modern-classic"
-    ]
+    ],
+    "popularity": 93
   },
   {
     "id": "rec-rusty-nail",
@@ -597,7 +626,8 @@
       "honey",
       "malty",
       "easy"
-    ]
+    ],
+    "popularity": 65
   },
   {
     "id": "rec-aviation",
@@ -617,7 +647,8 @@
       "sour",
       "classic",
       "balanced"
-    ]
+    ],
+    "popularity": 87
   },
   {
     "id": "rec-corpsereviver2",
@@ -637,7 +668,8 @@
       "herbal",
       "complex",
       "balanced"
-    ]
+    ],
+    "popularity": 84
   },
   {
     "id": "rec-hemingway-daiquiri",
@@ -657,7 +689,8 @@
       "bitter",
       "tart",
       "classic"
-    ]
+    ],
+    "popularity": 81
   },
   {
     "id": "rec-jack-rose",
@@ -677,7 +710,8 @@
       "fruity",
       "balanced",
       "classic"
-    ]
+    ],
+    "popularity": 65
   },
   {
     "id": "rec-bees-knees",
@@ -697,7 +731,8 @@
       "honey",
       "classic",
       "floral"
-    ]
+    ],
+    "popularity": 88
   },
   {
     "id": "rec-pimms-cup",
@@ -717,7 +752,8 @@
       "fruity",
       "low-abv",
       "summer"
-    ]
+    ],
+    "popularity": 65
   },
   {
     "id": "rec-southside",
@@ -737,7 +773,8 @@
       "refreshing",
       "herbal",
       "classic"
-    ]
+    ],
+    "popularity": 65
   },
   {
     "id": "rec-zombie",
@@ -757,7 +794,8 @@
       "complex",
       "strong",
       "tiki"
-    ]
+    ],
+    "popularity": 65
   },
   {
     "id": "rec-hurricane",
@@ -777,7 +815,8 @@
       "fruity",
       "tiki",
       "long-drink"
-    ]
+    ],
+    "popularity": 65
   },
   {
     "id": "rec-vieux-mot",
@@ -797,7 +836,8 @@
       "floral",
       "complex",
       "modern-classic"
-    ]
+    ],
+    "popularity": 65
   },
   {
     "id": "rec-tuxedo",
@@ -817,7 +857,8 @@
       "herbal",
       "classic",
       "elegant"
-    ]
+    ],
+    "popularity": 65
   },
   {
     "id": "rec-improved-whiskey",
@@ -837,7 +878,8 @@
       "herbal",
       "rich",
       "classic"
-    ]
+    ],
+    "popularity": 65
   },
   {
     "id": "rec-hanky-panky",
@@ -857,7 +899,8 @@
       "herbal",
       "spirit-forward",
       "classic"
-    ]
+    ],
+    "popularity": 65
   },
   {
     "id": "rec-brooklyn",
@@ -877,7 +920,8 @@
       "herbal",
       "dry",
       "classic"
-    ]
+    ],
+    "popularity": 65
   },
   {
     "id": "rec-martinez",
@@ -897,7 +941,8 @@
       "herbal",
       "rich",
       "classic"
-    ]
+    ],
+    "popularity": 82
   },
   {
     "id": "rec-champagne-cocktail",
@@ -917,7 +962,8 @@
       "elegant",
       "bitter",
       "easy"
-    ]
+    ],
+    "popularity": 65
   },
   {
     "id": "rec-between-sheets",
@@ -937,7 +983,8 @@
       "citrus",
       "elegant",
       "strong"
-    ]
+    ],
+    "popularity": 65
   },
   {
     "id": "rec-sazerac",
@@ -957,7 +1004,8 @@
       "herbal",
       "anise",
       "historic"
-    ]
+    ],
+    "popularity": 87
   },
   {
     "id": "rec-sidecar",
@@ -977,7 +1025,8 @@
       "elegant",
       "citrus",
       "classic"
-    ]
+    ],
+    "popularity": 89
   },
   {
     "id": "rec-white-lady",
@@ -997,7 +1046,8 @@
       "foamy",
       "citrus",
       "classic"
-    ]
+    ],
+    "popularity": 65
   },
   {
     "id": "rec-jungle-bird",
@@ -1017,7 +1067,8 @@
       "tropical",
       "modern-classic",
       "tiki"
-    ]
+    ],
+    "popularity": 65
   },
   {
     "id": "rec-naked-famous",
@@ -1037,7 +1088,8 @@
       "herbal",
       "balanced",
       "modern-classic"
-    ]
+    ],
+    "popularity": 85
   },
   {
     "id": "rec-division-bell",
@@ -1057,7 +1109,8 @@
       "bitter",
       "complex",
       "modern-classic"
-    ]
+    ],
+    "popularity": 76
   },
   {
     "id": "rec-corn-n-oil",
@@ -1077,7 +1130,8 @@
       "spicy",
       "herbal",
       "tiki"
-    ]
+    ],
+    "popularity": 65
   },
   {
     "id": "rec-suffering-bastard",
@@ -1097,7 +1151,8 @@
       "spicy",
       "highball",
       "historic"
-    ]
+    ],
+    "popularity": 65
   },
   {
     "id": "rec-charlie-chaplin",
@@ -1117,7 +1172,8 @@
       "fruity",
       "balanced",
       "classic"
-    ]
+    ],
+    "popularity": 65
   },
   {
     "id": "rec-el-presidente",
@@ -1137,7 +1193,8 @@
       "fruity",
       "balanced",
       "classic"
-    ]
+    ],
+    "popularity": 65
   },
   {
     "id": "rec-ramos-gin-fizz",
@@ -1157,7 +1214,8 @@
       "creamy",
       "elegant",
       "showpiece"
-    ]
+    ],
+    "popularity": 83
   },
   {
     "id": "rec-blood-and-sand",
@@ -1177,7 +1235,8 @@
       "fruity",
       "complex",
       "classic"
-    ]
+    ],
+    "popularity": 65
   },
   {
     "id": "rec-rum-coke",
@@ -1197,7 +1256,8 @@
       "easy",
       "highball",
       "sweet"
-    ]
+    ],
+    "popularity": 65
   },
   {
     "id": "rec-gimlet",
@@ -1217,7 +1277,8 @@
       "refreshing",
       "classic",
       "simple"
-    ]
+    ],
+    "popularity": 89
   },
   {
     "id": "rec-rum-old-fashioned",
@@ -1237,7 +1298,8 @@
       "rich",
       "caribbean",
       "oak"
-    ]
+    ],
+    "popularity": 65
   },
   {
     "id": "rec-martini-50-50",
@@ -1257,7 +1319,8 @@
       "botanical",
       "classic",
       "balanced"
-    ]
+    ],
+    "popularity": 65
   },
   {
     "id": "rec-vesper",
@@ -1277,7 +1340,8 @@
       "strong",
       "elegant",
       "classic"
-    ]
+    ],
+    "popularity": 65
   },
   {
     "id": "rec-gibson",
@@ -1297,7 +1361,8 @@
       "dry",
       "savory",
       "classic"
-    ]
+    ],
+    "popularity": 65
   },
   {
     "id": "rec-perfect-manhattan",
@@ -1317,7 +1382,8 @@
       "herbal",
       "rich",
       "classic"
-    ]
+    ],
+    "popularity": 65
   },
   {
     "id": "rec-dry-manhattan",
@@ -1337,7 +1403,8 @@
       "dry",
       "herbal",
       "classic"
-    ]
+    ],
+    "popularity": 65
   },
   {
     "id": "rec-rob-roy",
@@ -1357,7 +1424,8 @@
       "smoky",
       "rich",
       "classic"
-    ]
+    ],
+    "popularity": 65
   },
   {
     "id": "rec-negroni-sbagliato",
@@ -1377,7 +1445,8 @@
       "sparkling",
       "italian",
       "modern-classic"
-    ]
+    ],
+    "popularity": 95
   },
   {
     "id": "rec-remember-the-maine",
@@ -1397,7 +1466,8 @@
       "rich",
       "anise",
       "classic"
-    ]
+    ],
+    "popularity": 65
   },
   {
     "id": "rec-old-pal",
@@ -1417,7 +1487,8 @@
       "dry",
       "spirit-forward",
       "classic"
-    ]
+    ],
+    "popularity": 80
   },
   {
     "id": "rec-algonquin",
@@ -1437,7 +1508,8 @@
       "fruity",
       "elegant",
       "classic"
-    ]
+    ],
+    "popularity": 65
   },
   {
     "id": "rec-lucien-gaudin",
@@ -1457,7 +1529,8 @@
       "herbal",
       "complex",
       "classic"
-    ]
+    ],
+    "popularity": 78
   },
   {
     "id": "rec-tuxedo-no-2",
@@ -1477,7 +1550,8 @@
       "herbal",
       "bitter",
       "classic"
-    ]
+    ],
+    "popularity": 65
   },
   {
     "id": "rec-charterhouse",
@@ -1497,7 +1571,8 @@
       "herbal",
       "bitter",
       "classic"
-    ]
+    ],
+    "popularity": 65
   },
   {
     "id": "rec-income-tax",
@@ -1517,7 +1592,8 @@
       "bitter",
       "fruity",
       "classic"
-    ]
+    ],
+    "popularity": 65
   },
   {
     "id": "rec-green-point",
@@ -1537,7 +1613,8 @@
       "herbal",
       "rich",
       "modern-classic"
-    ]
+    ],
+    "popularity": 65
   },
   {
     "id": "rec-clover-club",
@@ -1557,7 +1634,8 @@
       "fruity",
       "foamy",
       "classic"
-    ]
+    ],
+    "popularity": 84
   },
   {
     "id": "rec-army-navy",
@@ -1577,7 +1655,8 @@
       "nutty",
       "classic",
       "elegant"
-    ]
+    ],
+    "popularity": 65
   },
   {
     "id": "rec-airmail",
@@ -1597,7 +1676,8 @@
       "honey",
       "tropical",
       "classic"
-    ]
+    ],
+    "popularity": 65
   },
   {
     "id": "rec-boston-sour",
@@ -1617,7 +1697,8 @@
       "foamy",
       "rich",
       "classic"
-    ]
+    ],
+    "popularity": 65
   },
   {
     "id": "rec-new-york-sour",
@@ -1637,7 +1718,8 @@
       "rich",
       "foamy",
       "classic"
-    ]
+    ],
+    "popularity": 65
   },
   {
     "id": "rec-planters-punch",
@@ -1657,7 +1739,8 @@
       "tropical",
       "highball",
       "classic"
-    ]
+    ],
+    "popularity": 65
   },
   {
     "id": "rec-stone-fence",
@@ -1677,7 +1760,8 @@
       "highball",
       "historic",
       "easy"
-    ]
+    ],
+    "popularity": 65
   },
   {
     "id": "rec-southside-fizz",
@@ -1697,7 +1781,8 @@
       "citrus",
       "herbal",
       "highball"
-    ]
+    ],
+    "popularity": 65
   },
   {
     "id": "rec-sloe-gin-fizz",
@@ -1717,7 +1802,8 @@
       "fruity",
       "highball",
       "classic"
-    ]
+    ],
+    "popularity": 65
   },
   {
     "id": "rec-boston-sidecar",
@@ -1737,7 +1823,8 @@
       "elegant",
       "citrus",
       "classic"
-    ]
+    ],
+    "popularity": 65
   },
   {
     "id": "rec-jasmine",
@@ -1757,7 +1844,8 @@
       "bitter",
       "balanced",
       "modern-classic"
-    ]
+    ],
+    "popularity": 65
   },
   {
     "id": "rec-gold-rush",
@@ -1777,7 +1865,8 @@
       "honey",
       "modern-classic",
       "balanced"
-    ]
+    ],
+    "popularity": 65
   },
   {
     "id": "rec-gin-rickey",
@@ -1797,7 +1886,8 @@
       "citrus",
       "highball",
       "easy"
-    ]
+    ],
+    "popularity": 65
   },
   {
     "id": "rec-americano",
@@ -1817,7 +1907,8 @@
       "bitter",
       "highball",
       "easy"
-    ]
+    ],
+    "popularity": 65
   },
   {
     "id": "rec-sherry-cobbler",
@@ -1837,7 +1928,8 @@
       "nutty",
       "historic",
       "highball"
-    ]
+    ],
+    "popularity": 65
   },
   {
     "id": "rec-shandy",
@@ -1857,7 +1949,8 @@
       "easy",
       "highball",
       "low-abv"
-    ]
+    ],
+    "popularity": 65
   },
   {
     "id": "rec-bamboo",
@@ -1877,7 +1970,8 @@
       "dry",
       "aperitif",
       "classic"
-    ]
+    ],
+    "popularity": 65
   },
   {
     "id": "rec-adonis",
@@ -1897,7 +1991,8 @@
       "aperitif",
       "nutty",
       "classic"
-    ]
+    ],
+    "popularity": 65
   },
   {
     "id": "rec-kir",
@@ -1917,7 +2012,8 @@
       "fruity",
       "low-abv",
       "aperitif"
-    ]
+    ],
+    "popularity": 65
   },
   {
     "id": "rec-kir-royale",
@@ -1937,7 +2033,8 @@
       "elegant",
       "low-abv",
       "classic"
-    ]
+    ],
+    "popularity": 65
   },
   {
     "id": "rec-mimosa",
@@ -1957,7 +2054,8 @@
       "refreshing",
       "low-abv",
       "brunch"
-    ]
+    ],
+    "popularity": 65
   },
   {
     "id": "rec-bellini",
@@ -1977,7 +2075,8 @@
       "fruity",
       "elegant",
       "classic"
-    ]
+    ],
+    "popularity": 65
   },
   {
     "id": "rec-gin-fizz",
@@ -1997,7 +2096,8 @@
       "citrus",
       "highball",
       "classic"
-    ]
+    ],
+    "popularity": 65
   },
   {
     "id": "rec-silver-fizz",
@@ -2017,7 +2117,8 @@
       "foamy",
       "highball",
       "classic"
-    ]
+    ],
+    "popularity": 65
   },
   {
     "id": "rec-golden-fizz",
@@ -2037,7 +2138,8 @@
       "rich",
       "highball",
       "classic"
-    ]
+    ],
+    "popularity": 65
   },
   {
     "id": "rec-john-collins",
@@ -2057,7 +2159,8 @@
       "citrus",
       "highball",
       "classic"
-    ]
+    ],
+    "popularity": 65
   },
   {
     "id": "rec-peach-tree",
@@ -2077,7 +2180,8 @@
       "fruity",
       "highball",
       "classic"
-    ]
+    ],
+    "popularity": 65
   },
   {
     "id": "rec-pink-gin",
@@ -2097,7 +2201,8 @@
       "bitter",
       "classic",
       "historic"
-    ]
+    ],
+    "popularity": 65
   },
   {
     "id": "rec-gin-sling",
@@ -2117,7 +2222,8 @@
       "citrus",
       "highball",
       "classic"
-    ]
+    ],
+    "popularity": 65
   },
   {
     "id": "rec-peach-blossom",
@@ -2137,7 +2243,8 @@
       "creamy",
       "fruity",
       "classic"
-    ]
+    ],
+    "popularity": 65
   },
   {
     "id": "rec-suffering-bar-bastard",
@@ -2157,7 +2264,8 @@
       "spicy",
       "highball",
       "historic"
-    ]
+    ],
+    "popularity": 65
   },
   {
     "id": "rec-three-dots-and-a-dash",
@@ -2177,7 +2285,8 @@
       "spice",
       "tiki",
       "complex"
-    ]
+    ],
+    "popularity": 65
   },
   {
     "id": "rec-jet-pilot",
@@ -2197,7 +2306,8 @@
       "spice",
       "tiki",
       "complex"
-    ]
+    ],
+    "popularity": 65
   },
   {
     "id": "rec-saturn",
@@ -2217,7 +2327,8 @@
       "nutty",
       "tiki",
       "complex"
-    ]
+    ],
+    "popularity": 65
   },
   {
     "id": "rec-navy-grog",
@@ -2237,7 +2348,8 @@
       "smooth",
       "tiki",
       "complex"
-    ]
+    ],
+    "popularity": 65
   },
   {
     "id": "rec-port-royal",
@@ -2257,7 +2369,8 @@
       "spice",
       "tiki",
       "balanced"
-    ]
+    ],
+    "popularity": 65
   },
   {
     "id": "rec-fog-cutter",
@@ -2277,7 +2390,8 @@
       "strong",
       "tiki",
       "showpiece"
-    ]
+    ],
+    "popularity": 65
   },
   {
     "id": "rec-blue-hawaiian",
@@ -2297,7 +2411,8 @@
       "creamy",
       "tiki",
       "showpiece"
-    ]
+    ],
+    "popularity": 65
   },
   {
     "id": "rec-shrunken-skull",
@@ -2317,7 +2432,8 @@
       "spice",
       "tiki",
       "complex"
-    ]
+    ],
+    "popularity": 65
   },
   {
     "id": "rec-pina-colada",
@@ -2337,7 +2453,8 @@
       "creamy",
       "tiki",
       "classic"
-    ]
+    ],
+    "popularity": 91
   },
   {
     "id": "rec-whiskey-smash",
@@ -2357,7 +2474,8 @@
       "herbal",
       "citrus",
       "classic"
-    ]
+    ],
+    "popularity": 65
   },
   {
     "id": "rec-peach-julep",
@@ -2377,7 +2495,8 @@
       "fruity",
       "herbal",
       "classic"
-    ]
+    ],
+    "popularity": 65
   },
   {
     "id": "rec-gin-smash",
@@ -2397,7 +2516,8 @@
       "citrus",
       "herbal",
       "classic"
-    ]
+    ],
+    "popularity": 65
   },
   {
     "id": "rec-basil-smash",
@@ -2417,7 +2537,8 @@
       "herbal",
       "citrus",
       "modern-classic"
-    ]
+    ],
+    "popularity": 65
   },
   {
     "id": "rec-derby",
@@ -2437,7 +2558,8 @@
       "fruity",
       "herbal",
       "classic"
-    ]
+    ],
+    "popularity": 65
   },
   {
     "id": "rec-peach-smash",
@@ -2457,7 +2579,8 @@
       "fruity",
       "herbal",
       "classic"
-    ]
+    ],
+    "popularity": 65
   },
   {
     "id": "rec-marconi-wireless",
@@ -2477,7 +2600,8 @@
       "floral",
       "complex",
       "modern-classic"
-    ]
+    ],
+    "popularity": 65
   },
   {
     "id": "rec-bijou",
@@ -2497,7 +2621,8 @@
       "spirit-forward",
       "complex",
       "classic"
-    ]
+    ],
+    "popularity": 80
   },
   {
     "id": "rec-bobby-burns",
@@ -2517,7 +2642,8 @@
       "herbal",
       "smoky",
       "classic"
-    ]
+    ],
+    "popularity": 65
   },
   {
     "id": "rec-la-louise",
@@ -2537,7 +2663,8 @@
       "herbal",
       "dry",
       "classic"
-    ]
+    ],
+    "popularity": 65
   },
   {
     "id": "rec-chrysanthemum",
@@ -2557,7 +2684,8 @@
       "anise",
       "herbal",
       "classic"
-    ]
+    ],
+    "popularity": 65
   },
   {
     "id": "rec-hugo-spritz",
@@ -2577,7 +2705,8 @@
       "floral",
       "low-abv",
       "modern-classic"
-    ]
+    ],
+    "popularity": 65
   },
   {
     "id": "rec-stinger",
@@ -2597,7 +2726,8 @@
       "minty",
       "dessert",
       "classic"
-    ]
+    ],
+    "popularity": 65
   },
   {
     "id": "rec-angel-face",
@@ -2617,7 +2747,8 @@
       "fruity",
       "elegant",
       "classic"
-    ]
+    ],
+    "popularity": 65
   },
   {
     "id": "rec-casino",
@@ -2637,7 +2768,8 @@
       "elegant",
       "classic",
       "balanced"
-    ]
+    ],
+    "popularity": 65
   },
   {
     "id": "rec-porto-flip",
@@ -2657,7 +2789,8 @@
       "rich",
       "foamy",
       "classic"
-    ]
+    ],
+    "popularity": 65
   },
   {
     "id": "rec-scofflaw",
@@ -2677,7 +2810,8 @@
       "bitter",
       "balanced",
       "classic"
-    ]
+    ],
+    "popularity": 65
   },
   {
     "id": "rec-corpse-reviver-1",
@@ -2697,7 +2831,8 @@
       "rich",
       "elegant",
       "classic"
-    ]
+    ],
+    "popularity": 80
   },
   {
     "id": "rec-20th-century",
@@ -2717,7 +2852,8 @@
       "elegant",
       "chocolate",
       "classic"
-    ]
+    ],
+    "popularity": 75
   },
   {
     "id": "rec-paradise",
@@ -2737,7 +2873,8 @@
       "fruity",
       "elegant",
       "classic"
-    ]
+    ],
+    "popularity": 65
   },
   {
     "id": "rec-brandy-crusta",
@@ -2757,7 +2894,8 @@
       "elegant",
       "showpiece",
       "classic"
-    ]
+    ],
+    "popularity": 65
   },
   {
     "id": "rec-millionaire",
@@ -2777,7 +2915,8 @@
       "fruity",
       "rich",
       "classic"
-    ]
+    ],
+    "popularity": 65
   },
   {
     "id": "rec-harvard",
@@ -2797,7 +2936,8 @@
       "fruity",
       "elegant",
       "classic"
-    ]
+    ],
+    "popularity": 88
   },
   {
     "id": "rec-daisy",
@@ -2817,7 +2957,8 @@
       "refreshing",
       "highball",
       "classic"
-    ]
+    ],
+    "popularity": 65
   },
   {
     "id": "rec-deauville",
@@ -2837,7 +2978,8 @@
       "spirit-forward",
       "rich",
       "classic"
-    ]
+    ],
+    "popularity": 65
   },
   {
     "id": "rec-white-negroni",
@@ -2857,7 +2999,8 @@
       "herbal",
       "elegant",
       "classic-variant"
-    ]
+    ],
+    "popularity": 65
   },
   {
     "id": "rec-mezcal-negroni",
@@ -2877,7 +3020,8 @@
       "smoky",
       "agave",
       "classic-variant"
-    ]
+    ],
+    "popularity": 65
   },
   {
     "id": "rec-coffee-negroni",
@@ -2897,7 +3041,8 @@
       "coffee",
       "strong",
       "classic-variant"
-    ]
+    ],
+    "popularity": 65
   },
   {
     "id": "rec-garibaldi",
@@ -2917,7 +3062,8 @@
       "citrus",
       "refreshing",
       "classic"
-    ]
+    ],
+    "popularity": 65
   },
   {
     "id": "rec-italian-gentleman",
@@ -2937,7 +3083,8 @@
       "bitter",
       "balanced",
       "classic"
-    ]
+    ],
+    "popularity": 65
   },
   {
     "id": "rec-cardinale",
@@ -2957,7 +3104,8 @@
       "dry",
       "elegant",
       "classic"
-    ]
+    ],
+    "popularity": 65
   },
   {
     "id": "rec-hibiscus-negroni",
@@ -2977,7 +3125,8 @@
       "floral",
       "fruity",
       "classic-variant"
-    ]
+    ],
+    "popularity": 65
   },
   {
     "id": "rec-the-only-negroni",
@@ -2997,7 +3146,8 @@
       "elegant",
       "red-wine",
       "classic-variant"
-    ]
+    ],
+    "popularity": 65
   },
   {
     "id": "rec-right-hand-negroni",
@@ -3017,7 +3167,8 @@
       "spirit-forward",
       "oak",
       "classic-variant"
-    ]
+    ],
+    "popularity": 65
   },
   {
     "id": "rec-pisco-negroni",
@@ -3037,7 +3188,8 @@
       "grape",
       "elegant",
       "classic-variant"
-    ]
+    ],
+    "popularity": 65
   },
   {
     "id": "rec-chocolate-negroni",
@@ -3057,7 +3209,8 @@
       "chocolate",
       "dessert",
       "classic-variant"
-    ]
+    ],
+    "popularity": 65
   },
   {
     "id": "rec-dark-negroni",
@@ -3077,7 +3230,8 @@
       "herbal",
       "vegetal",
       "classic-variant"
-    ]
+    ],
+    "popularity": 65
   },
   {
     "id": "rec-negroni-bianco",
@@ -3097,7 +3251,8 @@
       "dry",
       "elegant",
       "classic-variant"
-    ]
+    ],
+    "popularity": 65
   },
   {
     "id": "rec-count-negroni",
@@ -3117,7 +3272,8 @@
       "spirit-forward",
       "elegant",
       "classic"
-    ]
+    ],
+    "popularity": 65
   },
   {
     "id": "rec-sicilian-negroni",
@@ -3137,7 +3293,8 @@
       "almond",
       "sweet",
       "classic-variant"
-    ]
+    ],
+    "popularity": 65
   },
   {
     "id": "rec-peach-sour",
@@ -3157,7 +3314,8 @@
       "fruity",
       "balanced",
       "classic-variant"
-    ]
+    ],
+    "popularity": 65
   },
   {
     "id": "rec-apricot-sour",
@@ -3177,7 +3335,8 @@
       "fruity",
       "balanced",
       "classic"
-    ]
+    ],
+    "popularity": 65
   },
   {
     "id": "rec-blackberry-sour",
@@ -3197,7 +3356,8 @@
       "berry",
       "fruity",
       "classic-variant"
-    ]
+    ],
+    "popularity": 65
   },
   {
     "id": "rec-cherry-sour",
@@ -3217,7 +3377,8 @@
       "fruity",
       "rich",
       "classic-variant"
-    ]
+    ],
+    "popularity": 65
   },
   {
     "id": "rec-elderflower-sour",
@@ -3237,7 +3398,8 @@
       "floral",
       "elegant",
       "modern"
-    ]
+    ],
+    "popularity": 65
   },
   {
     "id": "rec-pomegranate-sour",
@@ -3257,7 +3419,8 @@
       "fruity",
       "tart",
       "modern"
-    ]
+    ],
+    "popularity": 65
   },
   {
     "id": "rec-pineapple-sour",
@@ -3277,7 +3440,8 @@
       "tropical",
       "fruity",
       "classic"
-    ]
+    ],
+    "popularity": 65
   },
   {
     "id": "rec-mezcal-sour",
@@ -3297,7 +3461,8 @@
       "smoky",
       "agave",
       "modern"
-    ]
+    ],
+    "popularity": 65
   },
   {
     "id": "rec-demerara-sour",
@@ -3317,7 +3482,8 @@
       "rich",
       "tiki-edge",
       "modern"
-    ]
+    ],
+    "popularity": 65
   },
   {
     "id": "rec-calvados-sour",
@@ -3337,7 +3503,8 @@
       "fruity",
       "elegant",
       "classic"
-    ]
+    ],
+    "popularity": 65
   },
   {
     "id": "rec-japanese-sour",
@@ -3357,7 +3524,8 @@
       "clean",
       "asian",
       "modern"
-    ]
+    ],
+    "popularity": 65
   },
   {
     "id": "rec-trinidad-sour",
@@ -3377,7 +3545,8 @@
       "bitter",
       "rich",
       "modern"
-    ]
+    ],
+    "popularity": 65
   },
   {
     "id": "rec-basil-sour",
@@ -3397,7 +3566,8 @@
       "herbal",
       "fresh",
       "modern"
-    ]
+    ],
+    "popularity": 65
   },
   {
     "id": "rec-cucumber-sour",
@@ -3417,7 +3587,8 @@
       "fresh",
       "floral",
       "modern"
-    ]
+    ],
+    "popularity": 65
   },
   {
     "id": "rec-campari-sour",
@@ -3437,7 +3608,8 @@
       "bitter",
       "balanced",
       "modern"
-    ]
+    ],
+    "popularity": 65
   },
   {
     "id": "rec-mexican-mule",
@@ -3457,7 +3629,8 @@
       "spicy",
       "highball",
       "classic-variant"
-    ]
+    ],
+    "popularity": 65
   },
   {
     "id": "rec-irish-mule",
@@ -3477,7 +3650,8 @@
       "spicy",
       "highball",
       "classic-variant"
-    ]
+    ],
+    "popularity": 65
   },
   {
     "id": "rec-kentucky-mule",
@@ -3497,7 +3671,8 @@
       "spicy",
       "highball",
       "classic-variant"
-    ]
+    ],
+    "popularity": 65
   },
   {
     "id": "rec-jamaican-mule",
@@ -3517,7 +3692,8 @@
       "spicy",
       "tiki-edge",
       "classic-variant"
-    ]
+    ],
+    "popularity": 65
   },
   {
     "id": "rec-pineapple-mule",
@@ -3537,7 +3713,8 @@
       "spicy",
       "tropical",
       "modern"
-    ]
+    ],
+    "popularity": 65
   },
   {
     "id": "rec-peach-mule",
@@ -3557,7 +3734,8 @@
       "spicy",
       "fruity",
       "modern"
-    ]
+    ],
+    "popularity": 65
   },
   {
     "id": "rec-mezcal-mule",
@@ -3577,7 +3755,8 @@
       "spicy",
       "smoky",
       "modern"
-    ]
+    ],
+    "popularity": 65
   },
   {
     "id": "rec-spanish-mule",
@@ -3597,7 +3776,8 @@
       "spicy",
       "low-abv",
       "modern"
-    ]
+    ],
+    "popularity": 65
   },
   {
     "id": "rec-st-germain-mule",
@@ -3617,7 +3797,8 @@
       "spicy",
       "floral",
       "modern"
-    ]
+    ],
+    "popularity": 65
   },
   {
     "id": "rec-blood-orange-mule",
@@ -3637,7 +3818,8 @@
       "spicy",
       "citrus",
       "modern"
-    ]
+    ],
+    "popularity": 65
   },
   {
     "id": "rec-apple-mule",
@@ -3657,7 +3839,8 @@
       "spicy",
       "fruity",
       "modern"
-    ]
+    ],
+    "popularity": 65
   },
   {
     "id": "rec-passion-fruit-mule",
@@ -3677,7 +3860,8 @@
       "spicy",
       "tropical",
       "modern"
-    ]
+    ],
+    "popularity": 65
   },
   {
     "id": "rec-coconut-mule",
@@ -3697,7 +3881,8 @@
       "spicy",
       "tropical",
       "modern"
-    ]
+    ],
+    "popularity": 65
   },
   {
     "id": "rec-grapefruit-mule",
@@ -3717,7 +3902,8 @@
       "spicy",
       "citrus",
       "modern"
-    ]
+    ],
+    "popularity": 65
   },
   {
     "id": "rec-cherry-mule",
@@ -3737,7 +3923,8 @@
       "spicy",
       "fruity",
       "modern"
-    ]
+    ],
+    "popularity": 65
   },
   {
     "id": "rec-soju-sour",
@@ -3757,7 +3944,8 @@
       "clean",
       "asian",
       "modern"
-    ]
+    ],
+    "popularity": 65
   },
   {
     "id": "rec-yuzu-soju-spritz",
@@ -3777,7 +3965,8 @@
       "citrus",
       "low-abv",
       "modern"
-    ]
+    ],
+    "popularity": 65
   },
   {
     "id": "rec-chu-hai",
@@ -3797,7 +3986,8 @@
       "low-abv",
       "asian",
       "classic"
-    ]
+    ],
+    "popularity": 65
   },
   {
     "id": "rec-matcha-highball",
@@ -3817,7 +4007,8 @@
       "low-abv",
       "asian",
       "modern"
-    ]
+    ],
+    "popularity": 65
   },
   {
     "id": "rec-sake-spritz",
@@ -3837,7 +4028,8 @@
       "low-abv",
       "asian",
       "modern"
-    ]
+    ],
+    "popularity": 65
   },
   {
     "id": "rec-lemon-sour",
@@ -3857,7 +4049,8 @@
       "low-abv",
       "asian",
       "classic"
-    ]
+    ],
+    "popularity": 65
   },
   {
     "id": "rec-caipirinha",
@@ -3876,7 +4069,8 @@
       "refreshing",
       "citrus",
       "classic"
-    ]
+    ],
+    "popularity": 65
   },
   {
     "id": "rec-caipirissima",
@@ -3895,7 +4089,8 @@
       "refreshing",
       "citrus",
       "classic-variant"
-    ]
+    ],
+    "popularity": 65
   },
   {
     "id": "rec-batida-de-coco",
@@ -3915,7 +4110,8 @@
       "tropical",
       "creamy",
       "classic"
-    ]
+    ],
+    "popularity": 65
   },
   {
     "id": "rec-pisco-punch",
@@ -3934,7 +4130,8 @@
       "sour",
       "tropical",
       "classic"
-    ]
+    ],
+    "popularity": 65
   },
   {
     "id": "rec-rabo-de-galo",
@@ -3953,7 +4150,8 @@
       "spirit-forward",
       "herbal",
       "classic"
-    ]
+    ],
+    "popularity": 65
   },
   {
     "id": "rec-st-germain-spritz",
@@ -3973,7 +4171,8 @@
       "floral",
       "low-abv",
       "modern"
-    ]
+    ],
+    "popularity": 65
   },
   {
     "id": "rec-lillet-spritz",
@@ -3993,7 +4192,8 @@
       "elegant",
       "low-abv",
       "modern"
-    ]
+    ],
+    "popularity": 65
   },
   {
     "id": "rec-cynar-spritz",
@@ -4013,7 +4213,8 @@
       "bitter",
       "low-abv",
       "modern"
-    ]
+    ],
+    "popularity": 65
   },
   {
     "id": "rec-tinto-de-verano",
@@ -4033,7 +4234,8 @@
       "wine",
       "low-abv",
       "classic"
-    ]
+    ],
+    "popularity": 65
   },
   {
     "id": "rec-sangria",
@@ -4053,7 +4255,8 @@
       "fruity",
       "low-abv",
       "classic"
-    ]
+    ],
+    "popularity": 65
   },
   {
     "id": "rec-vermouth-cassis",
@@ -4073,7 +4276,8 @@
       "fruity",
       "low-abv",
       "classic"
-    ]
+    ],
+    "popularity": 65
   },
   {
     "id": "rec-vermouth-tonic",
@@ -4093,7 +4297,8 @@
       "low-abv",
       "european",
       "classic"
-    ]
+    ],
+    "popularity": 65
   },
   {
     "id": "rec-porto-tonic",
@@ -4113,7 +4318,8 @@
       "low-abv",
       "european",
       "modern"
-    ]
+    ],
+    "popularity": 65
   },
   {
     "id": "rec-limoncello-spritz",
@@ -4133,7 +4339,8 @@
       "lemon",
       "low-abv",
       "modern"
-    ]
+    ],
+    "popularity": 65
   },
   {
     "id": "rec-oaxaca-old-fashioned",
@@ -4152,7 +4359,8 @@
       "spirit-forward",
       "smoky",
       "modern"
-    ]
+    ],
+    "popularity": 75
   },
   {
     "id": "rec-dead-rabbit-irish-coffee",
@@ -4172,7 +4380,8 @@
       "coffee",
       "creamy",
       "modern"
-    ]
+    ],
+    "popularity": 65
   },
   {
     "id": "rec-los-angeles-negroni",
@@ -4191,7 +4400,8 @@
       "bitter",
       "elegant",
       "classic-variant"
-    ]
+    ],
+    "popularity": 65
   },
   {
     "id": "rec-conference",
@@ -4210,7 +4420,8 @@
       "sour",
       "herbal",
       "modern"
-    ]
+    ],
+    "popularity": 65
   },
   {
     "id": "rec-amor-y-amargo",
@@ -4230,7 +4441,8 @@
       "bitter",
       "rich",
       "modern"
-    ]
+    ],
+    "popularity": 65
   },
   {
     "id": "rec-thunderbolt",
@@ -4250,7 +4462,8 @@
       "rich",
       "spirited",
       "modern"
-    ]
+    ],
+    "popularity": 65
   },
   {
     "id": "rec-obituary",
@@ -4270,7 +4483,8 @@
       "bitter",
       "rich",
       "modern"
-    ]
+    ],
+    "popularity": 65
   },
   {
     "id": "rec-east-india",
@@ -4290,7 +4504,8 @@
       "tropical",
       "spirit-forward",
       "classic"
-    ]
+    ],
+    "popularity": 65
   },
   {
     "id": "rec-wandering-poet",
@@ -4310,7 +4525,8 @@
       "bitter",
       "rich",
       "modern"
-    ]
+    ],
+    "popularity": 65
   },
   {
     "id": "rec-la-rosa",
@@ -4330,7 +4546,8 @@
       "bitter",
       "floral",
       "modern"
-    ]
+    ],
+    "popularity": 65
   },
   {
     "id": "rec-fair-and-square",
@@ -4350,7 +4567,8 @@
       "fruity",
       "rich",
       "modern"
-    ]
+    ],
+    "popularity": 65
   },
   {
     "id": "rec-peninsula",
@@ -4369,7 +4587,8 @@
       "sour",
       "bitter",
       "modern"
-    ]
+    ],
+    "popularity": 65
   },
   {
     "id": "rec-five-spice",
@@ -4389,7 +4608,8 @@
       "spice",
       "rich",
       "modern"
-    ]
+    ],
+    "popularity": 65
   },
   {
     "id": "rec-surrender",
@@ -4409,7 +4629,8 @@
       "fruity",
       "rich",
       "modern"
-    ]
+    ],
+    "popularity": 65
   },
   {
     "id": "rec-ready-fire-aim",
@@ -4428,7 +4649,8 @@
       "spirit-forward",
       "herbal",
       "modern"
-    ]
+    ],
+    "popularity": 65
   },
   {
     "id": "rec-aku-aku",
@@ -4448,7 +4670,8 @@
       "spice",
       "tiki",
       "classic"
-    ]
+    ],
+    "popularity": 65
   },
   {
     "id": "rec-mystery-word",
@@ -4468,7 +4691,8 @@
       "spice",
       "tiki",
       "classic"
-    ]
+    ],
+    "popularity": 65
   },
   {
     "id": "rec-cobras-fang",
@@ -4489,7 +4713,8 @@
       "anise",
       "tiki",
       "classic"
-    ]
+    ],
+    "popularity": 65
   },
   {
     "id": "rec-sidewinders-fang",
@@ -4510,7 +4735,8 @@
       "anise",
       "tiki",
       "classic"
-    ]
+    ],
+    "popularity": 65
   },
   {
     "id": "rec-nui-nui",
@@ -4530,7 +4756,8 @@
       "spirit-forward",
       "tiki",
       "classic"
-    ]
+    ],
+    "popularity": 65
   },
   {
     "id": "rec-missionarys-downfall",
@@ -4550,7 +4777,8 @@
       "fruity",
       "tiki",
       "classic"
-    ]
+    ],
+    "popularity": 65
   },
   {
     "id": "rec-qb-cooler",
@@ -4570,7 +4798,8 @@
       "fruity",
       "tiki",
       "classic"
-    ]
+    ],
+    "popularity": 65
   },
   {
     "id": "rec-beachcombers-gold",
@@ -4589,7 +4818,8 @@
       "tropical",
       "tiki",
       "classic"
-    ]
+    ],
+    "popularity": 65
   },
   {
     "id": "rec-pearl-diver",
@@ -4609,7 +4839,8 @@
       "anise",
       "tiki",
       "classic"
-    ]
+    ],
+    "popularity": 65
   },
   {
     "id": "rec-painkiller",
@@ -4629,7 +4860,8 @@
       "creamy",
       "tiki",
       "classic"
-    ]
+    ],
+    "popularity": 65
   },
   {
     "id": "rec-virgin-mary",
@@ -4649,7 +4881,8 @@
       "spicy",
       "mocktail",
       "classic"
-    ]
+    ],
+    "popularity": 75
   },
   {
     "id": "rec-shirley-temple",
@@ -4669,7 +4902,8 @@
       "sweet",
       "mocktail",
       "classic"
-    ]
+    ],
+    "popularity": 78
   },
   {
     "id": "rec-roy-rogers",
@@ -4689,7 +4923,8 @@
       "sweet",
       "mocktail",
       "classic"
-    ]
+    ],
+    "popularity": 65
   },
   {
     "id": "rec-nojito",
@@ -4709,7 +4944,8 @@
       "herbal",
       "mocktail",
       "modern"
-    ]
+    ],
+    "popularity": 70
   },
   {
     "id": "rec-phony-negroni",
@@ -4729,7 +4965,8 @@
       "herbal",
       "mocktail",
       "modern"
-    ]
+    ],
+    "popularity": 55
   },
   {
     "id": "rec-seedlip-sour",
@@ -4749,7 +4986,8 @@
       "herbal",
       "mocktail",
       "modern"
-    ]
+    ],
+    "popularity": 55
   },
   {
     "id": "rec-lavender-lemonade-spritz",
@@ -4770,7 +5008,8 @@
       "low-abv",
       "mocktail",
       "modern"
-    ]
+    ],
+    "popularity": 65
   },
   {
     "id": "rec-cucumber-cooler",
@@ -4790,7 +5029,8 @@
       "floral",
       "mocktail",
       "modern"
-    ]
+    ],
+    "popularity": 65
   },
   {
     "id": "rec-pineapple-ginger-mocktail",
@@ -4811,7 +5051,8 @@
       "tropical",
       "mocktail",
       "modern"
-    ]
+    ],
+    "popularity": 65
   },
   {
     "id": "rec-hibiscus-cooler",
@@ -4832,7 +5073,8 @@
       "tart",
       "mocktail",
       "modern"
-    ]
+    ],
+    "popularity": 60
   },
   {
     "id": "rec-bronx-cocktail",
@@ -4852,7 +5094,8 @@
       "fruity",
       "elegant",
       "classic"
-    ]
+    ],
+    "popularity": 65
   },
   {
     "id": "rec-holland-house-cocktail",
@@ -4870,7 +5113,8 @@
     "balanceTags": [
       "sour",
       "classic"
-    ]
+    ],
+    "popularity": 65
   },
   {
     "id": "rec-widow-kiss",
@@ -4890,7 +5134,8 @@
       "herbal",
       "spirit-forward",
       "classic"
-    ]
+    ],
+    "popularity": 65
   },
   {
     "id": "rec-monkey-gland",
@@ -4910,7 +5155,8 @@
       "anise",
       "fruity",
       "classic"
-    ]
+    ],
+    "popularity": 65
   },
   {
     "id": "rec-champs-elysees",
@@ -4930,7 +5176,8 @@
       "herbal",
       "elegant",
       "classic"
-    ]
+    ],
+    "popularity": 65
   },
   {
     "id": "rec-brandy-alexander",
@@ -4950,7 +5197,8 @@
       "chocolate",
       "dessert",
       "classic"
-    ]
+    ],
+    "popularity": 65
   },
   {
     "id": "rec-grasshopper",
@@ -4970,7 +5218,8 @@
       "mint",
       "dessert",
       "classic"
-    ]
+    ],
+    "popularity": 65
   },
   {
     "id": "rec-pink-lady",
@@ -4990,7 +5239,8 @@
       "creamy",
       "fruity",
       "classic"
-    ]
+    ],
+    "popularity": 65
   },
   {
     "id": "rec-alaska",
@@ -5010,7 +5260,8 @@
       "herbal",
       "elegant",
       "classic"
-    ]
+    ],
+    "popularity": 65
   },
   {
     "id": "rec-japan-cocktail",
@@ -5030,6 +5281,7 @@
       "spirit-forward",
       "almond",
       "classic"
-    ]
+    ],
+    "popularity": 65
   }
 ]
