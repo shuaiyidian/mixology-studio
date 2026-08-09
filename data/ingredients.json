@@ -2315,5 +2315,474 @@
     "colorHex": "#D0D0B0",
     "descriptionZh": "芹菜籽研磨的盐，Bloody Mary / Virgin Mary 杯边的标志盐边。",
     "descriptionEn": "Celery-seed salt, the signature rim salt of Bloody Mary and Virgin Mary."
+  },
+  {
+    "id": "ing-matcha-powder",
+    "slug": "matcha-powder",
+    "nameZh": "抹茶粉",
+    "nameEn": "Matcha Powder",
+    "category": "HERB_SPICE",
+    "abv": null,
+    "flavorTags": [
+      "umami",
+      "bitter",
+      "herbal",
+      "earthy"
+    ],
+    "colorHex": "#7BA05B",
+    "descriptionZh": "日本蒸青绿茶粉，给酒体带来苔藓般的清苦与回甘，是 Speak Low 同款经典调味料。",
+    "descriptionEn": "Stone-ground Japanese green tea. Gives drinks mossy bitterness and umami depth — a hallmark of modern craft bars."
+  },
+  {
+    "id": "ing-earl-grey-tea",
+    "slug": "earl-grey-tea",
+    "nameZh": "伯爵茶",
+    "nameEn": "Earl Grey Tea",
+    "category": "HERB_SPICE",
+    "abv": null,
+    "flavorTags": [
+      "floral",
+      "citrus",
+      "bergamot",
+      "aromatic"
+    ],
+    "colorHex": "#8B6F3A",
+    "descriptionZh": "佛手柑调味的红茶，冻成冰块可避免稀释，是 Hope & Sesame 招牌的精髓。",
+    "descriptionEn": "Black tea perfumed with bergamot. Freezes into clear ice cubes that won't dilute drinks — a Hope & Sesame signature."
+  },
+  {
+    "id": "ing-osmanthus",
+    "slug": "osmanthus",
+    "nameZh": "桂花",
+    "nameEn": "Osmanthus",
+    "category": "HERB_SPICE",
+    "abv": null,
+    "flavorTags": [
+      "floral",
+      "honeyed",
+      "fruity",
+      "aromatic"
+    ],
+    "colorHex": "#E8C275",
+    "descriptionZh": "中式糖渍桂花，香气温柔蜜甜，常用于江南/岭南风调酒。",
+    "descriptionEn": "Candied osmanthus flowers. Honeyed, apricot-like aroma — a signature of Jiangnan / Lingnan style modern bars."
+  },
+  {
+    "id": "ing-cedar",
+    "slug": "cedar",
+    "nameZh": "桧木纯露",
+    "nameEn": "Cedar Hydrosol",
+    "category": "HERB_SPICE",
+    "abv": null,
+    "flavorTags": [
+      "woody",
+      "forest",
+      "aromatic",
+      "japanese"
+    ],
+    "colorHex": "#D4C3A8",
+    "descriptionZh": "日式桧木蒸馏纯露，带来东方的森林与木质香调。",
+    "descriptionEn": "Japanese cypress distillate. Brings a meditative, temple-wood aroma — El Ocho's signature eastern note."
+  },
+  {
+    "id": "ing-shiso",
+    "slug": "shiso",
+    "nameZh": "紫苏叶",
+    "nameEn": "Shiso Leaf",
+    "category": "HERB_SPICE",
+    "abv": null,
+    "flavorTags": [
+      "herbal",
+      "citrusy",
+      "spicy",
+      "japanese"
+    ],
+    "colorHex": "#4A7C59",
+    "descriptionZh": "日式紫苏叶，清香中带辛，常做装饰或浸渍入酒。",
+    "descriptionEn": "Japanese perilla leaf. Citrusy-spicy green aroma — used as a garnish or infusion for umami-driven cocktails."
+  },
+  {
+    "id": "ing-pandan-leaf",
+    "slug": "pandan-leaf",
+    "nameZh": "班兰叶",
+    "nameEn": "Pandan Leaf",
+    "category": "HERB_SPICE",
+    "abv": null,
+    "flavorTags": [
+      "nutty",
+      "vanilla",
+      "tropical",
+      "aromatic"
+    ],
+    "colorHex": "#3A5F3A",
+    "descriptionZh": "东南亚班兰叶，带有坚果和椰子般的香草甜韵，The Bunker 等亚洲风酒吧爱用。",
+    "descriptionEn": "Southeast Asian screwpine leaf. Nutty, vanilla-coconut aroma — Asian modern bars lean on it for tropical depth."
+  },
+  {
+    "id": "ing-passion-fruit-puree",
+    "slug": "passion-fruit-puree",
+    "nameZh": "百香果泥",
+    "nameEn": "Passion Fruit Purée",
+    "category": "JUICE",
+    "abv": null,
+    "flavorTags": [
+      "tropical",
+      "citrusy",
+      "tart",
+      "aromatic"
+    ],
+    "colorHex": "#E5A52E",
+    "descriptionZh": "百香果果泥，酸度高、香气炸裂，现代 tropical sour 类酒必备。",
+    "descriptionEn": "Vibrant tropical purée, intensely tart and aromatic. A staple in modern tiki / sour / spritz style drinks."
+  },
+  {
+    "id": "ing-blood-orange-juice",
+    "slug": "blood-orange-juice",
+    "nameZh": "血橙汁",
+    "nameEn": "Blood Orange Juice",
+    "category": "JUICE",
+    "abv": null,
+    "flavorTags": [
+      "citrusy",
+      "fruity",
+      "berry",
+      "tart"
+    ],
+    "colorHex": "#9B2335",
+    "descriptionZh": "血橙鲜榨，深红橙色，香气比普通橙更复杂，拍照出片。",
+    "descriptionEn": "Deep crimson juice with raspberry-citrus complexity. A modern bar favorite for color and depth."
+  },
+  {
+    "id": "ing-blueberry-puree",
+    "slug": "blueberry-puree",
+    "nameZh": "蓝莓果泥",
+    "nameEn": "Blueberry Purée",
+    "category": "JUICE",
+    "abv": null,
+    "flavorTags": [
+      "fruity",
+      "berry",
+      "sweet",
+      "earthy"
+    ],
+    "colorHex": "#4F2680",
+    "descriptionZh": "蓝莓果泥，深紫蓝色，给酒体提供 berry 风味与天然紫调。",
+    "descriptionEn": "Deep purple-blue purée that gives drinks berry depth and a striking natural color."
+  },
+  {
+    "id": "ing-mango-puree",
+    "slug": "mango-puree",
+    "nameZh": "芒果泥",
+    "nameEn": "Mango Purée",
+    "category": "JUICE",
+    "abv": null,
+    "flavorTags": [
+      "tropical",
+      "fruity",
+      "sweet",
+      "creamy"
+    ],
+    "colorHex": "#F39C2A",
+    "descriptionZh": "阿尔丰索芒果泥，浓稠奶甜，tiki 与 tropical 调酒的核心。",
+    "descriptionEn": "Alphonso-grade mango purée. Lush and creamy — the soul of modern tiki and tropical serves."
+  },
+  {
+    "id": "ing-litchi-puree",
+    "slug": "litchi-puree",
+    "nameZh": "荔枝泥",
+    "nameEn": "Lychee Purée",
+    "category": "JUICE",
+    "abv": null,
+    "flavorTags": [
+      "floral",
+      "fruity",
+      "tropical",
+      "sweet"
+    ],
+    "colorHex": "#F5C8C2",
+    "descriptionZh": "荔枝果泥，玫瑰般的花香甜韵，亚洲风 cocktail 的标志性元素。",
+    "descriptionEn": "Lychee purée with rose-like floral sweetness. A signature Asian-fusion cocktail note."
+  },
+  {
+    "id": "ing-pomegranate-molasses",
+    "slug": "pomegranate-molasses",
+    "nameZh": "石榴糖蜜",
+    "nameEn": "Pomegranate Molasses",
+    "category": "JUICE",
+    "abv": null,
+    "flavorTags": [
+      "tart",
+      "fruity",
+      "sweet",
+      "rich"
+    ],
+    "colorHex": "#5B1A18",
+    "descriptionZh": "浓缩石榴糖蜜，深红近黑，酸甜浓厚，给酒体增加果味深度。",
+    "descriptionEn": "Reduced pomegranate syrup, almost black. Adds rich fruit depth to sours and spritzes."
+  },
+  {
+    "id": "ing-maple-syrup",
+    "slug": "maple-syrup",
+    "nameZh": "枫糖浆",
+    "nameEn": "Maple Syrup",
+    "category": "SYRUP",
+    "abv": null,
+    "flavorTags": [
+      "sweet",
+      "woody",
+      "caramel",
+      "warming"
+    ],
+    "colorHex": "#A0522D",
+    "descriptionZh": "加拿大纯枫糖浆，焦糖木质甜，常用于 fall / autumn 系调酒。",
+    "descriptionEn": "Pure Canadian maple syrup. Caramel-woody sweetness — essential for autumn / fall cocktail menus."
+  },
+  {
+    "id": "ing-rosemary-syrup",
+    "slug": "rosemary-syrup",
+    "nameZh": "迷迭香糖浆",
+    "nameEn": "Rosemary Syrup",
+    "category": "SYRUP",
+    "abv": null,
+    "flavorTags": [
+      "herbal",
+      "aromatic",
+      "woody",
+      "savory"
+    ],
+    "colorHex": "#7BA05B",
+    "descriptionZh": "迷迭香浸糖浆，草本木质香，给 Gin Sour / Spritz 注入森林感。",
+    "descriptionEn": "Rosemary-infused sugar syrup. Forest-floor herbal aroma — gives gin sours a modern bar character."
+  },
+  {
+    "id": "ing-italicus",
+    "slug": "italicus",
+    "nameZh": "意贝利口酒",
+    "nameEn": "Italicus Rosolio di Bergamotto",
+    "category": "LIQUEUR",
+    "abv": 20,
+    "flavorTags": [
+      "floral",
+      "citrusy",
+      "bergamot",
+      "aromatic"
+    ],
+    "colorHex": "#F5E1A4",
+    "descriptionZh": "意大利 Bergamotto 利口酒，佛手柑与玫瑰柠檬的优雅组合。",
+    "descriptionEn": "Italian bergamot-and-rose liqueur. A modern classic revival — bright, floral, and very photogenic."
+  },
+  {
+    "id": "ing-cocchi-rosso",
+    "slug": "cocchi-rosso",
+    "nameZh": "科基红苦艾",
+    "nameEn": "Cocchi Vermouth di Torino Rosso",
+    "category": "WINE",
+    "abv": 16,
+    "flavorTags": [
+      "bitter",
+      "herbal",
+      "spicy",
+      "aromatic"
+    ],
+    "colorHex": "#8B1A1A",
+    "descriptionZh": "意大利皮埃蒙特红苦艾，草药香与焦糖甜，是现代 Manhattan 的灵魂。",
+    "descriptionEn": "Piedmont red vermouth. Herbs + caramel — the modern Manhattan is built on this."
+  },
+  {
+    "id": "ing-lillet-rose",
+    "slug": "lillet-rose",
+    "nameZh": "利莱玫瑰",
+    "nameEn": "Lillet Rosé",
+    "category": "WINE",
+    "abv": 17,
+    "flavorTags": [
+      "floral",
+      "fruity",
+      "sweet",
+      "aromatic"
+    ],
+    "colorHex": "#F4A6B8",
+    "descriptionZh": "利莱玫瑰版，葡萄 + 柑橘 + 蜂蜜，粉嫩色调适合 brunch 与下午茶场景。",
+    "descriptionEn": "Rosé version of Lillet. Grape + citrus + honey — the go-to pink sipper for brunches and terraces."
+  },
+  {
+    "id": "ing-deli-cherry",
+    "slug": "deli-cherry",
+    "nameZh": "酒渍樱桃",
+    "nameEn": "Luxardo Maraschino Cherry",
+    "category": "GARNISH",
+    "abv": null,
+    "flavorTags": [
+      "sweet",
+      "fruity",
+      "nutty",
+      "rich"
+    ],
+    "colorHex": "#7B1E1E",
+    "descriptionZh": "Luxardo 酒渍樱桃，曼哈顿 / 老式经典装饰，深红近黑。",
+    "descriptionEn": "Luxardo maraschino cherries. Dense, almost black-red — the only acceptable Manhattan garnish."
+  },
+  {
+    "id": "ing-dried-orange-wheel",
+    "slug": "dried-orange-wheel",
+    "nameZh": "烘干橙片",
+    "nameEn": "Dried Orange Wheel",
+    "category": "GARNISH",
+    "abv": null,
+    "flavorTags": [
+      "citrusy",
+      "aromatic",
+      "bitter"
+    ],
+    "colorHex": "#D97A1A",
+    "descriptionZh": "低温烘干的橙片，挂在杯沿给 Old Fashioned / Negroni 升级质感。",
+    "descriptionEn": "Slow-dehydrated orange wheel. Hangs on the rim of an Old Fashioned for an instant upgrade."
+  },
+  {
+    "id": "ing-dried-lemon-wheel",
+    "slug": "dried-lemon-wheel",
+    "nameZh": "烘干柠檬片",
+    "nameEn": "Dried Lemon Wheel",
+    "category": "GARNISH",
+    "abv": null,
+    "flavorTags": [
+      "citrusy",
+      "aromatic",
+      "tart"
+    ],
+    "colorHex": "#D9C24A",
+    "descriptionZh": "烘干柠檬片，挂在 G&T / Tom Collins 杯沿。",
+    "descriptionEn": "Dehydrated lemon wheel. Rim garnish for G&T / Tom Collins with a more artful feel."
+  },
+  {
+    "id": "ing-edible-violet",
+    "slug": "edible-violet",
+    "nameZh": "食用紫罗兰",
+    "nameEn": "Edible Violet",
+    "category": "GARNISH",
+    "abv": null,
+    "flavorTags": [
+      "floral",
+      "sweet",
+      "aromatic"
+    ],
+    "colorHex": "#7B4B94",
+    "descriptionZh": "可食用紫罗兰花瓣，漂浮在酒面给 Aviation / floral sour 拍照加分。",
+    "descriptionEn": "Candied / fresh edible violet petals. The single most IG-friendly garnish for floral sours."
+  },
+  {
+    "id": "ing-dehydrated-pineapple",
+    "slug": "dehydrated-pineapple",
+    "nameZh": "脱水菠萝片",
+    "nameEn": "Dehydrated Pineapple Wheel",
+    "category": "GARNISH",
+    "abv": null,
+    "flavorTags": [
+      "tropical",
+      "fruity",
+      "sweet"
+    ],
+    "colorHex": "#D9A93A",
+    "descriptionZh": "脱水菠萝片，挂在 tiki / Mai Tai 杯沿，热带风首选装饰。",
+    "descriptionEn": "Dehydrated pineapple wheel. The tiki / Mai Tai rim garnish of choice."
+  },
+  {
+    "id": "ing-flamed-orange-peel",
+    "slug": "flamed-orange-peel",
+    "nameZh": "火焰橙皮",
+    "nameEn": "Flamed Orange Peel",
+    "category": "GARNISH",
+    "abv": null,
+    "flavorTags": [
+      "citrusy",
+      "aromatic",
+      "smoky"
+    ],
+    "colorHex": "#FF6B1A",
+    "descriptionZh": "用打火机燎过的橙皮条，喷出精油火花，撒在酒面带焦香。",
+    "descriptionEn": "Orange peel expressed over flame. Sparks citrus oils onto the surface — a tableside showpiece."
+  },
+  {
+    "id": "ing-spiced-salt-rim",
+    "slug": "spiced-salt-rim",
+    "nameZh": "香料海盐",
+    "nameEn": "Spiced Sea Salt Rim",
+    "category": "GARNISH",
+    "abv": null,
+    "flavorTags": [
+      "salty",
+      "spicy",
+      "savory"
+    ],
+    "colorHex": "#C8B89A",
+    "descriptionZh": "海盐 + 烟熏辣椒粉 + 柑橘皮屑的混合盐边，给 Margarita / Paloma 升级。",
+    "descriptionEn": "Sea salt + smoked chili + citrus zest blend. The modern Marg / Paloma upgrade."
+  },
+  {
+    "id": "ing-rosemary-sprig",
+    "slug": "rosemary-sprig",
+    "nameZh": "迷迭香小枝",
+    "nameEn": "Rosemary Sprig",
+    "category": "GARNISH",
+    "abv": null,
+    "flavorTags": [
+      "herbal",
+      "aromatic",
+      "woody"
+    ],
+    "colorHex": "#4A7C59",
+    "descriptionZh": "新鲜迷迭香小枝，拍醒后插入酒中做装饰兼闻香。",
+    "descriptionEn": "Fresh rosemary sprig, slapped to release oils. Visual + aromatic garnish."
+  },
+  {
+    "id": "ing-coconut-milk",
+    "slug": "coconut-milk",
+    "nameZh": "椰浆",
+    "nameEn": "Coconut Cream",
+    "category": "DAIRY",
+    "abv": null,
+    "flavorTags": [
+      "creamy",
+      "tropical",
+      "nutty",
+      "rich"
+    ],
+    "colorHex": "#F2EBDA",
+    "descriptionZh": "全脂椰浆，Piña Colada / Painkiller 等 tropical 调酒的核心。",
+    "descriptionEn": "Full-fat coconut cream. The base of Piña Colada, Painkiller, and modern tiki serves."
+  },
+  {
+    "id": "ing-sparkling-wine",
+    "slug": "sparkling-wine",
+    "nameZh": "起泡酒",
+    "nameEn": "Sparkling Wine",
+    "category": "SODA",
+    "abv": 12,
+    "flavorTags": [
+      "dry",
+      "fruity",
+      "sparkling",
+      "celebratory"
+    ],
+    "colorHex": "#F5E1A4",
+    "descriptionZh": "干型起泡酒 (Prosecco / Cava)，给 Spritz / Mimosa / French 75 提气泡与仪式感。",
+    "descriptionEn": "Brut sparkling wine (Prosecco / Cava). The lift in a Spritz, French 75, or Mimosa."
+  },
+  {
+    "id": "ing-peach-bitters",
+    "slug": "peach-bitters",
+    "nameZh": "桃子苦精",
+    "nameEn": "Peach Bitters",
+    "category": "BITTERS",
+    "abv": 44,
+    "flavorTags": [
+      "fruity",
+      "bitter",
+      "aromatic",
+      "stone-fruit"
+    ],
+    "colorHex": "#C77B3E",
+    "descriptionZh": "现代酒吧爱用的桃子苦精，给 Old Fashioned / Sour 添果味层次。",
+    "descriptionEn": "Modern bar's secret weapon. Stone-fruit bitterness on an Old Fashioned or Whiskey Sour."
   }
 ]

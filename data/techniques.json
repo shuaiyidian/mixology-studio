@@ -510,5 +510,116 @@
       "Always secure the lid before blending to avoid splatter.",
       "Add hard ingredients in batches to prevent the blade from jamming."
     ]
+  },
+  {
+    "id": "tech-clarified-punch",
+    "slug": "clarified-punch",
+    "nameZh": "澄清宾治",
+    "nameEn": "Clarified Milk Punch",
+    "category": "PREP",
+    "descriptionZh": "用全脂牛奶与酸类（柠檬/青柠）凝固蛋白后滤清，得到清澈透亮、风味浓缩的液体，是现代酒吧的高级技法（Benjamin Franklin 配方）。",
+    "descriptionEn": "Whole milk curdled with citrus/acid captures impurities, then filtered through coffee filters. Yields a crystal-clear, concentrated, long-keeping punch. A modern revival of an 18th-century technique.",
+    "stepsZh": [
+      "把所有酒、果汁、糖浆、糖混匀，确保酸度足够（通常需要 30ml+ 柠檬/青柠汁）",
+      "另取 250ml 全脂牛奶加热到接近沸腾",
+      "将酒液缓慢倒入热牛奶中（不要搅拌），蛋白会迅速絮凝并吸附浑浊物",
+      "静置 1-2 小时或冷藏过夜",
+      "用咖啡滤纸 + 细筛过滤 1-2 次，直到完全澄清",
+      "澄清液可冷藏保存 2 个月"
+    ],
+    "stepsEn": [
+      "Combine all spirits, juices, syrups, sugar — ensure enough acid (usually 30ml+ citrus).",
+      "In a separate vessel, heat 250ml whole milk to just below simmer.",
+      "Slowly pour the cocktail mix into the hot milk (do not stir). Casein will instantly curdle and trap impurities.",
+      "Rest 1-2 hours at room temp or overnight in the fridge.",
+      "Strain through coffee filters + fine mesh 1-2 times until crystal clear.",
+      "Keeps refrigerated up to 2 months."
+    ],
+    "tipsZh": [
+      "酸度不够就不凝固；牛奶要热的",
+      "第一次过滤可能需要 1-2 小时，别急"
+    ],
+    "tipsEn": [
+      "Not enough acid = no curdle. Milk must be hot.",
+      "First filter pass can take 1-2 hours. Don't rush it."
+    ],
+    "warningsZh": [
+      "对乳糖不耐受者不友好；可用琼脂做素食版澄清"
+    ],
+    "warningsEn": [
+      "Not suitable for lactose-intolerant drinkers. Agar-agar works as a vegan alternative."
+    ]
+  },
+  {
+    "id": "tech-infusion",
+    "slug": "infusion",
+    "nameZh": "浸渍法",
+    "nameEn": "Infusion (cold / sous-vide)",
+    "category": "PREP",
+    "descriptionZh": "用冷浸或低温慢煮（sous-vide）让基酒快速吸收草本/香料/水果风味——现代酒吧的核心预备技法之一。",
+    "descriptionEn": "Cold steeping or sous-vide steeping of botanicals, spices, or fruit into base spirits. A cornerstone prep technique in modern craft bars.",
+    "stepsZh": [
+      "冷浸：把风味食材（草本/香料/果皮/茶）放入基酒，密封冷藏 4-72 小时",
+      "低温慢煮：把食材与基酒放入真空袋，60°C 水浴 1-2 小时（最快最浓）",
+      "双层滤纸过滤",
+      "装瓶冷藏可保存 2-4 周"
+    ],
+    "stepsEn": [
+      "Cold infusion: submerge botanicals in base spirit, seal, refrigerate 4-72 hours.",
+      "Sous-vide: vacuum-seal with spirit, 60°C water bath 1-2 hours (faster, more intense).",
+      "Double-filter through coffee filters.",
+      "Bottle and refrigerate. Keeps 2-4 weeks."
+    ],
+    "tipsZh": [
+      "草本用冷浸即可避免苦味；香料/坚果适合 sous-vide 提香",
+      "调酒师常备：茉莉花茶浸金酒、伯爵茶浸金酒、烟熏辣椒浸梅斯卡尔"
+    ],
+    "tipsEn": [
+      "Herbs: cold steep only (heat extracts bitter chlorophyll). Spices/nuts: sous-vide for max extraction.",
+      "Bar staples: jasmine-tea gin, earl-grey gin, smoked-chili mezcal."
+    ],
+    "warningsZh": [
+      "sous-vide 温度不要超过 70°C，否则酒精大量挥发"
+    ],
+    "warningsEn": [
+      "Don't exceed 70°C in sous-vide — ethanol boils at ~78°C and you'll lose ABV."
+    ]
+  },
+  {
+    "id": "tech-dehydration",
+    "slug": "dehydration",
+    "nameZh": "脱水装饰",
+    "nameEn": "Dehydration (fruit / herb crisps)",
+    "category": "GARNISH",
+    "descriptionZh": "低温烘干（90-100°C 烤箱 2-3 小时，或食品风干机）让水果片/草本变成脆片，给鸡尾酒增加质感与视觉。",
+    "descriptionEn": "Slow oven or dehydrator drying of fruit wheels, citrus peels, or herbs. Modern bar garnish for texture and visual depth.",
+    "stepsZh": [
+      "水果（橙/柠檬/苹果/菠萝/西柚）切 3-5mm 薄片",
+      "烤盘铺烤纸，单层摆放",
+      "90-100°C 烤 2-3 小时，每 30 分钟翻面",
+      "完全冷却后变脆，可装密封罐保存 2 周",
+      "草本（迷迭香/百里香）60°C 30 分钟即可"
+    ],
+    "stepsEn": [
+      "Slice fruit (orange / lemon / apple / pineapple / grapefruit) 3-5mm thick.",
+      "Lay on parchment in a single layer.",
+      "Oven at 90-100°C for 2-3 hours, flip every 30 min.",
+      "Cool completely — they'll crisp up. Store airtight up to 2 weeks.",
+      "Herbs (rosemary / thyme): 60°C for 30 min is enough."
+    ],
+    "tipsZh": [
+      "火龙果/草莓/猕猴桃也很好看",
+      "挂在杯沿 + 旁边放一片，是 modern bar 的标志性呈现"
+    ],
+    "tipsEn": [
+      "Dragonfruit, strawberry, kiwi all dehydrate beautifully for color.",
+      "Hang one wheel on the rim + place another beside the glass — the classic modern bar plating."
+    ],
+    "warningsZh": [
+      "温度太高会焦，颜色会变深变苦"
+    ],
+    "warningsEn": [
+      "Too hot = burnt, bitter, dark color. Low and slow."
+    ]
   }
 ]
